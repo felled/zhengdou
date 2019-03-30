@@ -34,16 +34,21 @@ a{
     text-decoration: none;
 }
 .content{
-    background-image: url("../images/home/background.png");
+    background-image: url("../images/home/pc-home/background.png");
     width: 100%;
     height: 100%;
     background-size: cover;
 }
+.contenter{
+    height: calc(100% - 64px);
+    width: 100%;
+}
+/*head*/
 .head{
     position: relative;
     height: 64px;
     width: 100%;
-    background:url("../images/home/head-bg.png") repeat-y;
+    background:url("../images/home/pc-home/head-bg.png") repeat-y;
 }
 .head:after{
     content: '';
@@ -74,6 +79,8 @@ a{
     float: left;
     text-align: center;
     cursor: pointer;
+    margin: 0 5px;
+    position: relative;
 }
 .navigation li > a{
     display: inline-block;
@@ -85,13 +92,45 @@ a{
     position: relative;
     z-index: 3;
 }
-.navigation li.active a:before,.navigation li:hover a:before{
+.navigation li.active > a:before,.navigation li:hover > a:before{
     content: "";
     width: 100%;
     height: 100%;
     position: absolute;
     top: 0;
     left: 0;
-    background-image: url("../images/home/nav-bg.png");
+    background-image: url("../images/home/pc-home/nav-bg.png");
     z-index: -1;
+}
+.nav-slind{
+    position: absolute;
+    top: 64px;
+    left:-4px;
+    color: #fff;
+    z-index: 20;
+    background: transparent;
+    display: none;
+}
+.nav-slind dd{
+    background: url("../images/home/pc-home/head-slind-bg.png") no-repeat;
+    width: 127px;
+    height: 50px;
+    margin: 2px 0;
+    line-height: 50px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.pc-contenter{
+    display: block;
+}
+.mb-contenter{
+    display: none;
+}
+@media screen and (max-width: 1023px) {
+    .pc-contenter{
+        display: none;
+    }
+    .mb-contenter{
+        display: block;
+    }
 }
