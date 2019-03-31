@@ -1,67 +1,46 @@
 
 window.onload=function(){
     $(".loading").hide();
-    /*head*/
-    $(".navigation li").hover(function () {
-        var e = $(this).find(".nav-slind");
-        e.slideDown();
-    },function () {
-        var e = $(this).find(".nav-slind");
-        e.slideUp();
-    })
-    //星球动画 -  设置的时间间隔为 150s
-    var time = setInterval('changeImage()', 120);
-    window.setTimeout(function () {
-        window.clearInterval(time);
-    }, 120 * 11);
-    /*鼠标hover动画*/
-    $(".star-ani").hover(function(){
-        starTime = setInterval('changeImage()', 120);
-        $(".roller-ani").addClass("roller-scale");
-        $(".rivers-ani").addClass("rivers-scale");
-        $(".horn-ani").addClass("horn-scale");
-        $(".ufo-ani").addClass("ufo-scale");
-        $(".pond-ani").addClass("pond-scale");
+    /*中间星球鼠标hover动画*/
+    $(".star-off a").hover(function(){
+        $(".meteor").css("opacity","1");
+        $(this).parents(".star-position").addClass("ani-paused");
+        $(this).next("div").addClass("star-ani");
+        $(this).next("div").removeClass("ani-paused");
+        $(".roller-hover").addClass("roller-scale");
+        $(".rivers-hover").addClass("rivers-scale");
+        $(".horn-hover").addClass("horn-scale");
+        $(".ufo-hover").addClass("ufo-scale");
+        $(".pond-hover").addClass("pond-scale");
         $(".ani-bg").addClass("ani-ani");
     },function () {
-        clearInterval(starTime);
+        $(this).next("div").addClass("ani-paused");
+        $(this).parents(".star-position").removeClass("ani-paused");
     });
 
-    $(".sne-ani").hover(function(){
-        $(this).css("transition","all 0s");
-        if($(this).hasClass("roller-ani")){
-            rollerTime = setInterval('roller()', 100);
-        };
-        if($(this).hasClass("rivers-ani")){
-            riversTime = setInterval('rivers()', 100);
-        };
-        if($(this).hasClass("ufo-ani")){
-            ufoTime = setInterval('ufo()', 100);
-        };
-        if($(this).hasClass("horn-ani")){
-            hornTime = setInterval('horn()', 100);
-        };
-        if($(this).hasClass("pond-ani")){
-            pondTime = setInterval('pond()', 100);
-        };
-
+    /*动画例子*/
+    $(".position > a").hover(function () {
+        if($(this).next().hasClass("roller-img")){
+            $(this).next().addClass("roller-ani");
+        }
+        if($(this).next().hasClass("rivers-img")){
+            $(this).next().addClass("rivers-ani");
+        }
+        if($(this).next().hasClass("horn-img")){
+            $(this).next().addClass("horn-ani");
+        }
+        if($(this).next().hasClass("ufo-img")){
+            $(this).next().addClass("ufo-ani");
+        }
+        if($(this).next().hasClass("pond-img")){
+            $(this).next().addClass("pond-ani");
+        }
+        $(this).parents(".position").addClass("ani-paused");
+        $(this).next().removeClass("ani-paused");
     },function () {
-        if($(this).hasClass("roller-ani")){
-            clearInterval(rollerTime);
-        };
-        if($(this).hasClass("rivers-ani")){
-            clearInterval(riversTime);
-        };
-        if($(this).hasClass("ufo-ani")){
-            clearInterval(ufoTime);
-        };
-        if($(this).hasClass("horn-ani")){
-            clearInterval(hornTime);
-        };
-        if($(this).hasClass("pond-ani")){
-            clearInterval(pondTime);
-        };
-    })
+        $(this).parents(".position").removeClass("ani-paused");
+        $(this).next().addClass("ani-paused");
+    });
 
     /*小火箭动画*/
     $(".code-fox").click(function () {
@@ -69,48 +48,15 @@ window.onload=function(){
     });
 
     /*点击弹出中间导航*/
-    $('body').on('click', '.rivers-ani,.project-bg', function(event) {
+    $('body').on('click', '.rivers-hover a,.project-bg', function(event) {
         event.stopPropagation();
+        $(".rivers-ani").addClass("hover-scale");
         $(".project-bg").addClass("show");
     });
     /*点击空白隐藏中间导航*/
     $(window).click(function(){
         $(".project-bg").removeClass("show");
+        $(".rivers-ani").removeClass("hover-scale");
     });
 };
-var i=0;
-function changeImage(){
-    // div 的宽设置为 500px，所有每次向右 500px切换到下一张图片
-    i += -500;
-    $(".star-ani").css("background-position","" + i + "px -0px");
-}
-var m=0;
-function ufo(){
-    // div 的宽设置为 300，所有每次向右 300px切换到下一张图片
-    m += -300;
-    $(".ufo-ani").css("background-position","" + m + "px -0px");
-}
-var b=0;
-function roller(){
-    // div 的宽设置为 400，所有每次向右 400px切换到下一张图片
-    b += -400;
-    $(".roller-ani").css("background-position","" + b + "px -0px");
-}
-var h=0;
-function rivers(){
-    // div 的宽设置为 300，所有每次向右 300px切换到下一张图片
-    h += -300;
-    $(".rivers-ani").css("background-position","" + h + "px -0px");
-}
-var r=0;
-function horn(){
-    // div 的宽设置为 300，所有每次向右 300px切换到下一张图片
-    r += -300;
-    $(".horn-ani").css("background-position","" + r + "px -0px");
-}
-var e=0;
-function pond(){
-    // div 的宽设置为 300，所有每次向右 300px切换到下一张图片
-    e += -250;
-    $(".pond-ani").css("background-position","" + e + "px -0px");
-}
+

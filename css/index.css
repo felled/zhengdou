@@ -22,6 +22,85 @@
     width: 100%;
     height: 100%;
 }
+.meteor{
+    position: relative;
+    opacity: 0;
+    transition: all .2s;
+}
+.meteor span{
+    display: block;
+    background-size: 100%;
+    position: absolute;
+}
+.meteor-a{
+    top: 0;
+    left: 600px;
+    width: 146px;
+    height: 87px;
+    background-image: url('../images/home/pc-home/meteor1.png');
+    animation: meteor-a 1s infinite linear;
+}
+@keyframes meteor-a
+{
+    0% {
+        opacity: 1;
+        transform: scale(0.5) translate3d(0, 0, 0);
+        -webkit-transform: scale(0.5) translate3d(0, 0, 0);
+        -moz-transform: scale(0.5) translate3d(0, 0, 0);
+    }
+    100% {
+        opacity: 0;
+        transform: scale(1.2) translate3d(-300px, 200px, 0);
+        -webkit-transform: scale(1.2) translate3d(-300px, 200px, 0);
+        -moz-transform: scale(1.2) translate3d(-300px, 200px, 0);
+    }
+}
+.meteor-b{
+    left: 600px;
+    top: 100px;
+    width: 120px;
+    height: 71px;
+    background-image: url('../images/home/pc-home/meteor1.png');
+    animation: meteor-b .5s infinite linear;
+}
+@keyframes meteor-b
+{
+    0% {
+        opacity: 1;
+        transform: scale(0.5) translate3d(0, 0, 0);
+        -webkit-transform: scale(0.5) translate3d(0, 0, 0);
+        -moz-transform: scale(0.5) translate3d(0, 0, 0);
+    }
+    100% {
+        opacity: 0;
+        transform: scale(1.2) translate3d(-300px, 200px, 0);
+        -webkit-transform: scale(1.2) translate3d(-300px, 200px, 0);
+        -moz-transform: scale(1.2) translate3d(-300px, 200px, 0);
+    }
+}
+.meteor-c{
+    left: 800px;
+    top: -40px;
+    width: 100px;
+    height: 59px;
+    background-image: url('../images/home/pc-home/meteor1.png');
+    animation: meteor-c .8s infinite linear;
+}
+@keyframes meteor-c
+{
+    0% {
+        opacity: 1;
+        transform: scale(0.5) translate3d(0, 0, 0);
+        -webkit-transform: scale(0.5) translate3d(0, 0, 0);
+        -moz-transform: scale(0.5) translate3d(0, 0, 0);
+    }
+    100% {
+        opacity: 0;
+        transform: scale(1.2) translate3d(-200px, 200px, 0);
+        -webkit-transform: scale(1.2) translate3d(-200px, 200px, 0);
+        -moz-transform: scale(1.2) translate3d(-200px, 200px, 0);
+    }
+}
 .ani-bg{
     position: relative;
     height: 100%;
@@ -133,104 +212,235 @@
     background-position: 0 0;
     position: absolute;
 }
-.sne-ani{
+.ani-conten .sne-ani{
     transition: all 1s;
-    transform: scale(0);
     opacity: 0;
     z-index: 1;
 }
-.star-off{
-    width: 500px;
-    height: 520px;
-    left: 50%;
-    top: 50%;
-    z-index: 5;
-}
-.star-ani{
+.sne-ani .position{
     position: relative;
     width: 100%;
     height: 100%;
+    animation: heart 1.3s ease-in-out 2.7s infinite alternate;
+}
+.sne-ani .position a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+.sne-ani .position div{
+    position: absolute;
+    z-index: 1;
+}
+@keyframes heart{
+    from{transform:translate(0,0)}
+    to{transform:translate(0,10px)}
+}
+.ani-conten .sne-ani .position > div{
+    transform: scale(0.9);
+    transition: all .3s;
+}
+.ani-conten .sne-ani .position div.pond-img{
+    transform: scale(0.95);
+}
+.ani-conten .sne-ani .position > a:hover + div,.hover-scale{
+    transform: scale(1)!important;
+}
+.star-off{
+    width: 250px;
+    height: 250px;
+    left: 56%;
+    top: 62%;
+    z-index: 11;
+    position: relative;
+}
+.star-off a{
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    display: block;
+    left: 0;
+    top: 220px;
+    z-index: 2;
+}
+.star-img{
+    position: relative;
+    width: 500px;
+    height: 520px;
     /* 加载图像 */
     background-image: url('../images/home/pc-home/star.png');
+    margin-left: -188px;
+    margin-top: -226px;
+    z-index: 1;
 }
-.roller-ani{
+.star-position{
+    animation: heart 1.3s ease-in-out infinite alternate;
+}
+.star-ani{
+    -webkit-animation:star 2s steps(12) infinite;
+}
+@keyframes star
+{
+    0%   {background-position: 0 0;}
+    100% {background-position: -6000px 0;}
+}
+.roller-img{
     width: 400px;
     height: 240px;
-    left: 50%;
-    top: 60%;
+    margin-left: -85px;
+    margin-top: -30px;
     /* 加载图像 */
     background-image: url('../images/home/pc-home/roller-ani.png');
 }
-.roller-scale{
+.sne-ani.roller-scale{
     left: 100px;
     top: 42%;
     opacity: 1;
 }
-
-.rivers-ani{
+.roller-hover{
+    left: 50%;
+    top: 60%;
+    width: 190px;
+    height: 180px;
+}
+.roller-ani{
+    -webkit-animation:roller 3s steps(38) infinite;
+}
+.ani-paused{
+    animation-play-state:paused!important;
+}
+@keyframes roller
+{
+    0%   {background-position: 0 0;}
+    100% {background-position: -15200px 0;}
+}
+.rivers-img{
     width: 300px;
     height: 240px;
-    left: 50%;
-    top: 50%;
     /* 加载图像 */
     background-image: url('../images/home/pc-home/rivers-ani.png');
     cursor: pointer;
+    margin-left: -20px;
+    margin-top: -30px;
 }
-.rivers-scale{
-    left: 180px;
+.rivers-hover{
+    left: 50%;
+    top: 50%;
+    width: 190px;
+    height: 180px;
+}
+.sne-ani.rivers-scale{
+    left: 144px;
     top: 82%;
     opacity: 1;
+    cursor: pointer;
+    z-index: 12;
 }
-.horn-ani{
+.rivers-ani{
+    -webkit-animation:rivers 3s steps(30) infinite;
+}
+@keyframes rivers
+{
+    0%   {background-position: 0 0;}
+    100% {background-position: -9000px 0;}
+}
+.horn-img{
     width: 300px;
     height: 286px;
-    left: 50%;
-    top:50%;
     /* 加载图像 */
     background-image: url('../images/home/pc-home/horn-ani.png');
+    margin-left: -61px;
+    margin-top: -50px;
 }
-.horn-ani.horn-scale{
-    left: 60%;
-    top: 77%;
+.horn-hover{
+    left: 50%;
+    top:50%;
+    width: 190px;
+    height: 180px;
+}
+.sne-ani.horn-scale{
+    left: 68%;
+    top: 83%;
     transform: scale(0.7);
     opacity: 1;
 }
-.ufo-ani{
+.horn-ani{
+    -webkit-animation:horn 3s steps(28) infinite;
+}
+@keyframes horn
+{
+    0%   {background-position: 0 0;}
+    100% {background-position: -8400px 0;}
+}
+.ufo-img{
     width: 300px;
     height: 280px;
-    left: 50%;
-    top: 50%;
     /* 加载图像 */
     background-image: url('../images/home/pc-home/ufo-ani.png');
+    margin-left: -95px;
+    margin-top: -88px;
 }
-.ufo-scale{
+.ufo-hover{
+    left: 50%;
+    top: 50%;
+    width: 150px;
+    height: 126px;
+}
+.sne-ani.ufo-scale{
     left: 97%;
     top: 67%;
     opacity: 1;
 }
-.pond-ani{
+.ufo-ani{
+    -webkit-animation:ufo 3s steps(30) infinite;
+}
+@keyframes ufo
+{
+    0%   {background-position: 0 0;}
+    100% {background-position: -9000px 0;}
+}
+.pond-img{
     width: 250px;
     height: 257px;
-    left: 50%;
-    top: 50%;
     /* 加载图像 */
     background-image: url('../images/home/pc-home/pond-ani.png');
+    margin-left: -76px;
+    margin-top: -96px;
 }
-.pond-scale{
+.pond-hover{
+    left: 50%;
+    top: 50%;
+    width: 150px;
+    height: 126px;
+}
+.sne-ani.pond-scale{
     left: 90%;
     top: 30%;
     opacity: 1;
 }
+.pond-ani{
+    -webkit-animation:pond 3s steps(21) infinite;
+}
+@keyframes pond
+{
+    0%   {background-position: 0 0;}
+    100% {background-position: -5250px 0;}
+}
 .eye-ani{
     position: absolute;
-    width: 34px;
-    height: 34px;
+    width: 20px;
+    height: 20px;
     left: 310px;
     top: 340px;
     background-size: 100%;
     background-image: url('../images/home/pc-home/eye.png');
     z-index: 5;
 }
+
 .ani-conten .project-bg{
     width:230px;
     height: 0px;
@@ -239,13 +449,14 @@
     color: #fff;
     transform: none;
     overflow: hidden;
-    bottom: 88px;
+    bottom: 94px;
     left: 134px;
-    z-index: 11;
+    z-index: 13;
     transition: all 0.3s;
+    position: absolute;
 }
 .project-bg.show{
-    height: 323px;
+    height: 317px;
 }
 .project-nav{
     width: 114px;
@@ -350,18 +561,6 @@
     }
 }
 @media screen and (max-width: 1024px) {
-    /*头部*/
-    .logo{
-        margin-right: 40px;
-        width: 150px;
-    }
-    .head{
-        height: 50px;
-    }
-    .navigation li > a{
-        line-height: 50px;
-        font-size: 18px;
-    }
     .sun-img {
         width: 170px;
         height: 206px;

@@ -13,91 +13,53 @@
            <img src="images/home/pc-home/loading2.gif">
         </div>
     </div>-->
-    <div class="content">
-        <div class="head">
-            <img class="logo" src="images/home/pc-home/logo.png">
-            <ul class="navigation">
-                <li class="active">
-                    <a>首页</a>
-                </li>
-                <li>
-                    <a>经典项目</a>
-                    <dl class="nav-slind">
-                        <dd>
-                            <a>欢乐世界</a>
-                        </dd>
-                        <dd>
-                            <a>奥德赛之旅</a>
-                        </dd>
-                        <dd>
-                            <a>穿越欧罗巴</a>
-                        </dd>
-                        <dd>
-                            <a>室内儿童乐园</a>
-                        </dd>
-                        <dd>
-                            <a>惊悚魔幻屋</a>
-                        </dd>
-                    </dl>
-                </li>
-                <li>
-                    <a>单体项目</a>
-                    <dl class="nav-slind">
-                        <dd>
-                            <a>暴雨山洪</a>
-                        </dd>
-                        <dd>
-                            <a>商业配套乐园</a>
-                        </dd>
-                        <dd>
-                            <a>水上乐园</a>
-                        </dd>
-                        <dd>
-                            <a>水晶万花筒</a>
-                        </dd>
-                        <dd>
-                            <a>奇幻迷宫</a>
-                        </dd>
-                        <dd>
-                            <a>奇幻海洋馆</a>
-                        </dd>
-                        <dd>
-                            <a>单体主题包装</a>
-                        </dd>
-                    </dl>
-                </li>
-                <li>
-                    <a>创意科技</a>
-                </li>
-                <li>
-                    <a>新闻动态</a>
-                </li>
-                <li>
-                    <a>关于正豆</a>
-                    <dl class="nav-slind">
-                        <dd>
-                            <a>正豆概况</a>
-                        </dd>
-                        <dd>
-                            <a>项目流程</a>
-                        </dd>
-                    </dl>
-                </li>
-            </ul>
-        </div>
+    <div class="home-content content">
         <div class="contenter pc-contenter">
             <div class="ani-fixed">
+                <div class="meteor">
+                    <span class="meteor-a"></span>
+                    <span class="meteor-b"></span>
+                    <span class="meteor-c"></span>
+                </div>
                 <div class="ani-conten">
-                    <div class="star-off">
-                        <div class="star-ani">
-                            <div class="eye-ani"></div>
+                        <div class="star-off">
+                            <div class="star-position">
+                                <a></a>
+                                <div class="star-img">
+                                    <div class="eye-ani" id="eye"></div>
+                                </div>
+                            </div>
+                        </div>
+                    <div class="roller-hover sne-ani">
+                        <div class="position">
+                            <a></a>
+                            <div class="roller-img "></div>
                         </div>
                     </div>
-                    <div class="roller-ani sne-ani"></div>
-                    <div class="rivers-ani sne-ani"></div>
-                    <div class="horn-ani sne-ani"></div>
-                    <div class="ufo-ani sne-ani"></div>
-                    <div class="pond-ani sne-ani"></div>
+                    <div class="rivers-hover sne-ani">
+                        <div class="position">
+                            <a></a>
+                            <div class="rivers-img "></div>
+                        </div>
+                    </div>
+                    <div class="horn-hover sne-ani">
+                        <div class="position">
+                            <a></a>
+                            <div class="horn-img"></div>
+                        </div>
+                    </div>
+                    <div class="ufo-hover sne-ani">
+                        <div class="position">
+                            <a></a>
+                            <div class="ufo-img"></div>
+                        </div>
+                    </div>
+                    <div class="pond-hover sne-ani">
+                        <div class="position">
+                            <a></a>
+                            <div class="pond-img"></div>
+                        </div>
+                    </div>
                     <div class="project-bg">
                         <ul class="project-nav">
                             <p>特典项目</p>
@@ -302,31 +264,33 @@
             </div>
         </div>
     </div>
+
 </body>
-<script src="js/jquery.js"></script>
+<script src='js/jquery.min.js'></script>
+<script src="js/public.js"></script>
 <script src="js/index.js"></script>
 <script src="js/mb-index.js"></script>
 <script>
-    function watchChangeSize (){
-    var offsetWid = document.documentElement.clientWidth;
-    if(offsetWid > 1366){
-        var
-            right_center_offset = {
-                left: 310,
-                top: 340
-            },
-            radius = 18;
-    }
-    if(offsetWid <= 1366){
-        var
-            right_center_offset = {
-                left: 247,
-                top: 273
-            },
-            radius = 15;
-    }
+   function watchChangeSize (){
+        var offsetWid = document.documentElement.clientWidth;
+        if(offsetWid > 1366){
+            var
+                right_center_offset = {
+                    left: 310,
+                    top: 340
+                },
+                radius = 18;
+        }
+        if(offsetWid <= 1366){
+            var
+                right_center_offset = {
+                    left: 247,
+                    top: 273
+                },
+                radius = 15;
+        }
         var setEyeOffset = function(event) {
-            var offset = $(".star-ani").offset();
+            var offset = $(".star-img").offset();
             var x2 = offset.left + right_center_offset.left;
             var y2 = offset.top + right_center_offset.top;
             var n2 = event.clientX - x2;
@@ -342,7 +306,7 @@
         $(window).mousemove(setEyeOffset);
     }
     watchChangeSize ();
-    /*窗口变化*/
+
     window.onresize=function(){
         watchChangeSize ()
     }
