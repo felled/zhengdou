@@ -26,7 +26,9 @@
                             <div class="star-position">
                                 <a></a>
                                 <div class="star-img">
-                                    <div class="eye-ani" id="eye"></div>
+                                    <div class="eye-ani" id="eye">
+                                        <span  class="eye-img"></span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -271,7 +273,7 @@
 <script src="js/index.js"></script>
 <script src="js/mb-index.js"></script>
 <script>
-   function watchChangeSize (){
+/*   function watchChangeSize (){
         var offsetWid = document.documentElement.clientWidth;
         if(offsetWid > 1366){
             var
@@ -309,6 +311,33 @@
 
     window.onresize=function(){
         watchChangeSize ()
+    }*/
+$(function() {
+    function n() {
+        t.w = $(window).width(), t.h = $(window).height()
     }
+    var t = {};
+    n(), $(window).resize(function() {
+        n()
+    });
+    var r = {
+        e: $(".eye-img")
+    };
+
+    //r.x = parseInt(r.e.css("left")), r.y = parseInt(r.e.css("top"));
+    r.x = 16, r.y = 16;
+    $(document).mousemove(function(e) {
+        var n = {
+            x: e.pageX / t.w * 2 - 1,
+            y: e.pageY / t.h * 2 - 1
+        };
+        r.moveX = parseInt(n.x * 27 + r.x),
+            r.moveY = parseInt(n.y * 22 + r.y),
+            r.e.css({
+                left: r.moveX,
+                top: r.moveY
+            })
+    });
+});
 </script>
 </html>
