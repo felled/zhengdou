@@ -188,6 +188,16 @@
         transform: rotate(-360deg);
     }
 }
+.ani-fixed{
+    width: 900px;
+    height: 700px;
+    position: fixed;
+    -webkit-transform:translateX( -50% ) translateY( -50% );
+    transform:translateX( -50% ) translateY( -50% );
+    left: 50%;
+    top: 45%;
+    z-index: 1;
+}
 .ani-conten{
     position: relative;
     width: 100%;

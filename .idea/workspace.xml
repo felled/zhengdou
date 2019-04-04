@@ -2,27 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87f70ea5-6a14-41a8-94a7-660dad2c7885" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/home/pc-home/ball-a.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/home/pc-home/ball-b.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/home/pc-home/ball-c.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/home/pc-home/ball-d.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/home/pc-home/ball-e.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/home/pc-home/ball-f.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/home/pc-home/ball-g.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/home/pc-home/ball-h.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/home/pc-home/ball-i.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/images/home/pc-home/ball-j.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/js/projrct.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/page/projrct/Happy-Valley2.html" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/css/happy-valley.css" afterPath="$PROJECT_DIR$/css/projrct.css" />
       <change beforePath="$PROJECT_DIR$/css/index.css" afterPath="$PROJECT_DIR$/css/index.css" />
-      <change beforePath="$PROJECT_DIR$/css/public.css" afterPath="$PROJECT_DIR$/css/public.css" />
-      <change beforePath="$PROJECT_DIR$/images/home/pc-home/star.png" afterPath="$PROJECT_DIR$/images/home/pc-home/star.png" />
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change beforePath="$PROJECT_DIR$/js/index.js" afterPath="$PROJECT_DIR$/js/index.js" />
-      <change beforePath="$PROJECT_DIR$/js/public.js" afterPath="$PROJECT_DIR$/js/public.js" />
-      <change beforePath="$PROJECT_DIR$/page/projrct/Happy-Valley.html" afterPath="$PROJECT_DIR$/page/projrct/Happy-Valley.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -74,7 +54,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="projrct.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="projrct.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/projrct.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="812">
@@ -114,11 +94,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="189" column="1" lean-forward="false" selection-start-line="189" selection-start-column="1" selection-end-line="189" selection-end-column="1" />
+            <state relative-caret-position="50">
+              <caret line="190" column="0" lean-forward="false" selection-start-line="190" selection-start-column="0" selection-end-line="199" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -212,9 +192,9 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/projrct.js" />
         <option value="$PROJECT_DIR$/page/projrct/Happy-Valley2.html" />
-        <option value="$PROJECT_DIR$/css/index.css" />
         <option value="$PROJECT_DIR$/css/public.css" />
         <option value="$PROJECT_DIR$/css/projrct.css" />
+        <option value="$PROJECT_DIR$/css/index.css" />
       </list>
     </option>
   </component>
@@ -224,7 +204,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-408" />
     <option name="y" value="30" />
     <option name="width" value="1400" />
@@ -380,15 +360,15 @@
       <workItem from="1554125342803" duration="3744000" />
       <workItem from="1554211743519" duration="6427000" />
       <workItem from="1554298558984" duration="8173000" />
-      <workItem from="1554377126518" duration="10576000" />
+      <workItem from="1554377126518" duration="11113000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86366000" />
+    <option name="totallyTimeSpent" value="86903000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20677084" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -767,10 +747,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/index.css">
+    <entry file="file://$PROJECT_DIR$/css/projrct.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="189" column="1" lean-forward="false" selection-start-line="189" selection-start-column="1" selection-end-line="189" selection-end-column="1" />
+        <state relative-caret-position="812">
+          <caret line="505" column="5" lean-forward="false" selection-start-line="505" selection-start-column="5" selection-end-line="505" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -783,10 +763,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/projrct.css">
+    <entry file="file://$PROJECT_DIR$/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="812">
-          <caret line="505" column="5" lean-forward="false" selection-start-line="505" selection-start-column="5" selection-end-line="505" selection-end-column="5" />
+        <state relative-caret-position="50">
+          <caret line="190" column="0" lean-forward="false" selection-start-line="190" selection-start-column="0" selection-end-line="199" selection-end-column="1" />
           <folding />
         </state>
       </provider>
