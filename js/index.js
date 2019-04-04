@@ -48,15 +48,17 @@ window.onload=function(){
     });
 
     /*点击弹出中间导航*/
-    $('body').on('click', '.rivers-hover a,.project-bg', function(event) {
+    $('body').on('click', '.sne-ani', function(event) {
+        $(".project-bg").removeClass("show");
+        $(".animg").removeClass("hover-scale");
         event.stopPropagation();
-        $(".rivers-ani").addClass("hover-scale");
-        $(".project-bg").addClass("show");
+        $(this).find(".animg").addClass("hover-scale");
+        $(this).find (".project-bg").addClass("show");
     });
     /*点击空白隐藏中间导航*/
     $(window).click(function(){
         $(".project-bg").removeClass("show");
-        $(".rivers-ani").removeClass("hover-scale");
+        $(".animg").removeClass("hover-scale");
     });
 };
 
