@@ -61,6 +61,7 @@ a{
     width: 100%;
     background:url("../images/common/head-bg.png") repeat-y;
 }
+
 .head:after{
     content: '';
     width: 100%;
@@ -163,6 +164,57 @@ a{
     font-size: 16px;
     font-weight: bold;
 }
+
+/*pages*/
+.pages{
+    width: 200px;
+    margin: auto;
+    color: #fff;
+    overflow: hidden;
+    font-size: 20px;
+}
+.pages span{
+    float: left;
+    position: relative;
+    cursor: pointer;
+}
+.prev:after{
+    content: '';
+    width: 0;
+    height: 0;
+    border-right:4px solid transparent;
+    border-left:4px solid transparent;
+    border-bottom:4px solid #a4a4a4;
+    position: absolute;
+    right: -10px;
+    top: 10px;
+}
+.pages .line{
+    width: 2px;
+    height: 20px;
+    display: block;
+    float: left;
+    background-color: #a4a4a4;
+    margin: 0 20px;
+}
+@media screen and (max-width: 1023px) {
+    .pages{
+        font-size: 12px;
+        width: 116px;
+    }
+    .prev:after{
+        top: 5px;
+    }
+    .pages .li{
+        height: 14px;
+    }
+    .pages .line{
+        height: 14px;
+    }
+}
+.mb-head{
+    display: none;
+}
 @media screen and (max-width: 1280px) {
     .footer-info{
         margin-right: 80px;
@@ -199,7 +251,10 @@ a{
 /*mb-head*/
 @media screen and (max-width: 1023px) {
     .content{
-        background: transparent;
+        background-image: url("../images/common/mb-bg.png");
+    }
+    .mb-head{
+        display: block;
     }
     .head{
         display: none;
@@ -245,6 +300,32 @@ a{
         height: 14px;
         background-image: url('../images/home/mb-home/mb-top-muen.png');
         z-index: 1;
+    }
+    .mb-head{
+        position: fixed;
+        top: 0;
+        background-image: url('../images/projrct/mb-common/head-bg.png');
+        height: 40px;
+        width: 100%;
+        z-index: 99;
+    }
+    .mb-head:after {
+        content: '';
+        width: 100%;
+        height: 2px;
+        background-image: -webkit-linear-gradient(top left, #2c2b3d,#e6e5e5,#2c2b3d);
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        z-index: 1;
+    }
+    .mb-head .logo{
+        width: 100px;
+        margin-left: 20px;
+        margin-top: 4px;
+    }
+    .mb-head .mb-muen{
+        top: 14px;
     }
     .mb-page{
         position: fixed;
