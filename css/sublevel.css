@@ -1,0 +1,296 @@
+.news-conten {
+    color: #fff;
+    padding-top: 140px;
+    position: relative;
+}
+.news-conten-bg{
+    width: 1400px;
+    margin:0 auto 60px;
+    background-color: rgba(0,0,0,.2);
+    padding: 30px 0 40px;
+}
+.news-title{
+    width: 330px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+}
+.news-title:before{
+    content: "";
+    width: 14px;
+    height: 36px;
+    background-color: #ff8251;
+    display: block;
+    position: absolute;
+    top: 8px;
+    left: 0;
+}
+.news-title:after{
+    content: "";
+    width: 14px;
+    height: 36px;
+    background-color: #ff8251;
+    display: block;
+    position: absolute;
+    top: 8px;
+    right: 0;
+}
+.news-title h2{
+    font-size: 34px;
+    font-weight: bold;
+}
+.news-title  span{
+    font-size: 18px;
+}
+.news-list-img{
+    width: 220px;
+    height: 160px;
+    margin-right: 120px;
+}
+.news-info{
+    padding: 0 100px;
+    margin-bottom: 20px;
+}
+.news-info li{
+    overflow: hidden;
+    border-bottom: 3px solid #ff8251;
+    padding-bottom: 14px;
+    margin-top: 50px;
+}
+.news-info li > div{
+    float: left;
+    color: #fff;
+}
+.news-list{
+    width: 840px;
+}
+.news-list-img img{
+    width: 100%;
+    height: 100%;
+}
+.news-list-title{
+    font-size: 26px;
+}
+.news-text{
+    font-size: 22px;
+    margin: 10px 0;
+    line-height: 32px;
+}
+.news-time{
+    font-size: 20px;
+    margin-top: 32px;
+}
+/*pages*/
+.pages{
+    width: 200px;
+    margin: auto;
+    color: #fff;
+    overflow: hidden;
+    font-size: 20px;
+}
+.pages span{
+    float: left;
+    position: relative;
+    cursor: pointer;
+}
+.prev:after{
+    content: '';
+    width: 0;
+    height: 0;
+    border-right:4px solid transparent;
+    border-left:4px solid transparent;
+    border-bottom:4px solid #a4a4a4;
+    position: absolute;
+    right: -10px;
+    top: 10px;
+}
+.pages .line{
+    width: 2px;
+    height: 20px;
+    display: block;
+    float: left;
+    background-color: #a4a4a4;
+    margin: 0 20px;
+}
+
+/*poj-flow*/
+.pojflow-conten{
+    padding-top: 140px;
+    width: 1600px;
+    margin: auto;
+}
+.pojflow-title{
+
+}
+.pojflow-title h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+}
+.pojflow-title p{
+    font-size: 18px;
+    color: #ff8251;
+}
+.pojflow-img{
+    width: 100%;
+    text-align: center;
+    margin: 100px 0 140px;
+}
+.pojflow-img img{
+    width: 100%;
+}
+
+/*加入我们*/
+.join-conten{
+    width: 1200px;
+    padding-top: 160px;
+    background-color: rgba(0,0,0,.4);
+    margin: auto;
+}
+.join-title {
+    color: #fff;
+}
+.join-info li{
+    overflow: hidden;
+    width: 450px;
+    margin:0 auto 60px;
+}
+.join-info li >div,.join-info li >em{
+    float: left;
+    color: #fff;
+}
+.join-position{
+    font-size: 24px;
+    font-weight: bold;
+    width: 230px;
+}
+
+.join-info li em{
+    width: 2px;
+    height: 20px;
+    background-color: #a4a4a4;
+    display: block;
+    position: relative;
+    top: 4px;
+    margin-right: 110px;
+}
+.join-Requirement .per{
+    font-size: 16px;
+}
+.join-Requirement .date{
+    font-size: 14px;
+}
+.join-info{
+    margin-top: 60px;
+    padding-bottom: 60px;
+}
+.left-img{
+    position: fixed;
+    left: -15%;
+    top: 15%;
+    width: 30%;
+}
+.right-img{
+    position: fixed;
+    right: -15%;
+    top: 15%;
+    width: 30%;
+}
+
+/*创意科技*/
+.creat-info a{
+    margin: 60px 0;
+    display: block;
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+}
+.creat-info{
+    padding-bottom: 100px;
+}
+.creat-img{
+    top: 30%;
+}
+
+/*联系我们*/
+.contact-conten{
+    width: 1600px;
+    margin: auto;
+    padding: 160px 0 70px;
+    overflow: hidden;
+}
+.contac-img img{
+    display: block;
+}
+.contac-left{
+    width: 710px;
+    float: left;
+}
+.contac-left{
+    background-color: rgba(82,75,103,0.5);
+}
+.contac-info .contac-list{
+    color: #fff;
+    margin-bottom: 30px;
+}
+.contac-info{
+    padding: 30px 40px;
+}
+.contac-info .contac-list h4{
+    font-size: 20px;
+    border-bottom: 3px solid #fff;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.contac-info .contac-list p{
+    font-size: 16px;
+    margin: 14px 0;
+}
+.contac-icon{
+    width: 37px;
+    height: 30px;
+    display: inline-block;
+    position: relative;
+    margin-right: 10px;
+    top: 8px;
+}
+.contac-list dd{
+    margin-bottom: 20px;
+}
+.place-icon{
+    background-image: url("../images/contact/pc/place.png");
+}
+.e-mail-icon{
+    background-image: url("../images/contact/pc/e-mail.png");
+}
+.tell-icon{
+    background-image: url("../images/contact/pc/tell.png");
+}
+.bus-icon{
+    background-image: url("../images/contact/pc/bus.png");
+}
+.metro-icon{
+    background-image: url("../images/contact/pc/metro.png");
+}
+.contacts-icon{
+    background-image: url("../images/contact/pc/contacts.png");
+}
+.weChat-icon{
+    background-image: url("../images/contact/pc/weChat.png");
+}
+.outher{
+    margin-left: -58px;
+    overflow: hidden;
+}
+.outher dd{
+    float: left;
+    margin-left: 58px;
+}
+.contac-right{
+    float: left;
+    margin-left: 40px;
+    width: 800px;
+    background-color: #fff;
+    height: 744px;
+}
