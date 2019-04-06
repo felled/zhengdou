@@ -33,9 +33,9 @@ $(function () {
     $(".poj-info").click(function (event) {
         event.stopPropagation();
     })
-    $(".happy-valley").click(function () {
+    $(".law").click(function () {
         $(".right-fox").toggleClass("right-fox-right");
         $(".poj-info").toggleClass("right-poj");
-        $(".content,.footer").toggleClass("right-ani");
+        $(".footer").toggleClass("right-ani");
     })
 })

@@ -164,7 +164,10 @@ a{
     font-size: 16px;
     font-weight: bold;
 }
-
+.footer-info a{
+    color: #fff;
+    cursor: pointer;
+}
 /*pages*/
 .pages{
     width: 200px;
@@ -498,6 +501,7 @@ a{
     .mb-page-nav li a{
         position: relative;
         padding:0 4px 4px 10px;
+        color: #fff;
     }
     .mb-page-nav li a:before{
         content: '';
@@ -601,3 +605,67 @@ a{
         height: 17px;
     }
 }
+
+/*法律声明*/
+.right-poj{
+    right: 25%!important;
+    transition: all 0.2s;
+}
+.right-ani,.right-ani.footer{
+    width: 75%;
+    transition: all 0.2s;
+}
+.right-fox{
+    width: 25%;
+    height: 100%;
+    background-color: #2b2b2b;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 21;
+    color: #fff;
+    transition: all 0.05s;
+}
+.right-fox-right{
+    right: -25%;
+}
+.right-info{
+    padding: 0 8%;
+    margin-top: 30%;
+}
+.right-info h2{
+    font-size: 24px;
+}
+.right-info p{
+    font-size: 16px;
+    margin: 20px 0;
+    text-align: justify;
+    line-height: 26px;
+}
+/*
+@media screen and (max-width: 1520px) {
+    .right-ani .head{
+        height: 50px;
+        transition: all .1s;
+    }
+    .right-ani .head .logo{
+        width: 150px;
+        margin-right: 40px;
+        transition: all .1s;
+    }
+    .right-ani .navigation li > a{
+        line-height: 50px;
+    }
+    .right-fox{
+        width: 20%;
+    }
+    .right-poj{
+        right: 20%!important;
+    }
+    .right-ani{
+        width: 80%;
+    }
+    .right-info p{
+        font-size: 12px;
+    }
+}*/

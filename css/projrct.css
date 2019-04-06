@@ -365,67 +365,6 @@
     right: 0;
     bottom: 0;
 }
-.right-poj{
-    right: 25%!important;
-    transition: all 0.2s;
-}
-.right-ani{
-    width: 75%;
-    transition: all 0.2s;
-}
-.right-fox{
-    width: 25%;
-    height: 100%;
-    background-color: #2b2b2b;
-    position: fixed;
-    right: 0;
-    top: 0;
-    z-index: 21;
-    color: #fff;
-    transition: all 0.05s;
-}
-.right-fox-right{
-    right: -25%;
-}
-.right-info{
-    padding: 0 8%;
-    margin-top: 30%;
-}
-.right-info h2{
-    font-size: 24px;
-}
-.right-info p{
-    font-size: 16px;
-    margin: 20px 0;
-    text-align: justify;
-    line-height: 26px;
-}
-@media screen and (max-width: 1520px) {
-    .right-ani .head{
-        height: 50px;
-        transition: all .1s;
-    }
-   .right-ani .head .logo{
-       width: 150px;
-       margin-right: 40px;
-       transition: all .1s;
-   }
-    .right-ani .navigation li > a{
-        line-height: 50px;
-    }
-    .right-fox{
-        width: 20%;
-    }
-    .right-poj{
-        right: 20%!important;
-    }
-    .right-ani{
-        width: 80%;
-    }
-    .right-info p{
-        font-size: 12px;
-    }
-}
 @media screen and (max-width: 1460px) {
     .left-info h2{
         font-size: 30px;
@@ -859,6 +798,24 @@
     top: -16px;
     font-size: 20px;
 }
+.mb-monomer{
+   display: none;
+}
+@media screen and (max-width: 1023px) {
+    .monomer-conten{
+        padding-bottom: 60px;
+    }
+    .pc-monomer{
+         display: none;
+    }
+    .mb-monomer{
+        display: block;
+    }
+    .mb-monomer .europa-title{
+        margin-bottom: 20px;
+    }
+}
+
 
 /*魔幻屋*/
 .purple.left-info{
@@ -1006,4 +963,173 @@
 }
 .purple.poj-tab .tab-item .line:after,.purple.poj-tab .tab-item .line:before,.purple.poj-tab .tab-item .line{
     background-color: #461187;
+}
+/*穿越欧罗巴*/
+.europa-content{
+    width: 1600px;
+    padding: 160px 0 70px;
+    margin: auto;
+}
+.europa-title:before,.europa-title:after{
+    content: "";
+    display: table;
+}
+.europa-title:after{
+    clear: both;
+}
+.europa-title h2{
+   font-size: 42px;
+    color: #fff;
+    font-weight: bold;
+}
+.europa-title-info{
+    float: left;
+}
+.europa-title p{
+    font-size: 16px;
+}
+.right-code{
+    float: right;
+    margin-top: 33px;
+    position: relative;
+}
+.right-code span{
+    font-size: 16px;
+    position: relative;
+    top: -8px;
+    margin-right: 10px;
+}
+.right-code img{
+    width: 30px;
+    height: 30px;
+}
+.right-code .hover-code{
+     margin-top: -30px;
+}
+.europa-title-fox{
+    width:calc(100% -  380px);
+    float: left;
+}
+.europa-text{
+    color: #fff;
+    text-align: justify;
+    text-indent: 30px;
+    margin-top: 40px;
+}
+.europa-text > p{
+    margin-top: 10px;
+}
+.europa-text-ch{
+    font-size: 24px;
+}
+.europa-text-en{
+    font-size: 18px;
+    line-height: 28px;
+}
+.europa-left-img{
+    float: right;
+    display: block;
+    width: 360px;
+    height: 360px;
+}
+.europa-head{
+    overflow: hidden;
+}
+.europa-bottom-img{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 30px 0 60px;
+}
+@media screen and (max-width: 1600px) {
+    .europa-content{
+        width: 1200px;
+    }
+    .europa-text-ch{
+        font-size: 18px;
+    }
+    .europa-text-en{
+        font-size: 14px;
+        line-height: 24px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .europa-content{
+        width: 1000px;
+        padding: 120px 0 60px;
+    }
+    .europa-title h2{
+        font-size: 30px;
+    }
+    .europa-title p{
+        font-size: 12px;
+    }
+    .europa-text-ch{
+        font-size: 14px;
+    }
+    .europa-text-en{
+        font-size: 12px;
+        line-height: 24px;
+    }
+    .right-code{
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width: 1023px) {
+    .europa-poj-info{
+        padding-top: 80px;
+        background-image: url("../images/common/mb-bg.png");
+    }
+    .europa-poj-bg{
+        width: 80%;
+        display: block;
+        margin: auto;
+    }
+}
+/*海洋馆*/
+.muse-code{
+    float: left;
+}
+.muse-code.right-code span{
+    top: 0;
+}
+.muse-pc-img{
+    margin: 20px 0 80px;
+    width: 100%;
+    height: auto;
+}
+.muse-mb-img{
+    display: none;
+}
+.muse-content .europa-title-fox{
+    width: 100%;
+}
+@media screen and (max-width: 1023px) {
+    .muse-content{
+        width: 90%;
+        padding-top: 80px;
+    }
+    .muse-content .europa-title h2{
+        font-size: 24px;
+    }
+    .muse-code.right-code span{
+        font-size: 12px;
+        top: -6px;
+    }
+    .muse-code{
+        margin-top: 18px;
+        float: right;
+    }
+    .muse-pc-img{
+        display: none;
+    }
+    .muse-mb-img{
+        display: block;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .muse-code img{
+        width: 20px;
+        height: 20px;
+    }
 }

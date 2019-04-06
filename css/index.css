@@ -215,7 +215,7 @@
 .ani-conten .sne-ani{
     transition: all 1s;
     opacity: 0;
-    z-index: 20;
+    z-index: 0;
     cursor: pointer;
 }
 .sne-ani .position{
@@ -301,6 +301,7 @@
     left: 100px;
     top: 42%;
     opacity: 1;
+    z-index: 20;
 }
 .roller-hover{
     left: 50%;
@@ -364,10 +365,13 @@
     height: 180px;
 }
 .sne-ani.horn-scale{
-    left: 68%;
-    top: 83%;
-    transform: scale(0.7);
+    left: 74%;
+    top: 90%;
     opacity: 1;
+    z-index: 20;
+}
+.sne-ani .position div.horn-img{
+    transform: scale(0.8);
 }
 .horn-ani{
     -webkit-animation:horn 3s steps(28) infinite;
@@ -395,6 +399,7 @@
     left: 97%;
     top: 67%;
     opacity: 1;
+    z-index: 20;
 }
 .ufo-ani{
     -webkit-animation:ufo 3s steps(30) infinite;
@@ -422,6 +427,7 @@
     left: 90%;
     top: 30%;
     opacity: 1;
+    z-index: 20;
 }
 .pond-ani{
     -webkit-animation:pond 3s steps(21) infinite;
@@ -598,6 +604,17 @@
     bottom: 0px;
     left: 100px;
 }
+
+.horn-hover .project-bg{
+    bottom: 0px;
+    left: -100px;
+    transform: scale(1);
+    background-image: url('../images/home/pc-home/info-bg-left.png');
+}
+.horn-hover .project-nav{
+    float: left;
+    margin-left: 24px;
+}
 .project-bg.show{
     height: 317px;
 }
@@ -610,6 +627,9 @@
     font-size: 18px;
     font-weight: bold;
     line-height: 26px;
+}
+.project-nav li a{
+    color: #fff;
 }
 .project-bg p{
     font-size: 26px;
