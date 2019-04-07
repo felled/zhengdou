@@ -1,6 +1,14 @@
 
 window.onload=function(){
-    $(".loading").hide();
+    /*loading*/
+    setTimeout(function(){
+       $(".load .load-info").remove();
+       $(".load-star").removeClass("hidden").addClass("loadstar-ani");
+    }, 1300);
+    setTimeout(function(){
+        $(".ani-fixed").removeClass("hidden");
+        $(".load").remove();
+    }, 2000);
     /*中间星球鼠标hover动画*/
     $(".star-off a").hover(function(){
         $(".meteor").css("opacity","1");
@@ -60,5 +68,6 @@ window.onload=function(){
         $(".project-bg").removeClass("show");
         $(".animg").removeClass("hover-scale");
     });
+
 };
 

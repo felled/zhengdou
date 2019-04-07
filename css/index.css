@@ -1,26 +1,83 @@
-.loading{
+.load{
     width: 100%;
     height: 100%;
     position: fixed;
     top: 0;
     left: 0;
     background-color: #fff;
-    z-index: 99;
 }
-.load-fox{
-    background-color: #000;
-    width: 400px;
-    height: 300px;
-    position: fixed;
-    -webkit-transform:translateX( -50% ) translateY( -50% );
-    transform:translateX( -50% ) translateY( -50% );
-    left: 50%;
+.load-bg{
+    width: 487px;
+    height: 453px;
+    display: block;
+    margin: auto;
+    background-image: url('../images/home/pc-home/load-bg.png');
+    background-repeat: no-repeat;
+    color: #fff;
+    text-align: center;
+    line-height: 453px;
+    font-size: 42px;
+    font-weight: bold;
+    position: relative;
     top: 50%;
-    border-radius: 50%;
+    margin-top: -226px;
 }
-.load-fox img{
-    width: 100%;
-    height: 100%;
+.load-info{
+    margin-left: 190px;
+    position: relative;
+    top: 40px;
+}
+.load-info span{
+    float: left;
+    animation: load 0.5s ease-in-out alternate;
+}
+.load-info span:nth-child(2){
+    animation-delay:0.2s;
+}
+.load-info span:nth-child(3){
+    animation-delay:0.3s;
+}
+.load-info span:nth-child(4){
+    animation-delay:0.4s;
+}
+.load-info span:nth-child(5){
+    animation-delay:0.5s;
+}
+.load-info span:nth-child(6){
+    animation-delay:0.6s;
+}
+.load-info span:nth-child(7){
+    animation-delay:0.7s;
+}
+.load-info span:nth-child(8){
+    animation-delay:0.8s;
+}
+.load-info span:nth-child(9){
+    animation-delay:0.9s;
+}
+.load-info span:nth-child(10){
+    animation-delay:1s;
+}
+@keyframes load{
+    0%{transform:translate(0,0)}
+    50%{transform:translate(0,-10px)}
+    100%{transform:translate(0,0)}
+}
+.load-star{
+    transform: scale(0.1);
+    width: 520px;
+    height: 362px;
+    top: -30px;
+    left: -40px;
+    position: absolute;
+}
+.loadstar-ani{
+    transform: scale(1);
+    animation: load-ani 1s ease-in-out alternate;
+}
+@keyframes load-ani{
+    0%{top: -30px;left: -40px;transform: scale(0.1);}
+    100%{top: 74px;left: 20px;transform: scale(1);}
 }
 .meteor{
     position: relative;

@@ -33,9 +33,17 @@ $(function () {
     $(".poj-info").click(function (event) {
         event.stopPropagation();
     })
+    /*法律声明*/
+    var offsetWid = document.documentElement.clientWidth;
     $(".law").click(function () {
-        $(".right-fox").toggleClass("right-fox-right");
-        $(".poj-info").toggleClass("right-poj");
-        $(".footer").toggleClass("right-ani");
+        if(offsetWid < 1024){
+            window.location.href="../../page/law/law.html" ;
+        }else {
+            $(".right-fox").toggleClass("right-fox-right");
+            $(".poj-info").toggleClass("right-poj");
+            $(".footer").toggleClass("right-ani");
+        }
     })
+
+
 })

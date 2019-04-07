@@ -626,3 +626,18 @@
         width: 50px;
     }
 }
+/*法律声明*/
+.law-info{
+    color: #fff;
+    padding: 0 20px 120px;
+}
+.law-info h2{
+    font-size: 24px;
+    text-align: center;
+}
+.law-text{
+    line-height: 24px;
+    text-align: justify;
+    text-indent: 30px;
+    margin-top: 20px;
+}
