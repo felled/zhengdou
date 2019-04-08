@@ -1089,9 +1089,11 @@
 /*海洋馆*/
 .muse-code{
     float: left;
+    margin-top: 24px;
 }
 .muse-code.right-code span{
-    top: 0;
+    top: -2px;
+    font-size: 12px;
 }
 .muse-pc-img{
     margin: 20px 0 80px;

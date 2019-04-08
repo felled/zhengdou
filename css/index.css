@@ -11,21 +11,34 @@
     height: 453px;
     display: block;
     margin: auto;
-    background-image: url('../images/home/pc-home/load-bg.png');
-    background-repeat: no-repeat;
     color: #fff;
     text-align: center;
     line-height: 453px;
-    font-size: 42px;
+    font-size: 38px;
     font-weight: bold;
     position: relative;
     top: 50%;
     margin-top: -226px;
 }
+.load-bg .load-img{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.load-img-clac{
+    transform: scale(10);
+    transition: all .5s;
+}
 .load-info{
-    margin-left: 190px;
+    margin-left: 210px;
     position: relative;
-    top: 40px;
+    top: 50px;
+}
+.calc-ani{
+    transform: scale(0.1);
+    transition: all 0.5s;
 }
 .load-info span{
     float: left;
@@ -73,7 +86,7 @@
 }
 .loadstar-ani{
     transform: scale(1);
-    animation: load-ani 1s ease-in-out alternate;
+    animation: load-ani .5s ease-in-out alternate;
 }
 @keyframes load-ani{
     0%{top: -30px;left: -40px;transform: scale(0.1);}
@@ -95,7 +108,7 @@
     width: 146px;
     height: 87px;
     background-image: url('../images/home/pc-home/meteor1.png');
-    animation: meteor-a 1s infinite linear;
+    animation: meteor-a 1.2s infinite linear;
 }
 @keyframes meteor-a
 {
@@ -118,7 +131,7 @@
     width: 120px;
     height: 71px;
     background-image: url('../images/home/pc-home/meteor1.png');
-    animation: meteor-b .5s infinite linear;
+    animation: meteor-b 1.5s infinite linear;
 }
 @keyframes meteor-b
 {
@@ -141,7 +154,7 @@
     width: 100px;
     height: 59px;
     background-image: url('../images/home/pc-home/meteor1.png');
-    animation: meteor-c .8s infinite linear;
+    animation: meteor-c 1.8s infinite linear;
 }
 @keyframes meteor-c
 {
@@ -164,7 +177,7 @@
     width: 100%;
     background-image: url('../images/home/pc-home/ani-bg.png');
     background-size: cover;
-    transition: all 3s;
+    transition: all 0.2s;
     opacity: 0;
 }
 .ani-ani{
@@ -232,7 +245,7 @@
 .rocket-ani{
     width: 100px;
     height: 280px;
-    animation: rocket-ani 1.5s infinite linear;
+    animation: rocket-ani 2s infinite linear;
 }
 .rocket-img{
     width: 100px;
@@ -271,8 +284,7 @@
 }
 .ani-conten .sne-ani{
     transition: all 1s;
-    opacity: 0;
-    z-index: 0;
+    z-index: 20;
     cursor: pointer;
 }
 .sne-ani .position{
@@ -299,13 +311,18 @@
     to{transform:translate(0,10px)}
 }
 .ani-conten .sne-ani .position > div{
-    transform: scale(0.9);
+    transform: scale(0.4);
     transition: all .3s;
 }
-.ani-conten .sne-ani .position div.pond-img{
+/*.ani-conten .sne-ani .position div.pond-img{
     transform: scale(0.95);
-}
-.ani-conten .sne-ani .position > a:hover + div,.hover-scale{
+}*/
+.ani-conten .roller-scale .position > a:hover + div,
+.ani-conten .rivers-scale .position > a:hover + div,
+.ani-conten .horn-scale .position > a:hover + div,
+.ani-conten .pond-scale .position > a:hover + div,
+.ani-conten .ufo-scale .position > a:hover + div
+,.hover-scale{
     transform: scale(1)!important;
 }
 .star-off{
@@ -324,6 +341,7 @@
     left: 0;
     top: 220px;
     z-index: 2;
+    cursor: pointer;
 }
 .star-img{
     position: relative;
@@ -357,12 +375,14 @@
 .sne-ani.roller-scale{
     left: 100px;
     top: 42%;
-    opacity: 1;
     z-index: 20;
 }
+.sne-ani.roller-scale .position > div,.sne-ani.rivers-scale .position > div,.sne-ani.horn-scale .position > div,.sne-ani.ufo-scale .position > div,.sne-ani.pond-scale .position > div{
+    transform: scale(0.9);
+}
 .roller-hover{
-    left: 50%;
-    top: 60%;
+    left: 35%;
+    top: 68%;
     width: 190px;
     height: 180px;
 }
@@ -387,15 +407,14 @@
     margin-top: -30px;
 }
 .rivers-hover{
-    left: 50%;
-    top: 50%;
+    left: 43%;
+    top: 90%;
     width: 190px;
     height: 180px;
 }
 .sne-ani.rivers-scale{
     left: 144px;
     top: 82%;
-    opacity: 1;
     cursor: pointer;
     z-index: 12;
 }
@@ -416,18 +435,17 @@
     margin-top: -50px;
 }
 .horn-hover{
-    left: 50%;
-    top:50%;
+    left: 70%;
+    top: 83%;
     width: 190px;
     height: 180px;
 }
 .sne-ani.horn-scale{
     left: 74%;
     top: 90%;
-    opacity: 1;
     z-index: 20;
 }
-.sne-ani .position div.horn-img{
+.horn-scale.sne-ani .position div.horn-img{
     transform: scale(0.8);
 }
 .horn-ani{
@@ -447,15 +465,14 @@
     margin-top: -88px;
 }
 .ufo-hover{
-    left: 50%;
-    top: 50%;
+    left: 86%;
+    top: 65%;
     width: 150px;
     height: 126px;
 }
 .sne-ani.ufo-scale{
     left: 97%;
     top: 67%;
-    opacity: 1;
     z-index: 20;
 }
 .ufo-ani{
@@ -475,15 +492,14 @@
     margin-top: -96px;
 }
 .pond-hover{
-    left: 50%;
-    top: 50%;
+    left: 84%;
+    top: 49%;
     width: 150px;
     height: 126px;
 }
 .sne-ani.pond-scale{
     left: 90%;
     top: 30%;
-    opacity: 1;
     z-index: 20;
 }
 .pond-ani{
@@ -687,6 +703,9 @@
 }
 .project-nav li a{
     color: #fff;
+}
+.project-nav li a:hover{
+    text-decoration: underline;
 }
 .project-bg p{
     font-size: 26px;

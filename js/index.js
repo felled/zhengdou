@@ -3,24 +3,30 @@ window.onload=function(){
     /*loading*/
     setTimeout(function(){
        $(".load .load-info").remove();
+       $('.star-bg').removeClass("hidden").addClass("calc");
        $(".load-star").removeClass("hidden").addClass("loadstar-ani");
+       $('.load-img').attr("src","images/home/pc-home/load-bg-2.png").addClass("load-img-clac");
+       $('.ani-conten').removeClass("calc-ani hidden");
     }, 1300);
     setTimeout(function(){
-        $(".ani-fixed").removeClass("hidden");
         $(".load").remove();
     }, 2000);
-    /*中间星球鼠标hover动画*/
-    $(".star-off a").hover(function(){
+    setTimeout(function(){
         $(".meteor").css("opacity","1");
-        $(this).parents(".star-position").addClass("ani-paused");
-        $(this).next("div").addClass("star-ani");
-        $(this).next("div").removeClass("ani-paused");
+        $(".ani-bg").addClass("ani-ani");
+    }, 2100);
+    setTimeout(function(){
         $(".roller-hover").addClass("roller-scale");
         $(".rivers-hover").addClass("rivers-scale");
         $(".horn-hover").addClass("horn-scale");
         $(".ufo-hover").addClass("ufo-scale");
         $(".pond-hover").addClass("pond-scale");
-        $(".ani-bg").addClass("ani-ani");
+    }, 2300);
+    /*中间星球鼠标hover动画*/
+    $(".star-off a").hover(function(){
+        $(this).parents(".star-position").addClass("ani-paused");
+        $(this).next("div").addClass("star-ani");
+        $(this).next("div").removeClass("ani-paused");
     },function () {
         $(this).next("div").addClass("ani-paused");
         $(this).parents(".star-position").removeClass("ani-paused");

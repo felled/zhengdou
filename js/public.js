@@ -1,6 +1,7 @@
 $(function () {
     /*head*/
     $(".navigation li").hover(function () {
+        $(".navigation li").removeClass("active")
         var e = $(this).find(".nav-slind");
         e.slideDown();
     },function () {
@@ -44,6 +45,4 @@ $(function () {
             $(".footer").toggleClass("right-ani");
         }
     })
-
-
 })

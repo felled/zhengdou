@@ -25,17 +25,19 @@
                         <span>.</span>
                         <span>.</span>
                     </div>
-                    <img class="load-star hidden" src="images/home/pc-home/load-star.png">
+                   <!-- <img class="load-star hidden" src="images/home/pc-home/load-star.png">-->
+                    <img class="load-img" src="images/home/pc-home/load-bg.png">
                 </div>
+
             </div>
             <!--页面动画-->
-            <div class="ani-fixed hidden">
+            <div class="ani-fixed ">
                 <div class="meteor">
                     <span class="meteor-a"></span>
                     <span class="meteor-b"></span>
                     <span class="meteor-c"></span>
                 </div>
-                <div class="ani-conten">
+                <div class="ani-conten calc-ani hidden">
                         <div class="star-off">
                             <div class="star-position">
                                 <a></a>
@@ -182,7 +184,7 @@
                                 <a>经典项目</a>
                             </li>
                             <li class="page-open" name="monomer">
-                                <a>单体项目</a>
+                                <a>主体项目</a>
                             </li>
                             <li>
                                 <a href="page/creative/creative.html" target="_blank">创意科技</a>
@@ -386,8 +388,8 @@ $(function() {
             x: e.pageX / t.w * 2 - 1,
             y: e.pageY / t.h * 2 - 1
         };
-        r.moveX = parseInt(n.x * 27 + r.x),
-            r.moveY = parseInt(n.y * 22 + r.y),
+        r.moveX = parseInt(n.x * 10 + r.x),
+            r.moveY = parseInt(n.y * 10 + r.y),
             r.e.css({
                 left: r.moveX,
                 top: r.moveY
