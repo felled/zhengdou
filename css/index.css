@@ -1,1 +1,821 @@
-.load{width: 100%; height: 100%; position: fixed; top: 0; left: 0; background-color: #fff;}.load-bg{width: 487px; height: 453px; display: block; margin: auto; color: #fff; text-align: center; line-height: 453px; font-size: 38px; font-weight: bold; position: relative; top: 50%; margin-top: -226px;}.load-bg .load-img{width: 100%; position: absolute; top: 0; left: 0; z-index: -1;}.load-img-clac{transform: scale(10); transition: all .2s;}.load-info{margin-left: 210px; position: relative; top: 50px;}.calc-ani{transform: scale(0.1); transition: all 0.5s;}.load-info span{float: left; animation: load 0.5s ease-in-out alternate;}.load-info span:nth-child(2){animation-delay:0.2s;}.load-info span:nth-child(3){animation-delay:0.3s;}.load-info span:nth-child(4){animation-delay:0.4s;}.load-info span:nth-child(5){animation-delay:0.5s;}.load-info span:nth-child(6){animation-delay:0.6s;}.load-info span:nth-child(7){animation-delay:0.7s;}.load-info span:nth-child(8){animation-delay:0.8s;}.load-info span:nth-child(9){animation-delay:0.9s;}.load-info span:nth-child(10){animation-delay:1s;}@keyframes load{0%{transform:translate(0,0)} 50%{transform:translate(0,-10px)} 100%{transform:translate(0,0)}}.load-star{transform: scale(0.1); width: 520px; height: 362px; top: -30px; left: -40px; position: absolute;}.loadstar-ani{transform: scale(1); animation: load-ani .5s ease-in-out alternate;}@keyframes load-ani{0%{top: -30px;left: -40px;transform: scale(0.1);} 100%{top: 74px;left: 20px;transform: scale(1);}}.meteor{position: relative; opacity: 0; transition: all .2s;}.meteor span{display: block; background-size: 100%; position: absolute;}.meteor-a{top: 0; left: 600px; width: 146px; height: 87px; background-image: url('../images/home/pc-home/meteor1.png'); animation: meteor-a 1.2s infinite linear;}@keyframes meteor-a{0%{opacity: 1; transform: scale(0.5) translate3d(0, 0, 0); -webkit-transform: scale(0.5) translate3d(0, 0, 0); -moz-transform: scale(0.5) translate3d(0, 0, 0);} 100%{opacity: 0; transform: scale(1.2) translate3d(-300px, 100px, 0); -webkit-transform: scale(1.2) translate3d(-300px, 100px, 0); -moz-transform: scale(1.2) translate3d(-300px, 100px, 0);}}.meteor-b{left: 600px; top: 100px; width: 120px; height: 71px; background-image: url('../images/home/pc-home/meteor1.png'); animation: meteor-b 1.5s infinite linear;}@keyframes meteor-b{0%{opacity: 1; transform: scale(0.5) translate3d(0, 0, 0); -webkit-transform: scale(0.5) translate3d(0, 0, 0); -moz-transform: scale(0.5) translate3d(0, 0, 0);} 100%{opacity: 0; transform: scale(1.2) translate3d(-300px, 100px, 0); -webkit-transform: scale(1.2) translate3d(-300px, 100px, 0); -moz-transform: scale(1.2) translate3d(-300px, 100px, 0);}}.meteor-c{left: 800px; top: -40px; width: 100px; height: 59px; background-image: url('../images/home/pc-home/meteor1.png'); animation: meteor-c 1.8s infinite linear;}@keyframes meteor-c{0%{opacity: 1; transform: scale(0.5) translate3d(0, 0, 0); -webkit-transform: scale(0.5) translate3d(0, 0, 0); -moz-transform: scale(0.5) translate3d(0, 0, 0);} 100%{opacity: 0; transform: scale(1.2) translate3d(-400px, 200px, 0); -webkit-transform: scale(1.2) translate3d(-400px, 200px, 0); -moz-transform: scale(1.2) translate3d(-400px, 200px, 0);}}.ani-bg{position: relative; height: 100%; width: 100%; background-image: url('../images/home/pc-home/ani-bg.png'); background-size: cover; transition: all 0.2s; opacity: 0;}.ani-ani{opacity: 1;}.ani-img{width: 100%; height: auto; position: absolute; top: 0; left: 0;}.ani-bg a{position: absolute; display: block;}.law-img{width: 80px; height: 80px; background-image: url('../images/home/pc-home/bg-top-left.png'); top: 0; left: 0; background-size: 100%;}.contact-img{width: 90px; height: 300px; background-image: url('../images/home/pc-home/bg-bottom-left.png'); bottom: 10%; left: 0; background-size: 100%;}.sun-img{width: 300px; height: 340px; background-image: url('../images/home/pc-home/bg-top-right.png'); top: 0; right: 0; background-size: 100%;}.code-img{width: 150px; height: 150px; background-image: url('../images/home/pc-home/bg-bottom-right.png'); top: 60px; left: -25px; background-size: 100%;}.code-fox{position: fixed; bottom: -140px; right: -50px; cursor: pointer; transition: all 1s; transform: scale(0.9);}.code-ani-fox{bottom: 0; right: 100px; transform: scale(1);}.code-ani{position: relative;}.rocket-ani{width: 100px; height: 280px; animation: rocket-ani 2s infinite linear;}.rocket-img{width: 100px; height: 39px; background-image: url('../images/home/pc-home/rocket.png'); background-size: 100%;}@keyframes rocket-ani{100%{transform: rotate(-360deg);}}.ani-fixed{width: 900px; height: 700px; position: fixed; -webkit-transform:translateX( -50% ) translateY( -50% ); transform:translateX( -50% ) translateY( -50% ); left: 50%; top: 45%; z-index: 1;}.ani-conten{position: relative; width: 100%; height: 100%;}.ani-conten > div{-webkit-transform:translateX( -50% ) translateY( -50% ); transform:translateX( -50% ) translateY( -50% ); background-repeat: repeat-x; /* 设置初始位置 */ background-position: 0 0; position: absolute;}.ani-conten .sne-ani{transition: all 1s; z-index: 20; cursor: pointer;}.sne-ani .position{position: relative; width: 100%; height: 100%; animation: heart 1.3s ease-in-out 2.7s infinite alternate;}.sne-ani .position > a{display: block; width: 100%; height: 100%; position: absolute; top: 0; left: 0; z-index: 2;}.sne-ani .position div{position: absolute; z-index: 1;}@keyframes heart{from{transform:translate(0,0)} to{transform:translate(0,10px)}}.ani-conten .sne-ani .position > div{transform: scale(0.4); transition: all .3s;}/*.ani-conten .sne-ani .position div.pond-img{transform: scale(0.95);}*/.ani-conten .roller-scale .position > a:hover + div,.ani-conten .rivers-scale .position > a:hover + div,.ani-conten .horn-scale .position > a:hover + div,.ani-conten .pond-scale .position > a:hover + div,.ani-conten .ufo-scale .position > a:hover + div,.hover-scale{transform: scale(1)!important;}.star-off{width: 250px; height: 250px; left: 56%; top: 62%; z-index: 11; position: relative;}.star-off a{position: absolute; width: 100%; height: 50%; display: block; left: 0; top: 220px; z-index: 2; cursor: pointer;}.star-img{position: relative; width: 500px; height: 520px; /* 加载图像 */ background-image: url('../images/home/pc-home/star.png'); margin-left: -220px; margin-top: -226px; z-index: 1;}.star-position{animation: heart 1.3s ease-in-out infinite alternate;}.star-position .project-bg{bottom: 160px; left: 110px;}.star-position .project-bg a{position: static;}.star-ani{-webkit-animation:star 2s steps(12) infinite;}@keyframes star{0%{background-position: 0 0;} 100%{background-position: -6000px 0;}}.roller-img{width: 300px; height: 240px; margin-left: -85px; margin-top: -30px; /* 加载图像 */ background-image: url('../images/home/pc-home/roller-ani.png');}.sne-ani.roller-scale{left: 100px; top: 42%; z-index: 20;}.sne-ani.roller-scale .position > div,.sne-ani.rivers-scale .position > div,.sne-ani.horn-scale .position > div,.sne-ani.ufo-scale .position > div,.sne-ani.pond-scale .position > div{transform: scale(0.9);}.roller-hover{left: 35%; top: 68%; width: 190px; height: 180px;}.roller-ani{-webkit-animation:roller 3s steps(38) infinite;}.ani-paused{animation-play-state:paused!important;}@keyframes roller{0%{background-position: 0 0;} 100%{background-position: -15200px 0;}}.rivers-img{width: 300px; height: 240px; /* 加载图像 */ background-image: url('../images/home/pc-home/rivers-ani.png'); cursor: pointer; margin-left: -20px; margin-top: -30px;}.rivers-hover{left: 43%; top: 90%; width: 190px; height: 180px;}.sne-ani.rivers-scale{left: 144px; top: 82%; cursor: pointer; z-index: 12;}.rivers-ani{-webkit-animation:rivers 3s steps(30) infinite;}@keyframes rivers{0%{background-position: 0 0;} 100%{background-position: -9000px 0;}}.horn-img{width: 300px; height: 286px; /* 加载图像 */ background-image: url('../images/home/pc-home/horn-ani.png'); margin-left: -61px; margin-top: -50px;}.horn-hover{left: 70%; top: 83%; width: 190px; height: 180px;}.sne-ani.horn-scale{left: 74%; top: 90%; z-index: 20;}.horn-scale.sne-ani .position div.horn-img{transform: scale(0.8);}.horn-ani{-webkit-animation:horn 3s steps(28) infinite;}@keyframes horn{0%{background-position: 0 0;} 100%{background-position: -8400px 0;}}.ufo-img{width: 300px; height: 280px; /* 加载图像 */ background-image: url('../images/home/pc-home/ufo-ani.png'); margin-left: -95px; margin-top: -88px;}.ufo-hover{left: 86%; top: 65%; width: 150px; height: 126px;}.sne-ani.ufo-scale{left: 97%; top: 67%; z-index: 20;}.ufo-ani{-webkit-animation:ufo 3s steps(30) infinite;}@keyframes ufo{0%{background-position: 0 0;} 100%{background-position: -9000px 0;}}.pond-img{width: 250px; height: 257px; /* 加载图像 */ background-image: url('../images/home/pc-home/pond-ani.png'); margin-left: -76px; margin-top: -96px;}.pond-hover{left: 84%; top: 49%; width: 150px; height: 126px;}.sne-ani.pond-scale{left: 90%; top: 30%; z-index: 20;}.pond-ani{-webkit-animation:pond 3s steps(21) infinite;}@keyframes pond{0%{background-position: 0 0;} 100%{background-position: -5250px 0;}}.eye-ani{width: 60px; height: 60px; border-radius:50% ; overflow: hidden; position: relative; left: 344px; top: 308px; z-index: 5;}.eye-img{position: absolute; width: 20px; height: 20px; left: 30px; top: 30px; background-size: 100%; background-image: url('../images/home/pc-home/eye.png'); z-index: 5;}.star-img span{position: absolute; z-index: 2; display: block; background-size: 100%; background-repeat: no-repeat;}.ball-a{width: 110px; height: 110px; right: -60px; bottom: 60px; background-image: url('../images/home/pc-home/ball-a.png'); animation: ball-a ease-in-out 2s infinite alternate;}@keyframes ball-a{from{transform:translate(0,0)} to{transform:translate(0,12px)}}.ball-b{width: 50px; height: 50px; right: 50px; bottom: 94px; background-image: url('../images/home/pc-home/ball-b.png'); animation: ball-b ease-in-out 1.8s infinite alternate;}@keyframes ball-b{from{transform:translate(0,0)} to{transform:translate(0,14px)}}.ball-c{width: 40px; height: 40px; right: -70px; bottom: 190px; background-image: url('../images/home/pc-home/ball-c.png'); animation: ball-c ease-in-out 1.6s infinite alternate;}@keyframes ball-c{from{transform:translate(0,0)} to{transform:translate(0,12px)}}.ball-d{width: 34px; height: 34px; left: 90px; bottom: 70px; background-image: url('../images/home/pc-home/ball-d.png'); animation: ball-d ease-in-out 2s infinite alternate;}@keyframes ball-d{from{transform:translate(0,0)} to{transform:translate(0,14px)}}.ball-e{width: 34px; height: 34px; left: 166px; bottom: 4px; background-image: url('../images/home/pc-home/ball-e.png'); animation: ball-e ease-in-out 1.6s infinite alternate;}@keyframes ball-e{from{transform:translate(0,0)} to{transform:translate(0,10px)}}.ball-f{width: 28px; height: 28px; right: -34px; bottom: 235px; background-image: url('../images/home/pc-home/ball-f.png'); animation: ball-f ease-in-out 1.8s infinite alternate;}@keyframes ball-f{from{transform:translate(0,0)} to{transform:translate(0,14px)}}.ball-g{width: 20px; height: 20px; right: 190px; bottom: 110px; background-image: url('../images/home/pc-home/ball-g.png'); animation: ball-g ease-in-out 1.6s infinite alternate;}@keyframes ball-g{from{transform:translate(0,0)} to{transform:translate(0,10px)}}.ball-h{width: 18px; height: 18px; right: 10px; bottom: 300px; background-image: url('../images/home/pc-home/ball-h.png'); animation: ball-h ease-in-out 1.6s infinite alternate;}@keyframes ball-h{from{transform:translate(0,0)} to{transform:translate(0,10px)}}.ball-i{width: 16px; height: 16px; right: 26px; bottom: 285px; background-image: url('../images/home/pc-home/ball-i.png'); animation: ball-hi ease-in-out 1.8s infinite alternate;}@keyframes ball-hi{from{transform:translate(0,0)} to{transform:translate(0,10px)}}.ball-j{width: 16px; height: 16px; left: 135px; bottom: 170px; background-image: url('../images/home/pc-home/ball-j.png'); animation: ball-j ease-in-out 1.8s infinite alternate;}@keyframes ball-j{from{transform:translate(0,0)} to{transform:translate(0,12px)}}.project-bg{z-index: 21!important; transition: all 0.3s; position: absolute; background-size: 100%; color: #fff; transform: none; overflow: hidden; width:230px; height: 0px; background-image: url('../images/home/pc-home/info-bg.png'); transform: scale(1) !important;}.rivers-hover .project-bg{bottom: 44px; left: 90px;}.roller-hover .project-bg{bottom: 0px; left: 100px;}.horn-hover .project-bg{bottom: 0px; left: -100px; transform: scale(1); background-image: url('../images/home/pc-home/info-bg-left.png');}.horn-hover .project-nav{float: left; margin-left: 24px;}.project-bg.show{height: 317px;}.project-nav{width: 114px; float: right; margin: 12px 24px 0 0;}.project-nav li{font-size: 18px; font-weight: bold; line-height: 26px;}.project-nav li a{color: #fff;}.project-nav li a:hover{text-decoration: underline;}.project-bg p{font-size: 26px; border-bottom: 2px solid #fff; font-weight: bold; margin-bottom: 6px;}@media screen and (max-width: 1366px){.ani-fixed{top: 40%;} .roller-scale{left: 0; top: 25%;} .rivers-scale{left: 90px; top: 59%;} .horn-ani.horn-scale{left: 55%; top: 70%; transform: scale(0.7); opacity: 1;} .ufo-ani.ufo-scale{left: 72%; top: 47%; transform: scale(0.9);} .pond-scale{left: 68%; top: 17%;} /* .ani-conten .roller-scale,.ani-conten .rivers-scale,.ani-conten .pond-scale,.ani-conten .star-ani{transform: scale(0.9);}*/ .contact-img{width: 70px; height: 240px; bottom: 16%;} .sun-img{width: 260px; height: 316px;} .law-img{width: 60px; height: 60px;} .code-fox{bottom: -100px; right: -30px;} .code-ani-fox{bottom: 0; right: 100px; transform: scale(1);} .code-img{width: 120px; height: 120px; top: 64px; left: -25px;} .rocket-img{width: 70px; height: 28px;} .rocket-ani{width: 70px; height: 230px;} .project-bg.show{height: 302px;} .ani-conten .project-bg{width: 220px;} .project-bg p{font-size: 20px;} .project-nav{width: 104px; margin: 12px 21px 0 0;} .project-nav li{font-size: 16px; line-height: 24px;}}@media screen and (max-width: 1024px){.sun-img{width: 170px; height: 206px;} .code-ani-fox{right: 77px; transform: scale(0.9);}}
+.load{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+}
+.load-bg{
+    width: 487px;
+    height: 453px;
+    display: block;
+    margin: auto;
+    color: #fff;
+    text-align: center;
+    line-height: 453px;
+    font-size: 38px;
+    font-weight: bold;
+    position: relative;
+    top: 50%;
+    margin-top: -226px;
+}
+.load-bg .load-img{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.load-img-clac{
+    transform: scale(10);
+    transition: all .2s;
+}
+.load-info{
+    margin-left: 210px;
+    position: relative;
+    top: 50px;
+}
+.calc-ani{
+    transform: scale(0.1);
+    transition: all 0.5s;
+}
+.load-info span{
+    float: left;
+    animation: load 0.5s ease-in-out alternate;
+}
+.load-info span:nth-child(2){
+    animation-delay:0.2s;
+}
+.load-info span:nth-child(3){
+    animation-delay:0.3s;
+}
+.load-info span:nth-child(4){
+    animation-delay:0.4s;
+}
+.load-info span:nth-child(5){
+    animation-delay:0.5s;
+}
+.load-info span:nth-child(6){
+    animation-delay:0.6s;
+}
+.load-info span:nth-child(7){
+    animation-delay:0.7s;
+}
+.load-info span:nth-child(8){
+    animation-delay:0.8s;
+}
+.load-info span:nth-child(9){
+    animation-delay:0.9s;
+}
+.load-info span:nth-child(10){
+    animation-delay:1s;
+}
+@keyframes load{
+    0%{transform:translate(0,0)}
+    50%{transform:translate(0,-10px)}
+    100%{transform:translate(0,0)}
+}
+.load-star{
+    transform: scale(0.1);
+    width: 520px;
+    height: 362px;
+    top: -30px;
+    left: -40px;
+    position: absolute;
+}
+.loadstar-ani{
+    transform: scale(1);
+    animation: load-ani .5s ease-in-out alternate;
+}
+@keyframes load-ani{
+    0%{top: -30px;left: -40px;transform: scale(0.1);}
+    100%{top: 74px;left: 20px;transform: scale(1);}
+}
+.meteor{
+    position: relative;
+    opacity: 0;
+    transition: all .2s;
+}
+.meteor span{
+    display: block;
+    background-size: 100%;
+    position: absolute;
+}
+.meteor-a{
+    top: 0;
+    left: 600px;
+    width: 146px;
+    height: 87px;
+    background-image: url('../images/home/pc-home/meteor1.png');
+    animation: meteor-a 1.2s infinite linear;
+}
+@keyframes meteor-a
+{
+    0% {
+        opacity: 1;
+        transform: scale(0.5) translate3d(0, 0, 0);
+        -webkit-transform: scale(0.5) translate3d(0, 0, 0);
+        -moz-transform: scale(0.5) translate3d(0, 0, 0);
+    }
+    100% {
+        opacity: 0;
+        transform: scale(1.2) translate3d(-300px, 100px, 0);
+        -webkit-transform: scale(1.2) translate3d(-300px, 100px, 0);
+        -moz-transform: scale(1.2) translate3d(-300px, 100px, 0);
+    }
+}
+.meteor-b{
+    left: 600px;
+    top: 100px;
+    width: 120px;
+    height: 71px;
+    background-image: url('../images/home/pc-home/meteor1.png');
+    animation: meteor-b 1.5s infinite linear;
+}
+@keyframes meteor-b
+{
+    0% {
+        opacity: 1;
+        transform: scale(0.5) translate3d(0, 0, 0);
+        -webkit-transform: scale(0.5) translate3d(0, 0, 0);
+        -moz-transform: scale(0.5) translate3d(0, 0, 0);
+    }
+    100% {
+        opacity: 0;
+        transform: scale(1.2) translate3d(-300px, 100px, 0);
+        -webkit-transform: scale(1.2) translate3d(-300px, 100px, 0);
+        -moz-transform: scale(1.2) translate3d(-300px, 100px, 0);
+    }
+}
+.meteor-c{
+    left: 800px;
+    top: -40px;
+    width: 100px;
+    height: 59px;
+    background-image: url('../images/home/pc-home/meteor1.png');
+    animation: meteor-c 1.8s infinite linear;
+}
+@keyframes meteor-c
+{
+    0% {
+        opacity: 1;
+        transform: scale(0.5) translate3d(0, 0, 0);
+        -webkit-transform: scale(0.5) translate3d(0, 0, 0);
+        -moz-transform: scale(0.5) translate3d(0, 0, 0);
+    }
+    100% {
+        opacity: 0;
+        transform: scale(1.2) translate3d(-400px, 200px, 0);
+        -webkit-transform: scale(1.2) translate3d(-400px, 200px, 0);
+        -moz-transform: scale(1.2) translate3d(-400px, 200px, 0);
+    }
+}
+.ani-bg{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-image: url('../images/home/pc-home/ani-bg.png');
+    background-size: cover;
+    transition: all 0.2s;
+    opacity: 0;
+}
+.ani-ani{
+    opacity: 1;
+}
+.ani-img{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.ani-bg a{
+    position: absolute;
+    display: block;
+}
+.law-img{
+    width: 80px;
+    height: 80px;
+    background-image: url('../images/home/pc-home/bg-top-left.png');
+    top: 0;
+    left: 0;
+    background-size: 100%;
+}
+.contact-img{
+    width: 90px;
+    height: 300px;
+    background-image: url('../images/home/pc-home/bg-bottom-left.png');
+    bottom: 10%;
+    left: 0;
+    background-size: 100%;
+}
+.sun-img{
+    width: 300px;
+    height: 340px;
+    background-image: url('../images/home/pc-home/bg-top-right.png');
+    top: 0;
+    right: 0;
+    background-size: 100%;
+}
+.code-img{
+    width: 150px;
+    height: 150px;
+    background-image: url('../images/home/pc-home/bg-bottom-right.png');
+    top: 60px;
+    left: -25px;
+    background-size: 100%;
+}
+.code-fox{
+    position: fixed;
+    bottom: -140px;
+    right: -50px;
+    cursor: pointer;
+    transition: all 1s;
+    transform: scale(0.9);
+}
+.code-ani-fox{
+    bottom: 0;
+    right: 100px;
+    transform: scale(1);
+}
+.code-ani{
+    position: relative;
+}
+.rocket-ani{
+    width: 100px;
+    height: 280px;
+    animation: rocket-ani 2s infinite linear;
+}
+.rocket-img{
+    width: 100px;
+    height: 39px;
+    background-image: url('../images/home/pc-home/rocket.png');
+    background-size: 100%;
+}
+@keyframes rocket-ani {
+    100% {
+        transform: rotate(-360deg);
+    }
+}
+.ani-fixed{
+    width: 900px;
+    height: 700px;
+    position: fixed;
+    -webkit-transform:translateX( -50% ) translateY( -50% );
+    transform:translateX( -50% ) translateY( -50% );
+    left: 50%;
+    top: 45%;
+    z-index: 1;
+}
+.ani-conten{
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+}
+.ani-conten > div{
+    -webkit-transform:translateX( -50% ) translateY( -50% );
+    transform:translateX( -50% ) translateY( -50% );
+    background-repeat: repeat-x;
+    /* 设置初始位置 */
+    background-position: 0 0;
+    position: absolute;
+}
+.ani-conten .sne-ani{
+    transition: all 1s;
+    z-index: 20;
+    cursor: pointer;
+}
+.sne-ani .position{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    animation: heart 1.3s ease-in-out 2.7s infinite alternate;
+}
+.sne-ani .position > a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+.sne-ani .position div{
+    position: absolute;
+    z-index: 1;
+}
+@keyframes heart{
+    from{transform:translate(0,0)}
+    to{transform:translate(0,10px)}
+}
+.ani-conten .sne-ani .position > div{
+    transform: scale(0.4);
+    transition: all .3s;
+}
+/*.ani-conten .sne-ani .position div.pond-img{
+    transform: scale(0.95);
+}*/
+.ani-conten .roller-scale .position > a:hover + div,
+.ani-conten .rivers-scale .position > a:hover + div,
+.ani-conten .pond-scale .position > a:hover + div,
+.ani-conten .ufo-scale .position > a:hover + div
+,.hover-scale{
+    transform: scale(1)!important;
+}
+.ani-conten .horn-scale .position > a:hover + div{
+    transform: scale(0.8)!important;
+}
+.star-off{
+    width: 250px;
+    height: 250px;
+    left: 56%;
+    top: 62%;
+    z-index: 11;
+    position: relative;
+}
+.star-off a{
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    display: block;
+    left: 0;
+    top: 220px;
+    z-index: 2;
+    cursor: pointer;
+}
+.star-img{
+    position: relative;
+    width: 500px;
+    height: 520px;
+    /* 加载图像 */
+    background-image: url('../images/home/pc-home/star.png');
+    margin-left: -220px;
+    margin-top: -226px;
+    z-index: 1;
+}
+.star-position{
+    animation: heart 1.3s ease-in-out infinite alternate;
+}
+.star-position .project-bg{
+    bottom: 160px;
+    left: 110px;
+}
+.star-position .project-bg a{
+    position: static;
+}
+.star-ani{
+    -webkit-animation:star 1.5s steps(12) infinite;
+}
+@keyframes star
+{
+    0%   {background-position: 0 0;}
+    100% {background-position: -6000px 0;}
+}
+.roller-img{
+    width: 300px;
+    height: 240px;
+    margin-left: -85px;
+    margin-top: -30px;
+    /* 加载图像 */
+    background-image: url('../images/home/pc-home/roller-ani.png');
+}
+.sne-ani.roller-scale{
+    left: 56px;
+    top: 35%;
+    z-index: 20;
+}
+.sne-ani.roller-scale .position > div,.sne-ani.rivers-scale .position > div,.sne-ani.horn-scale .position > div,.sne-ani.ufo-scale .position > div,.sne-ani.pond-scale .position > div{
+    transform: scale(0.9);
+}
+.roller-hover{
+    left: 35%;
+    top: 68%;
+    width: 190px;
+    height: 180px;
+}
+.roller-ani{
+    -webkit-animation:roller 3s steps(38) infinite;
+}
+.ani-paused{
+    animation-play-state:paused!important;
+}
+@keyframes roller
+{
+    0%   {background-position: 0 0;}
+    100% {background-position: -15200px 0;}
+}
+.rivers-img{
+    width: 300px;
+    height: 240px;
+    /* 加载图像 */
+    background-image: url('../images/home/pc-home/rivers-ani.png');
+    cursor: pointer;
+    margin-left: -20px;
+    margin-top: -30px;
+}
+.rivers-hover{
+    left: 43%;
+    top: 90%;
+    width: 190px;
+    height: 180px;
+}
+.sne-ani.rivers-scale{
+    left: 144px;
+    top: 82%;
+    cursor: pointer;
+    z-index: 12;
+}
+.rivers-ani{
+    -webkit-animation:rivers 3s steps(30) infinite;
+}
+@keyframes rivers
+{
+    0%   {background-position: 0 0;}
+    100% {background-position: -9000px 0;}
+}
+.horn-img{
+    width: 300px;
+    height: 286px;
+    /* 加载图像 */
+    background-image: url('../images/home/pc-home/horn-ani.png');
+    margin-left: -61px;
+    margin-top: -50px;
+}
+.horn-hover{
+    left: 70%;
+    top: 83%;
+    width: 190px;
+    height: 180px;
+}
+.sne-ani.horn-scale{
+    left: 82%;
+    top: 93%;
+    z-index: 20;
+}
+.horn-scale.sne-ani .position div.horn-img{
+    transform: scale(0.6);
+}
+.horn-ani{
+    -webkit-animation:horn 3s steps(28) infinite;
+}
+@keyframes horn
+{
+    0%   {background-position: 0 0;}
+    100% {background-position: -8400px 0;}
+}
+.ufo-img{
+    width: 300px;
+    height: 280px;
+    /* 加载图像 */
+    background-image: url('../images/home/pc-home/ufo-ani.png');
+    margin-left: -95px;
+    margin-top: -88px;
+}
+.ufo-hover{
+    left: 86%;
+    top: 65%;
+    width: 150px;
+    height: 126px;
+}
+.sne-ani.ufo-scale{
+    left: 106%;
+    top: 67%;
+    z-index: 20;
+}
+.ufo-ani{
+    -webkit-animation:ufo 3s steps(30) infinite;
+}
+@keyframes ufo
+{
+    0%   {background-position: 0 0;}
+    100% {background-position: -9000px 0;}
+}
+.pond-img{
+    width: 250px;
+    height: 257px;
+    /* 加载图像 */
+    background-image: url('../images/home/pc-home/pond-ani.png');
+    margin-left: -76px;
+    margin-top: -96px;
+}
+.pond-hover{
+    left: 84%;
+    top: 49%;
+    width: 150px;
+    height: 126px;
+}
+.sne-ani.pond-scale{
+    left: 90%;
+    top: 30%;
+    z-index: 20;
+}
+.pond-ani{
+    -webkit-animation:pond 3s steps(21) infinite;
+}
+@keyframes pond
+{
+    0%   {background-position: 0 0;}
+    100% {background-position: -5250px 0;}
+}
+.eye-ani{
+    width: 60px;
+    height: 60px;
+    border-radius:50% ;
+    overflow: hidden;
+    position: relative;
+    left: 344px;
+    top: 308px;
+    z-index: 5;
+}
+.eye-img{
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    left: 14px;
+    top: 14px;
+    background-size: 100%;
+    background-image: url('../images/home/pc-home/eye.png');
+    z-index: 5;
+}
+.star-img span{
+    position: absolute;
+    z-index: 2;
+    display: block;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.ball-a{
+    width: 110px;
+    height: 110px;
+    right: -60px;
+    bottom: 60px;
+    background-image: url('../images/home/pc-home/ball-a.png');
+    animation: ball-a  ease-in-out 2s infinite alternate;
+}
+@keyframes ball-a{
+    from{transform:translate(0,0)}
+    to{transform:translate(0,12px)}
+}
+.ball-b{
+    width: 50px;
+    height: 50px;
+    right: 50px;
+    bottom: 94px;
+    background-image: url('../images/home/pc-home/ball-b.png');
+    animation: ball-b  ease-in-out 1.8s infinite alternate;
+}
+@keyframes ball-b{
+    from{transform:translate(0,0)}
+    to{transform:translate(0,14px)}
+}
+.ball-c{
+    width: 40px;
+    height: 40px;
+    right: -70px;
+    bottom: 190px;
+    background-image: url('../images/home/pc-home/ball-c.png');
+    animation: ball-c  ease-in-out 1.6s infinite alternate;
+}
+@keyframes ball-c{
+    from{transform:translate(0,0)}
+    to{transform:translate(0,12px)}
+}
+.ball-d{
+    width: 34px;
+    height: 34px;
+    left: 90px;
+    bottom: 70px;
+    background-image: url('../images/home/pc-home/ball-d.png');
+    animation: ball-d  ease-in-out 2s infinite alternate;
+}
+@keyframes ball-d{
+    from{transform:translate(0,0)}
+    to{transform:translate(0,14px)}
+}
+.ball-e{
+    width: 34px;
+    height: 34px;
+    left: 166px;
+    bottom: 4px;
+    background-image: url('../images/home/pc-home/ball-e.png');
+    animation: ball-e  ease-in-out 1.6s infinite alternate;
+}
+@keyframes ball-e{
+    from{transform:translate(0,0)}
+    to{transform:translate(0,10px)}
+}
+.ball-f{
+    width: 28px;
+    height: 28px;
+    right: -34px;
+    bottom: 235px;
+    background-image: url('../images/home/pc-home/ball-f.png');
+    animation: ball-f  ease-in-out 1.8s infinite alternate;
+}
+@keyframes ball-f{
+    from{transform:translate(0,0)}
+    to{transform:translate(0,14px)}
+}
+.ball-g{
+    width: 20px;
+    height: 20px;
+    right: 190px;
+    bottom: 110px;
+    background-image: url('../images/home/pc-home/ball-g.png');
+    animation: ball-g  ease-in-out 1.6s infinite alternate;
+}
+@keyframes ball-g{
+    from{transform:translate(0,0)}
+    to{transform:translate(0,10px)}
+}
+.ball-h{
+    width: 18px;
+    height: 18px;
+    right: 10px;
+    bottom: 300px;
+    background-image: url('../images/home/pc-home/ball-h.png');
+    animation: ball-h  ease-in-out 1.6s infinite alternate;
+}
+@keyframes ball-h{
+    from{transform:translate(0,0)}
+    to{transform:translate(0,10px)}
+}
+.ball-i{
+    width: 16px;
+    height: 16px;
+    right: 26px;
+    bottom: 285px;
+    background-image: url('../images/home/pc-home/ball-i.png');
+    animation: ball-hi  ease-in-out 1.8s infinite alternate;
+}
+@keyframes ball-hi{
+    from{transform:translate(0,0)}
+    to{transform:translate(0,10px)}
+}
+.ball-j{
+    width: 16px;
+    height: 16px;
+    left: 135px;
+    bottom: 170px;
+    background-image: url('../images/home/pc-home/ball-j.png');
+    animation: ball-j  ease-in-out 1.8s infinite alternate;
+}
+@keyframes ball-j{
+    from{transform:translate(0,0)}
+    to{transform:translate(0,12px)}
+}
+.project-bg{
+    z-index: 21!important;
+    transition: all 0.3s;
+    position: absolute;
+    background-size: 100%;
+    color: #fff;
+    transform: none;
+    overflow: hidden;
+    width:230px;
+    height: 0px;
+    background-image: url('../images/home/pc-home/info-bg.png');
+    transform: scale(1) !important;
+}
+.rivers-hover .project-bg{
+    bottom: 44px;
+    left: 90px;
+}
+.roller-hover .project-bg{
+    bottom: 0px;
+    left: 100px;
+}
+
+.horn-hover .project-bg{
+    bottom: 0px;
+    left: -100px;
+    transform: scale(1);
+    background-image: url('../images/home/pc-home/info-bg-left.png');
+}
+.horn-hover .project-nav{
+    float: left;
+    margin-left: 24px;
+}
+.project-bg.show{
+    height: 317px;
+}
+.project-nav{
+    width: 114px;
+    float: right;
+    margin: 12px 24px 0 0;
+}
+.project-nav li{
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 26px;
+}
+.project-nav li a{
+    color: #fff;
+}
+.project-nav li a:hover{
+    text-decoration: underline;
+}
+.project-bg p{
+    font-size: 26px;
+    border-bottom: 2px solid #fff;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+@media screen and (max-width: 1366px) {
+    .ani-fixed{
+        top: 40%;
+    }
+    .roller-scale {
+        left: 0;
+        top: 25%;
+    }
+    .rivers-scale {
+        left: 90px;
+        top: 59%;
+    }
+    .horn-ani.horn-scale {
+        left: 55%;
+        top: 70%;
+        transform: scale(0.7);
+        opacity: 1;
+    }
+    .ufo-ani.ufo-scale {
+        left: 72%;
+        top: 47%;
+        transform: scale(0.9);
+    }
+    .pond-scale {
+        left: 68%;
+        top: 17%;
+    }
+    /* .ani-conten .roller-scale,.ani-conten .rivers-scale,.ani-conten .pond-scale,.ani-conten .star-ani{
+         transform: scale(0.9);
+     }*/
+    .contact-img{
+        width: 70px;
+        height: 240px;
+        bottom: 16%;
+    }
+    .sun-img{
+        width: 260px;
+        height: 316px;
+    }
+    .law-img{
+        width: 60px;
+        height: 60px;
+    }
+    .code-fox{
+        bottom: -100px;
+        right: -30px;
+    }
+    .code-ani-fox {
+        bottom: 0;
+        right: 100px;
+        transform: scale(1);
+    }
+    .code-img{
+        width: 120px;
+        height: 120px;
+        top: 64px;
+        left: -25px;
+    }
+    .rocket-img{
+        width: 70px;
+        height: 28px;
+    }
+    .rocket-ani{
+        width: 70px;
+        height: 230px;
+    }
+    .project-bg.show {
+        height: 302px;
+    }
+    .ani-conten .project-bg{
+        width: 220px;
+    }
+    .project-bg p{
+        font-size: 20px;
+    }
+    .project-nav {
+        width: 104px;
+        margin: 12px 21px 0 0;
+    }
+    .project-nav li{
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .sun-img {
+        width: 170px;
+        height: 206px;
+    }
+    .code-ani-fox {
+        right: 77px;
+        transform: scale(0.9);
+    }
+
+}
+

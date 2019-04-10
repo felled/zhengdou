@@ -2,135 +2,18 @@
 <project version="4">
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/index.html" line="11" />
+    <bookmark url="file://$PROJECT_DIR$/css/sublevel.css" description=" &gt; div{&#10;" line="60" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="87f70ea5-6a14-41a8-94a7-660dad2c7885" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/page/law/law-pc.html" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/css/index.css" afterPath="$PROJECT_DIR$/css/index.css" />
-      <change beforePath="$PROJECT_DIR$/css/projrct.css" afterPath="$PROJECT_DIR$/css/projrct.css" />
       <change beforePath="$PROJECT_DIR$/css/public.css" afterPath="$PROJECT_DIR$/css/public.css" />
       <change beforePath="$PROJECT_DIR$/css/sublevel.css" afterPath="$PROJECT_DIR$/css/sublevel.css" />
-      <change beforePath="$PROJECT_DIR$/images/creative/mb/bottom-img.png" afterPath="$PROJECT_DIR$/images/creative/mb/bottom-img.png" />
-      <change beforePath="$PROJECT_DIR$/images/creative/pc/creat-img.png" afterPath="$PROJECT_DIR$/images/creative/pc/creat-img.png" />
-      <change beforePath="$PROJECT_DIR$/images/home/mb-home/mb-bg.png" afterPath="$PROJECT_DIR$/images/home/mb-home/mb-bg.png" />
-      <change beforePath="$PROJECT_DIR$/images/home/mb-home/mb-black.png" afterPath="$PROJECT_DIR$/images/home/mb-home/mb-black.png" />
-      <change beforePath="$PROJECT_DIR$/images/home/mb-home/mb-poj-1.png" afterPath="$PROJECT_DIR$/images/home/mb-home/mb-poj-1.png" />
-      <change beforePath="$PROJECT_DIR$/images/home/mb-home/mb-poj-2.png" afterPath="$PROJECT_DIR$/images/home/mb-home/mb-poj-2.png" />
-      <change beforePath="$PROJECT_DIR$/images/home/mb-home/mb-poj-3.png" afterPath="$PROJECT_DIR$/images/home/mb-home/mb-poj-3.png" />
-      <change beforePath="$PROJECT_DIR$/images/home/mb-home/mb-text-line.png" afterPath="$PROJECT_DIR$/images/home/mb-home/mb-text-line.png" />
-      <change beforePath="$PROJECT_DIR$/images/home/mb-home/mb-top-muen.png" afterPath="$PROJECT_DIR$/images/home/mb-home/mb-top-muen.png" />
-      <change beforePath="$PROJECT_DIR$/images/home/pc-home/ani-bg.png" afterPath="$PROJECT_DIR$/images/home/pc-home/ani-bg.png" />
-      <change beforePath="$PROJECT_DIR$/images/home/pc-home/background.png" afterPath="$PROJECT_DIR$/images/home/pc-home/background.png" />
-      <change beforePath="$PROJECT_DIR$/images/home/pc-home/ball-a.png" afterPath="$PROJECT_DIR$/images/home/pc-home/ball-a.png" />
-      <change beforePath="$PROJECT_DIR$/images/home/pc-home/ball-b.png" afterPath="$PROJECT_DIR$/images/home/pc-home/ball-b.png" />
-      <change beforePath="$PROJECT_DIR$/images/home/pc-home/ball-c.png" afterPath="$PROJECT_DIR$/images/home/pc-home/ball-c.png" />
-      <change beforePath="$PROJECT_DIR$/images/home/pc-home/ball-d.png" afterPath="$PROJECT_DIR$/images/home/pc-home/ball-d.png" />
-      <change beforePath="$PROJECT_DIR$/images/home/pc-home/ball-e.png" afterPath="$PROJECT_DIR$/images/home/pc-home/ball-e.png" />
-      <change beforePath="$PROJECT_DIR$/images/home/pc-home/ball-f.png" afterPath="$PROJECT_DIR$/images/home/pc-home/ball-f.png" />
-      <change beforePath="$PROJECT_DIR$/images/home/pc-home/ball-g.png" afterPath="$PROJECT_DIR$/images/home/pc-home/ball-g.png" />
-      <change beforePath="$PROJECT_DIR$/images/home/pc-home/ball-h.png" afterPath="$PROJECT_DIR$/images/home/pc-home/ball-h.png" />
-      <change beforePath="$PROJECT_DIR$/images/home/pc-home/ball-i.png" afterPath="$PROJECT_DIR$/images/home/pc-home/ball-i.png" />
-      <change beforePath="$PROJECT_DIR$/images/home/pc-home/ball-j.png" afterPath="$PROJECT_DIR$/images/home/pc-home/ball-j.png" />
-      <change beforePath="$PROJECT_DIR$/images/home/pc-home/bg-bottom-left.png" afterPath="$PROJECT_DIR$/images/home/pc-home/bg-bottom-left.png" />
-      <change beforePath="$PROJECT_DIR$/images/home/pc-home/bg-bottom-right.png" afterPath="$PROJECT_DIR$/images/home/pc-home/bg-bottom-right.png" />
-      <change beforePath="$PROJECT_DIR$/images/home/pc-home/bg-top-left.png" afterPath="$PROJECT_DIR$/images/home/pc-home/bg-top-left.png" />
-      <change beforePath="$PROJECT_DIR$/images/home/pc-home/bg-top-right.png" afterPath="$PROJECT_DIR$/images/home/pc-home/bg-top-right.png" />
-      <change beforePath="$PROJECT_DIR$/images/home/pc-home/eye.png" afterPath="$PROJECT_DIR$/images/home/pc-home/eye.png" />
-      <change beforePath="$PROJECT_DIR$/images/home/pc-home/head-slind-bg.png" afterPath="$PROJECT_DIR$/images/home/pc-home/head-slind-bg.png" />
-      <change beforePath="$PROJECT_DIR$/images/home/pc-home/horn-ani.png" afterPath="$PROJECT_DIR$/images/home/pc-home/horn-ani.png" />
-      <change beforePath="$PROJECT_DIR$/images/home/pc-home/info-bg-left.png" afterPath="$PROJECT_DIR$/images/home/pc-home/info-bg-left.png" />
-      <change beforePath="$PROJECT_DIR$/images/home/pc-home/info-bg.png" afterPath="$PROJECT_DIR$/images/home/pc-home/info-bg.png" />
-      <change beforePath="$PROJECT_DIR$/images/home/pc-home/load-bg-2.png" afterPath="$PROJECT_DIR$/images/home/pc-home/load-bg-2.png" />
-      <change beforePath="$PROJECT_DIR$/images/home/pc-home/load-bg.png" afterPath="$PROJECT_DIR$/images/home/pc-home/load-bg.png" />
-      <change beforePath="$PROJECT_DIR$/images/home/pc-home/load-star.png" afterPath="$PROJECT_DIR$/images/home/pc-home/load-star.png" />
-      <change beforePath="$PROJECT_DIR$/images/home/pc-home/meteor1.png" afterPath="$PROJECT_DIR$/images/home/pc-home/meteor1.png" />
-      <change beforePath="$PROJECT_DIR$/images/home/pc-home/pond-ani.png" afterPath="$PROJECT_DIR$/images/home/pc-home/pond-ani.png" />
-      <change beforePath="$PROJECT_DIR$/images/home/pc-home/rivers-ani.png" afterPath="$PROJECT_DIR$/images/home/pc-home/rivers-ani.png" />
-      <change beforePath="$PROJECT_DIR$/images/home/pc-home/rocket.png" afterPath="$PROJECT_DIR$/images/home/pc-home/rocket.png" />
-      <change beforePath="$PROJECT_DIR$/images/home/pc-home/roller-ani.png" afterPath="$PROJECT_DIR$/images/home/pc-home/roller-ani.png" />
-      <change beforePath="$PROJECT_DIR$/images/home/pc-home/star.png" afterPath="$PROJECT_DIR$/images/home/pc-home/star.png" />
-      <change beforePath="$PROJECT_DIR$/images/home/pc-home/ufo-ani.png" afterPath="$PROJECT_DIR$/images/home/pc-home/ufo-ani.png" />
-      <change beforePath="$PROJECT_DIR$/images/join/mb/bottom-img.png" afterPath="$PROJECT_DIR$/images/join/mb/bottom-img.png" />
-      <change beforePath="$PROJECT_DIR$/images/join/pc/bg.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/images/join/pc/join-img.png" afterPath="$PROJECT_DIR$/images/join/pc/join-img.png" />
-      <change beforePath="$PROJECT_DIR$/images/news/mb-bottom-img.png" afterPath="$PROJECT_DIR$/images/news/mb-bottom-img.png" />
-      <change beforePath="$PROJECT_DIR$/images/projectflow/mb/flow.png" afterPath="$PROJECT_DIR$/images/projectflow/mb/flow.png" />
       <change beforePath="$PROJECT_DIR$/images/projectflow/pc/flow.png" afterPath="$PROJECT_DIR$/images/projectflow/pc/flow.png" />
-      <change beforePath="$PROJECT_DIR$/images/projrct/crystal/pc/bg.png" afterPath="$PROJECT_DIR$/images/projrct/crystal/pc/bg.png" />
-      <change beforePath="$PROJECT_DIR$/images/projrct/europa/mb/img.png" afterPath="$PROJECT_DIR$/images/projrct/europa/mb/img.png" />
-      <change beforePath="$PROJECT_DIR$/images/projrct/europa/pc/img-1.png" afterPath="$PROJECT_DIR$/images/projrct/europa/pc/img-1.png" />
-      <change beforePath="$PROJECT_DIR$/images/projrct/europa/pc/img-2.png" afterPath="$PROJECT_DIR$/images/projrct/europa/pc/img-2.png" />
-      <change beforePath="$PROJECT_DIR$/images/projrct/happyValley/mb/bg-b.png" afterPath="$PROJECT_DIR$/images/projrct/happyValley/mb/bg-b.png" />
-      <change beforePath="$PROJECT_DIR$/images/projrct/happyValley/mb/bg.png" afterPath="$PROJECT_DIR$/images/projrct/happyValley/mb/bg.png" />
-      <change beforePath="$PROJECT_DIR$/images/projrct/happyValley/pc/bg-02.png" afterPath="$PROJECT_DIR$/images/projrct/happyValley/pc/bg-02.png" />
-      <change beforePath="$PROJECT_DIR$/images/projrct/happyValley/pc/bg.png" afterPath="$PROJECT_DIR$/images/projrct/happyValley/pc/bg.png" />
-      <change beforePath="$PROJECT_DIR$/images/projrct/happyValley/pc/cline.png" afterPath="$PROJECT_DIR$/images/projrct/happyValley/pc/cline.png" />
-      <change beforePath="$PROJECT_DIR$/images/projrct/happyValley/pc/icon1.png" afterPath="$PROJECT_DIR$/images/projrct/happyValley/pc/icon1.png" />
-      <change beforePath="$PROJECT_DIR$/images/projrct/happyValley/pc/icon2.png" afterPath="$PROJECT_DIR$/images/projrct/happyValley/pc/icon2.png" />
-      <change beforePath="$PROJECT_DIR$/images/projrct/happyValley/pc/icon3.png" afterPath="$PROJECT_DIR$/images/projrct/happyValley/pc/icon3.png" />
-      <change beforePath="$PROJECT_DIR$/images/projrct/happyValley/pc/icon4.png" afterPath="$PROJECT_DIR$/images/projrct/happyValley/pc/icon4.png" />
-      <change beforePath="$PROJECT_DIR$/images/projrct/happyValley/pc/set-2.png" afterPath="$PROJECT_DIR$/images/projrct/happyValley/pc/set-2.png" />
-      <change beforePath="$PROJECT_DIR$/images/projrct/happyValley/pc/set-3-a.png" afterPath="$PROJECT_DIR$/images/projrct/happyValley/pc/set-3-a.png" />
-      <change beforePath="$PROJECT_DIR$/images/projrct/happyValley/pc/set-3-b.png" afterPath="$PROJECT_DIR$/images/projrct/happyValley/pc/set-3-b.png" />
-      <change beforePath="$PROJECT_DIR$/images/projrct/happyValley/pc/set-3-c.png" afterPath="$PROJECT_DIR$/images/projrct/happyValley/pc/set-3-c.png" />
-      <change beforePath="$PROJECT_DIR$/images/projrct/happyValley/pc/set-3-d.png" afterPath="$PROJECT_DIR$/images/projrct/happyValley/pc/set-3-d.png" />
-      <change beforePath="$PROJECT_DIR$/images/projrct/happyValley/pc/set-4-a.png" afterPath="$PROJECT_DIR$/images/projrct/happyValley/pc/set-4-a.png" />
-      <change beforePath="$PROJECT_DIR$/images/projrct/happyValley/pc/set-4-b.png" afterPath="$PROJECT_DIR$/images/projrct/happyValley/pc/set-4-b.png" />
-      <change beforePath="$PROJECT_DIR$/images/projrct/happyValley/pc/set-4-c.png" afterPath="$PROJECT_DIR$/images/projrct/happyValley/pc/set-4-c.png" />
-      <change beforePath="$PROJECT_DIR$/images/projrct/happyValley/pc/set-4-d.png" afterPath="$PROJECT_DIR$/images/projrct/happyValley/pc/set-4-d.png" />
-      <change beforePath="$PROJECT_DIR$/images/projrct/magicHouse/mb/bg-detali.png" afterPath="$PROJECT_DIR$/images/projrct/magicHouse/mb/bg-detali.png" />
-      <change beforePath="$PROJECT_DIR$/images/projrct/magicHouse/mb/bg.png" afterPath="$PROJECT_DIR$/images/projrct/magicHouse/mb/bg.png" />
-      <change beforePath="$PROJECT_DIR$/images/projrct/magicHouse/pc/bg-detali.png" afterPath="$PROJECT_DIR$/images/projrct/magicHouse/pc/bg-detali.png" />
-      <change beforePath="$PROJECT_DIR$/images/projrct/magicHouse/pc/bg.png" afterPath="$PROJECT_DIR$/images/projrct/magicHouse/pc/bg.png" />
-      <change beforePath="$PROJECT_DIR$/images/projrct/magicHouse/pc/icon1.png" afterPath="$PROJECT_DIR$/images/projrct/magicHouse/pc/icon1.png" />
-      <change beforePath="$PROJECT_DIR$/images/projrct/magicHouse/pc/icon2.png" afterPath="$PROJECT_DIR$/images/projrct/magicHouse/pc/icon2.png" />
-      <change beforePath="$PROJECT_DIR$/images/projrct/magicHouse/pc/icon3.png" afterPath="$PROJECT_DIR$/images/projrct/magicHouse/pc/icon3.png" />
-      <change beforePath="$PROJECT_DIR$/images/projrct/magicHouse/pc/icon4.png" afterPath="$PROJECT_DIR$/images/projrct/magicHouse/pc/icon4.png" />
-      <change beforePath="$PROJECT_DIR$/images/projrct/magicHouse/pc/set-2.png" afterPath="$PROJECT_DIR$/images/projrct/magicHouse/pc/set-2.png" />
-      <change beforePath="$PROJECT_DIR$/images/projrct/marineMuseum/mb/img.png" afterPath="$PROJECT_DIR$/images/projrct/marineMuseum/mb/img.png" />
-      <change beforePath="$PROJECT_DIR$/images/projrct/marineMuseum/pc/img.png" afterPath="$PROJECT_DIR$/images/projrct/marineMuseum/pc/img.png" />
-      <change beforePath="$PROJECT_DIR$/images/projrct/matching/mb/bg-detail.png" afterPath="$PROJECT_DIR$/images/projrct/matching/mb/bg-detail.png" />
-      <change beforePath="$PROJECT_DIR$/images/projrct/matching/mb/bg.png" afterPath="$PROJECT_DIR$/images/projrct/matching/mb/bg.png" />
-      <change beforePath="$PROJECT_DIR$/images/projrct/matching/pc/bg-detail.png" afterPath="$PROJECT_DIR$/images/projrct/matching/pc/bg-detail.png" />
-      <change beforePath="$PROJECT_DIR$/images/projrct/matching/pc/bg.png" afterPath="$PROJECT_DIR$/images/projrct/matching/pc/bg.png" />
-      <change beforePath="$PROJECT_DIR$/images/projrct/matching/pc/ste-1.png" afterPath="$PROJECT_DIR$/images/projrct/matching/pc/ste-1.png" />
-      <change beforePath="$PROJECT_DIR$/images/projrct/maze/mb/bg.png" afterPath="$PROJECT_DIR$/images/projrct/maze/mb/bg.png" />
-      <change beforePath="$PROJECT_DIR$/images/projrct/maze/pc/bg.png" afterPath="$PROJECT_DIR$/images/projrct/maze/pc/bg.png" />
-      <change beforePath="$PROJECT_DIR$/images/projrct/monomer/mb/img.png" afterPath="$PROJECT_DIR$/images/projrct/monomer/mb/img.png" />
-      <change beforePath="$PROJECT_DIR$/images/projrct/monomer/pc/bg-b.png" afterPath="$PROJECT_DIR$/images/projrct/monomer/pc/bg-b.png" />
-      <change beforePath="$PROJECT_DIR$/images/projrct/odyssey/mb/bg-detail.png" afterPath="$PROJECT_DIR$/images/projrct/odyssey/mb/bg-detail.png" />
-      <change beforePath="$PROJECT_DIR$/images/projrct/odyssey/mb/bg.png" afterPath="$PROJECT_DIR$/images/projrct/odyssey/mb/bg.png" />
-      <change beforePath="$PROJECT_DIR$/images/projrct/odyssey/pc/bg-detail.png" afterPath="$PROJECT_DIR$/images/projrct/odyssey/pc/bg-detail.png" />
-      <change beforePath="$PROJECT_DIR$/images/projrct/odyssey/pc/bg.png" afterPath="$PROJECT_DIR$/images/projrct/odyssey/pc/bg.png" />
-      <change beforePath="$PROJECT_DIR$/images/projrct/odyssey/pc/icon1.png" afterPath="$PROJECT_DIR$/images/projrct/odyssey/pc/icon1.png" />
-      <change beforePath="$PROJECT_DIR$/images/projrct/odyssey/pc/icon2.png" afterPath="$PROJECT_DIR$/images/projrct/odyssey/pc/icon2.png" />
-      <change beforePath="$PROJECT_DIR$/images/projrct/odyssey/pc/icon3.png" afterPath="$PROJECT_DIR$/images/projrct/odyssey/pc/icon3.png" />
-      <change beforePath="$PROJECT_DIR$/images/projrct/odyssey/pc/icon4.png" afterPath="$PROJECT_DIR$/images/projrct/odyssey/pc/icon4.png" />
-      <change beforePath="$PROJECT_DIR$/images/projrct/odyssey/pc/set-2.png" afterPath="$PROJECT_DIR$/images/projrct/odyssey/pc/set-2.png" />
-      <change beforePath="$PROJECT_DIR$/images/projrct/odyssey/pc/set-3.png" afterPath="$PROJECT_DIR$/images/projrct/odyssey/pc/set-3.png" />
-      <change beforePath="$PROJECT_DIR$/images/projrct/odyssey/pc/set-4.png" afterPath="$PROJECT_DIR$/images/projrct/odyssey/pc/set-4.png" />
-      <change beforePath="$PROJECT_DIR$/images/projrct/playground/mb/bg-detail.png" afterPath="$PROJECT_DIR$/images/projrct/playground/mb/bg-detail.png" />
-      <change beforePath="$PROJECT_DIR$/images/projrct/playground/mb/bg.png" afterPath="$PROJECT_DIR$/images/projrct/playground/mb/bg.png" />
-      <change beforePath="$PROJECT_DIR$/images/projrct/playground/pc/bg-detail.png" afterPath="$PROJECT_DIR$/images/projrct/playground/pc/bg-detail.png" />
-      <change beforePath="$PROJECT_DIR$/images/projrct/playground/pc/bg.png" afterPath="$PROJECT_DIR$/images/projrct/playground/pc/bg.png" />
-      <change beforePath="$PROJECT_DIR$/images/projrct/playground/pc/icon1.png" afterPath="$PROJECT_DIR$/images/projrct/playground/pc/icon1.png" />
-      <change beforePath="$PROJECT_DIR$/images/projrct/playground/pc/icon2.png" afterPath="$PROJECT_DIR$/images/projrct/playground/pc/icon2.png" />
-      <change beforePath="$PROJECT_DIR$/images/projrct/playground/pc/icon3.png" afterPath="$PROJECT_DIR$/images/projrct/playground/pc/icon3.png" />
-      <change beforePath="$PROJECT_DIR$/images/projrct/playground/pc/icon4.png" afterPath="$PROJECT_DIR$/images/projrct/playground/pc/icon4.png" />
-      <change beforePath="$PROJECT_DIR$/images/projrct/playground/pc/set-2.png" afterPath="$PROJECT_DIR$/images/projrct/playground/pc/set-2.png" />
-      <change beforePath="$PROJECT_DIR$/images/projrct/rain/mb/bg.png" afterPath="$PROJECT_DIR$/images/projrct/rain/mb/bg.png" />
-      <change beforePath="$PROJECT_DIR$/images/projrct/rain/pc/bg.png" afterPath="$PROJECT_DIR$/images/projrct/rain/pc/bg.png" />
-      <change beforePath="$PROJECT_DIR$/images/projrct/waterPark/mb/bg.png" afterPath="$PROJECT_DIR$/images/projrct/waterPark/mb/bg.png" />
-      <change beforePath="$PROJECT_DIR$/images/projrct/waterPark/pc/bg.png" afterPath="$PROJECT_DIR$/images/projrct/waterPark/pc/bg.png" />
-      <change beforePath="$PROJECT_DIR$/images/survey/mb/partner.png" afterPath="$PROJECT_DIR$/images/survey/mb/partner.png" />
-      <change beforePath="$PROJECT_DIR$/images/survey/pc/logo.png" afterPath="$PROJECT_DIR$/images/survey/pc/logo.png" />
       <change beforePath="$PROJECT_DIR$/images/survey/pc/pana-bg.png" afterPath="$PROJECT_DIR$/images/survey/pc/pana-bg.png" />
-      <change beforePath="$PROJECT_DIR$/images/survey/pc/partner.png" afterPath="" />
       <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change beforePath="$PROJECT_DIR$/js/index.js" afterPath="$PROJECT_DIR$/js/index.js" />
-      <change beforePath="$PROJECT_DIR$/js/projrct.js" afterPath="$PROJECT_DIR$/js/projrct.js" />
-      <change beforePath="$PROJECT_DIR$/js/public.js" afterPath="$PROJECT_DIR$/js/public.js" />
+      <change beforePath="$PROJECT_DIR$/page/survey/survey.html" afterPath="$PROJECT_DIR$/page/survey/survey.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -147,8 +30,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="152" column="72" lean-forward="false" selection-start-line="152" selection-start-column="72" selection-end-line="152" selection-end-column="72" />
+            <state relative-caret-position="287">
+              <caret line="76" column="40" lean-forward="false" selection-start-line="76" selection-start-column="40" selection-end-line="76" selection-end-column="40" />
               <folding>
                 <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -163,14 +46,14 @@
       <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="14182" lean-forward="false" selection-start-line="0" selection-start-column="14182" selection-end-line="0" selection-end-column="14182" />
+            <state relative-caret-position="584">
+              <caret line="394" column="17" lean-forward="true" selection-start-line="394" selection-start-column="17" selection-end-line="394" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="projrct.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="projrct.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/projrct.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="808">
@@ -183,9 +66,19 @@
       <file leaf-file-name="public.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/public.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="9741" lean-forward="false" selection-start-line="0" selection-start-column="9741" selection-end-line="0" selection-end-column="9741" />
-              <folding />
+            <state relative-caret-position="700">
+              <caret line="680" column="0" lean-forward="true" selection-start-line="680" selection-start-column="0" selection-end-line="680" selection-end-column="0" />
+              <folding>
+                <element signature="e#3039#3138#0" expanded="false" />
+                <element signature="e#3150#3215#0" expanded="false" />
+                <element signature="e#3227#3449#0" expanded="false" />
+                <element signature="e#3462#3587#0" expanded="false" />
+                <element signature="e#3857#3975#0" expanded="false" />
+                <element signature="e#3976#4114#0" expanded="false" />
+                <element signature="e#4115#4463#0" expanded="false" />
+                <element signature="e#10837#10878#0" expanded="false" />
+                <element signature="e#10879#12194#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -203,8 +96,18 @@
       <file leaf-file-name="sublevel.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/sublevel.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="8609" lean-forward="false" selection-start-line="0" selection-start-column="8609" selection-end-line="0" selection-end-column="8609" />
+            <state relative-caret-position="71">
+              <caret line="581" column="5" lean-forward="true" selection-start-line="581" selection-start-column="5" selection-end-line="581" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="survey.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/page/survey/survey.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="599">
+              <caret line="237" column="24" lean-forward="false" selection-start-line="237" selection-start-column="16" selection-end-line="237" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -217,11 +120,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="729">
+              <caret line="27" column="11" lean-forward="false" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -252,14 +155,8 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.conten</find>
-      <find>单体设备</find>
-      <find>footer-info</find>
-      <find>.mb-page-nav li a</find>
-      <find>right-fox</find>
       <find>contact-img</find>
       <find>.project-nav li</find>
-      <find>.sne-ani.horn-scale</find>
       <find>roller-scale</find>
       <find>暴雨山洪</find>
       <find>heart</find>
@@ -278,10 +175,16 @@
       <find>load-bg-2</find>
       <find>.project-bg</find>
       <find>.poj-title-fox p</find>
-      <find>head-slind-bg</find>
-      <find>法律</find>
       <find>law-img</find>
       <find>.poj-body</find>
+      <find>head-slind-bg</find>
+      <find>.eye-img</find>
+      <find>star-ani</find>
+      <find>特</find>
+      <find>.sne-ani.horn-scale</find>
+      <find>.sne-ani.roller-scale</find>
+      <find>法律</find>
+      <find>.survey-conten</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -306,7 +209,6 @@
         <option value="$PROJECT_DIR$/css/news.css" />
         <option value="$PROJECT_DIR$/map.html" />
         <option value="$PROJECT_DIR$/page/projectflow/rojectflow.html" />
-        <option value="$PROJECT_DIR$/page/survey/survey.html" />
         <option value="$PROJECT_DIR$/page/join/join.html" />
         <option value="$PROJECT_DIR$/page/news/news.html" />
         <option value="$PROJECT_DIR$/page/projectflow/projectflow.html" />
@@ -333,14 +235,15 @@
         <option value="$USER_HOME$/Desktop/jiaoben5514/index.html" />
         <option value="$PROJECT_DIR$/page/law/law.html" />
         <option value="$PROJECT_DIR$/page/law/law-pc.html" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/css/index.css" />
-        <option value="$PROJECT_DIR$/css/public.css" />
-        <option value="$PROJECT_DIR$/css/sublevel.css" />
-        <option value="$PROJECT_DIR$/js/index.js" />
         <option value="$PROJECT_DIR$/js/projrct.js" />
         <option value="$PROJECT_DIR$/js/public.js" />
         <option value="$PROJECT_DIR$/css/projrct.css" />
+        <option value="$PROJECT_DIR$/css/public.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/index.css" />
+        <option value="$PROJECT_DIR$/page/survey/survey.html" />
+        <option value="$PROJECT_DIR$/css/sublevel.css" />
+        <option value="$PROJECT_DIR$/js/index.js" />
       </list>
     </option>
   </component>
@@ -483,12 +386,12 @@
       <workItem from="1554529860939" duration="29018000" />
       <workItem from="1554610145968" duration="10824000" />
       <workItem from="1554729617996" duration="6037000" />
-      <workItem from="1554816112153" duration="8920000" />
+      <workItem from="1554816112153" duration="12025000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="173234000" />
+    <option name="totallyTimeSpent" value="176339000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -733,16 +636,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page/survey/survey.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="569">
-          <caret line="234" column="18" lean-forward="true" selection-start-line="212" selection-start-column="10" selection-end-line="234" selection-end-column="18" />
-          <folding>
-            <element signature="n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/page/law/law-pc.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="366">
@@ -755,47 +648,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="152" column="72" lean-forward="false" selection-start-line="152" selection-start-column="72" selection-end-line="152" selection-end-column="72" />
-          <folding>
-            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#15429#16659#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/home/pc-home/head-slind-bg.png">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/public.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="9741" lean-forward="false" selection-start-line="0" selection-start-column="9741" selection-end-line="0" selection-end-column="9741" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="14182" lean-forward="false" selection-start-line="0" selection-start-column="14182" selection-end-line="0" selection-end-column="14182" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/images/projrct/crystal/pc/bg.png">
@@ -806,14 +661,6 @@
     <entry file="file://$PROJECT_DIR$/images/projrct/europa/mb/img.png">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/sublevel.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="8609" lean-forward="false" selection-start-line="0" selection-start-column="8609" selection-end-line="0" selection-end-column="8609" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/images/survey/pc/pana-bg.png">
@@ -846,6 +693,70 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="808">
           <caret line="1136" column="1" lean-forward="false" selection-start-line="1136" selection-start-column="1" selection-end-line="1136" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/public.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="680" column="0" lean-forward="true" selection-start-line="680" selection-start-column="0" selection-end-line="680" selection-end-column="0" />
+          <folding>
+            <element signature="e#3039#3138#0" expanded="false" />
+            <element signature="e#3150#3215#0" expanded="false" />
+            <element signature="e#3227#3449#0" expanded="false" />
+            <element signature="e#3462#3587#0" expanded="false" />
+            <element signature="e#3857#3975#0" expanded="false" />
+            <element signature="e#3976#4114#0" expanded="false" />
+            <element signature="e#4115#4463#0" expanded="false" />
+            <element signature="e#10837#10878#0" expanded="false" />
+            <element signature="e#10879#12194#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="76" column="40" lean-forward="false" selection-start-line="76" selection-start-column="40" selection-end-line="76" selection-end-column="40" />
+          <folding>
+            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#15429#16659#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="584">
+          <caret line="394" column="17" lean-forward="true" selection-start-line="394" selection-start-column="17" selection-end-line="394" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/survey/survey.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="599">
+          <caret line="237" column="24" lean-forward="false" selection-start-line="237" selection-start-column="16" selection-end-line="237" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/sublevel.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="581" column="5" lean-forward="true" selection-start-line="581" selection-start-column="5" selection-end-line="581" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="729">
+          <caret line="27" column="11" lean-forward="false" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
           <folding />
         </state>
       </provider>
