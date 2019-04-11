@@ -6,14 +6,70 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="87f70ea5-6a14-41a8-94a7-660dad2c7885" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/projrct/common/logo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/projrct/odyssey/pc/movie.mp4" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/projrct/odyssey/pc/ody.mp4" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/css/index.css" afterPath="$PROJECT_DIR$/css/index.css" />
-      <change beforePath="$PROJECT_DIR$/css/public.css" afterPath="$PROJECT_DIR$/css/public.css" />
-      <change beforePath="$PROJECT_DIR$/css/sublevel.css" afterPath="$PROJECT_DIR$/css/sublevel.css" />
-      <change beforePath="$PROJECT_DIR$/images/projectflow/pc/flow.png" afterPath="$PROJECT_DIR$/images/projectflow/pc/flow.png" />
-      <change beforePath="$PROJECT_DIR$/images/survey/pc/pana-bg.png" afterPath="$PROJECT_DIR$/images/survey/pc/pana-bg.png" />
+      <change beforePath="$PROJECT_DIR$/css/projrct.css" afterPath="$PROJECT_DIR$/css/projrct.css" />
+      <change beforePath="$PROJECT_DIR$/images/home/pc-home/ani-bg.png" afterPath="$PROJECT_DIR$/images/home/pc-home/ani-bg.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/crystal/pc/bg.png" afterPath="$PROJECT_DIR$/images/projrct/crystal/pc/bg.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/europa/mb/img.png" afterPath="$PROJECT_DIR$/images/projrct/europa/mb/img.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/europa/pc/img-1.png" afterPath="$PROJECT_DIR$/images/projrct/europa/pc/img-1.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/europa/pc/img-2.png" afterPath="$PROJECT_DIR$/images/projrct/europa/pc/img-2.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/happyValley/mb/bg-b.png" afterPath="$PROJECT_DIR$/images/projrct/happyValley/mb/bg-b.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/happyValley/mb/bg.png" afterPath="$PROJECT_DIR$/images/projrct/happyValley/mb/bg.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/happyValley/pc/bg-02.png" afterPath="$PROJECT_DIR$/images/projrct/happyValley/pc/bg-02.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/happyValley/pc/bg.png" afterPath="$PROJECT_DIR$/images/projrct/happyValley/pc/bg.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/happyValley/pc/set-2.png" afterPath="$PROJECT_DIR$/images/projrct/happyValley/pc/set-2.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/happyValley/pc/set-3-a.png" afterPath="$PROJECT_DIR$/images/projrct/happyValley/pc/set-3-a.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/happyValley/pc/set-3-b.png" afterPath="$PROJECT_DIR$/images/projrct/happyValley/pc/set-3-b.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/happyValley/pc/set-3-c.png" afterPath="$PROJECT_DIR$/images/projrct/happyValley/pc/set-3-c.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/happyValley/pc/set-3-d.png" afterPath="$PROJECT_DIR$/images/projrct/happyValley/pc/set-3-d.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/happyValley/pc/set-4-a.png" afterPath="$PROJECT_DIR$/images/projrct/happyValley/pc/set-4-a.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/happyValley/pc/set-4-b.png" afterPath="$PROJECT_DIR$/images/projrct/happyValley/pc/set-4-b.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/happyValley/pc/set-4-c.png" afterPath="$PROJECT_DIR$/images/projrct/happyValley/pc/set-4-c.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/happyValley/pc/set-4-d.png" afterPath="$PROJECT_DIR$/images/projrct/happyValley/pc/set-4-d.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/magicHouse/mb/bg-detali.png" afterPath="$PROJECT_DIR$/images/projrct/magicHouse/mb/bg-detali.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/magicHouse/mb/bg.png" afterPath="$PROJECT_DIR$/images/projrct/magicHouse/mb/bg.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/magicHouse/pc/bg-detali.png" afterPath="$PROJECT_DIR$/images/projrct/magicHouse/pc/bg-detali.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/magicHouse/pc/bg.png" afterPath="$PROJECT_DIR$/images/projrct/magicHouse/pc/bg.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/magicHouse/pc/set-2.png" afterPath="$PROJECT_DIR$/images/projrct/magicHouse/pc/set-2.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/marineMuseum/mb/img.png" afterPath="$PROJECT_DIR$/images/projrct/marineMuseum/mb/img.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/marineMuseum/pc/img.png" afterPath="$PROJECT_DIR$/images/projrct/marineMuseum/pc/img.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/matching/mb/bg-detail.png" afterPath="$PROJECT_DIR$/images/projrct/matching/mb/bg-detail.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/matching/mb/bg.png" afterPath="$PROJECT_DIR$/images/projrct/matching/mb/bg.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/matching/pc/bg-detail.png" afterPath="$PROJECT_DIR$/images/projrct/matching/pc/bg-detail.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/matching/pc/ste-1.png" afterPath="$PROJECT_DIR$/images/projrct/matching/pc/ste-1.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/maze/mb/bg.png" afterPath="$PROJECT_DIR$/images/projrct/maze/mb/bg.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/monomer/mb/img.png" afterPath="$PROJECT_DIR$/images/projrct/monomer/mb/img.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/odyssey/mb/bg-detail.png" afterPath="$PROJECT_DIR$/images/projrct/odyssey/mb/bg-detail.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/odyssey/mb/bg.png" afterPath="$PROJECT_DIR$/images/projrct/odyssey/mb/bg.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/odyssey/pc/bg-detail.png" afterPath="$PROJECT_DIR$/images/projrct/odyssey/pc/bg-detail.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/odyssey/pc/bg.png" afterPath="$PROJECT_DIR$/images/projrct/odyssey/pc/bg.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/odyssey/pc/set-2.png" afterPath="$PROJECT_DIR$/images/projrct/odyssey/pc/set-2.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/odyssey/pc/set-3.png" afterPath="$PROJECT_DIR$/images/projrct/odyssey/pc/set-3.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/odyssey/pc/set-4.png" afterPath="$PROJECT_DIR$/images/projrct/odyssey/pc/set-4.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/playground/mb/bg-detail.png" afterPath="$PROJECT_DIR$/images/projrct/playground/mb/bg-detail.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/playground/mb/bg.png" afterPath="$PROJECT_DIR$/images/projrct/playground/mb/bg.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/playground/pc/bg-detail.png" afterPath="$PROJECT_DIR$/images/projrct/playground/pc/bg-detail.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/playground/pc/set-2.png" afterPath="$PROJECT_DIR$/images/projrct/playground/pc/set-2.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/rain/mb/bg.png" afterPath="$PROJECT_DIR$/images/projrct/rain/mb/bg.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/waterPark/mb/bg.png" afterPath="$PROJECT_DIR$/images/projrct/waterPark/mb/bg.png" />
       <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change beforePath="$PROJECT_DIR$/js/index.js" afterPath="$PROJECT_DIR$/js/index.js" />
-      <change beforePath="$PROJECT_DIR$/page/survey/survey.html" afterPath="$PROJECT_DIR$/page/survey/survey.html" />
+      <change beforePath="$PROJECT_DIR$/js/public.js" afterPath="$PROJECT_DIR$/js/public.js" />
+      <change beforePath="$PROJECT_DIR$/page/projrct/crystal.html" afterPath="$PROJECT_DIR$/page/projrct/crystal.html" />
+      <change beforePath="$PROJECT_DIR$/page/projrct/happyValley.html" afterPath="$PROJECT_DIR$/page/projrct/happyValley.html" />
+      <change beforePath="$PROJECT_DIR$/page/projrct/magicHouse.html" afterPath="$PROJECT_DIR$/page/projrct/magicHouse.html" />
+      <change beforePath="$PROJECT_DIR$/page/projrct/matching.html" afterPath="$PROJECT_DIR$/page/projrct/matching.html" />
+      <change beforePath="$PROJECT_DIR$/page/projrct/maze.html" afterPath="$PROJECT_DIR$/page/projrct/maze.html" />
+      <change beforePath="$PROJECT_DIR$/page/projrct/monomer.html" afterPath="$PROJECT_DIR$/page/projrct/monomer.html" />
+      <change beforePath="$PROJECT_DIR$/page/projrct/odyssey.html" afterPath="$PROJECT_DIR$/page/projrct/odyssey.html" />
+      <change beforePath="$PROJECT_DIR$/page/projrct/odysseydetail.html" afterPath="$PROJECT_DIR$/page/projrct/odysseydetail.html" />
+      <change beforePath="$PROJECT_DIR$/page/projrct/playground.html" afterPath="$PROJECT_DIR$/page/projrct/playground.html" />
+      <change beforePath="$PROJECT_DIR$/page/projrct/rain.html" afterPath="$PROJECT_DIR$/page/projrct/rain.html" />
+      <change beforePath="$PROJECT_DIR$/page/projrct/waterPark.html" afterPath="$PROJECT_DIR$/page/projrct/waterPark.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,14 +86,14 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="76" column="40" lean-forward="false" selection-start-line="76" selection-start-column="40" selection-end-line="76" selection-end-column="40" />
+            <state relative-caret-position="403">
+              <caret line="152" column="35" lean-forward="false" selection-start-line="152" selection-start-column="30" selection-end-line="152" selection-end-column="35" />
               <folding>
                 <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="e#15429#16659#0" expanded="false" />
+                <element signature="e#15675#16905#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -46,95 +102,88 @@
       <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="584">
-              <caret line="394" column="17" lean-forward="true" selection-start-line="394" selection-start-column="17" selection-end-line="394" selection-end-column="17" />
+            <state relative-caret-position="241">
+              <caret line="238" column="19" lean-forward="false" selection-start-line="238" selection-start-column="19" selection-end-line="238" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="projrct.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/projrct.css">
+      <file leaf-file-name="matching.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/page/projrct/matching.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="808">
-              <caret line="1136" column="1" lean-forward="false" selection-start-line="1136" selection-start-column="1" selection-end-line="1136" selection-end-column="1" />
+            <state relative-caret-position="594">
+              <caret line="85" column="77" lean-forward="false" selection-start-line="85" selection-start-column="77" selection-end-line="85" selection-end-column="77" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="public.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/public.css">
+      <file leaf-file-name="maze.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/page/projrct/maze.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="700">
-              <caret line="680" column="0" lean-forward="true" selection-start-line="680" selection-start-column="0" selection-end-line="680" selection-end-column="0" />
-              <folding>
-                <element signature="e#3039#3138#0" expanded="false" />
-                <element signature="e#3150#3215#0" expanded="false" />
-                <element signature="e#3227#3449#0" expanded="false" />
-                <element signature="e#3462#3587#0" expanded="false" />
-                <element signature="e#3857#3975#0" expanded="false" />
-                <element signature="e#3976#4114#0" expanded="false" />
-                <element signature="e#4115#4463#0" expanded="false" />
-                <element signature="e#10837#10878#0" expanded="false" />
-                <element signature="e#10879#12194#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="public.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/public.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="811">
-              <caret line="47" column="2" lean-forward="false" selection-start-line="47" selection-start-column="2" selection-end-line="47" selection-end-column="2" />
+            <state relative-caret-position="-430">
+              <caret line="80" column="21" lean-forward="false" selection-start-line="80" selection-start-column="21" selection-end-line="80" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sublevel.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/sublevel.css">
+      <file leaf-file-name="monomer.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/page/projrct/monomer.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="71">
-              <caret line="581" column="5" lean-forward="true" selection-start-line="581" selection-start-column="5" selection-end-line="581" selection-end-column="5" />
+            <state relative-caret-position="567">
+              <caret line="207" column="77" lean-forward="false" selection-start-line="207" selection-start-column="77" selection-end-line="207" selection-end-column="77" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="survey.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/page/survey/survey.html">
+      <file leaf-file-name="odyssey.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/page/projrct/odyssey.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="599">
-              <caret line="237" column="24" lean-forward="false" selection-start-line="237" selection-start-column="16" selection-end-line="237" selection-end-column="24" />
+            <state relative-caret-position="512">
+              <caret line="85" column="77" lean-forward="false" selection-start-line="85" selection-start-column="77" selection-end-line="85" selection-end-column="77" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pana-bg.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images/survey/pc/pana-bg.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
+      <file leaf-file-name="playground.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/page/projrct/playground.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="258">
+              <caret line="85" column="77" lean-forward="false" selection-start-line="85" selection-start-column="77" selection-end-line="85" selection-end-column="77" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="729">
-              <caret line="27" column="11" lean-forward="false" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+            <state relative-caret-position="378">
+              <caret line="19" column="9" lean-forward="false" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="projrct.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/projrct.js">
+      <file leaf-file-name="rain.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/page/projrct/rain.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="621">
-              <caret line="23" column="2" lean-forward="false" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
+            <state relative-caret-position="270">
+              <caret line="85" column="77" lean-forward="false" selection-start-line="85" selection-start-column="77" selection-end-line="85" selection-end-column="77" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="waterPark.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/page/projrct/waterPark.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="353">
+              <caret line="85" column="77" lean-forward="false" selection-start-line="85" selection-start-column="77" selection-end-line="85" selection-end-column="77" />
               <folding />
             </state>
           </provider>
@@ -155,8 +204,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>contact-img</find>
-      <find>.project-nav li</find>
       <find>roller-scale</find>
       <find>暴雨山洪</find>
       <find>heart</find>
@@ -175,7 +222,6 @@
       <find>load-bg-2</find>
       <find>.project-bg</find>
       <find>.poj-title-fox p</find>
-      <find>law-img</find>
       <find>.poj-body</find>
       <find>head-slind-bg</find>
       <find>.eye-img</find>
@@ -185,6 +231,9 @@
       <find>.sne-ani.roller-scale</find>
       <find>法律</find>
       <find>.survey-conten</find>
+      <find>law-img</find>
+      <find>contact-img</find>
+      <find>奥</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -213,36 +262,36 @@
         <option value="$PROJECT_DIR$/page/news/news.html" />
         <option value="$PROJECT_DIR$/page/projectflow/projectflow.html" />
         <option value="$PROJECT_DIR$/page/projrct/happyValleydetail.html" />
-        <option value="$PROJECT_DIR$/page/projrct/crystal.html" />
-        <option value="$PROJECT_DIR$/page/projrct/happyValley.html" />
         <option value="$PROJECT_DIR$/page/creative/creative.html" />
         <option value="$PROJECT_DIR$/page/contact/contact.html" />
         <option value="$PROJECT_DIR$/page/projrct/europa.html" />
-        <option value="$PROJECT_DIR$/page/projrct/magicHouse.html" />
         <option value="$PROJECT_DIR$/page/projrct/magicHousedetail.html" />
         <option value="$PROJECT_DIR$/page/projrct/marineMuseum.html" />
-        <option value="$PROJECT_DIR$/page/projrct/matching.html" />
         <option value="$PROJECT_DIR$/page/projrct/matchingdetail.html" />
-        <option value="$PROJECT_DIR$/page/projrct/maze.html" />
-        <option value="$PROJECT_DIR$/page/projrct/monomer.html" />
-        <option value="$PROJECT_DIR$/page/projrct/odyssey.html" />
-        <option value="$PROJECT_DIR$/page/projrct/odysseydetail.html" />
-        <option value="$PROJECT_DIR$/page/projrct/playground.html" />
         <option value="$PROJECT_DIR$/page/projrct/playgrounddetail.html" />
-        <option value="$PROJECT_DIR$/page/projrct/rain.html" />
-        <option value="$PROJECT_DIR$/page/projrct/waterPark.html" />
         <option value="$PROJECT_DIR$/test.html" />
         <option value="$USER_HOME$/Desktop/jiaoben5514/index.html" />
         <option value="$PROJECT_DIR$/page/law/law.html" />
         <option value="$PROJECT_DIR$/page/law/law-pc.html" />
         <option value="$PROJECT_DIR$/js/projrct.js" />
-        <option value="$PROJECT_DIR$/js/public.js" />
-        <option value="$PROJECT_DIR$/css/projrct.css" />
         <option value="$PROJECT_DIR$/css/public.css" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/css/index.css" />
         <option value="$PROJECT_DIR$/page/survey/survey.html" />
         <option value="$PROJECT_DIR$/css/sublevel.css" />
+        <option value="$PROJECT_DIR$/js/public.js" />
+        <option value="$PROJECT_DIR$/page/projrct/odysseydetail.html" />
+        <option value="$PROJECT_DIR$/page/projrct/happyValley.html" />
+        <option value="$PROJECT_DIR$/css/projrct.css" />
+        <option value="$PROJECT_DIR$/page/projrct/crystal.html" />
+        <option value="$PROJECT_DIR$/page/projrct/magicHouse.html" />
+        <option value="$PROJECT_DIR$/page/projrct/matching.html" />
+        <option value="$PROJECT_DIR$/page/projrct/monomer.html" />
+        <option value="$PROJECT_DIR$/page/projrct/odyssey.html" />
+        <option value="$PROJECT_DIR$/page/projrct/playground.html" />
+        <option value="$PROJECT_DIR$/page/projrct/rain.html" />
+        <option value="$PROJECT_DIR$/page/projrct/waterPark.html" />
+        <option value="$PROJECT_DIR$/page/projrct/maze.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/index.css" />
         <option value="$PROJECT_DIR$/js/index.js" />
       </list>
     </option>
@@ -293,6 +342,84 @@
             <path>
               <item name="zhengdou" type="b2602c69:ProjectViewProjectNode" />
               <item name="zhengdou" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zhengdou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zhengdou" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="projrct" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zhengdou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zhengdou" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="projrct" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zhengdou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zhengdou" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="projrct" type="462c0819:PsiDirectoryNode" />
+              <item name="crystal" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zhengdou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zhengdou" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="projrct" type="462c0819:PsiDirectoryNode" />
+              <item name="crystal" type="462c0819:PsiDirectoryNode" />
+              <item name="pc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zhengdou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zhengdou" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="projrct" type="462c0819:PsiDirectoryNode" />
+              <item name="europa" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zhengdou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zhengdou" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="projrct" type="462c0819:PsiDirectoryNode" />
+              <item name="europa" type="462c0819:PsiDirectoryNode" />
+              <item name="pc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zhengdou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zhengdou" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="projrct" type="462c0819:PsiDirectoryNode" />
+              <item name="happyValley" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zhengdou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zhengdou" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="projrct" type="462c0819:PsiDirectoryNode" />
+              <item name="happyValley" type="462c0819:PsiDirectoryNode" />
+              <item name="pc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zhengdou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zhengdou" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="projrct" type="462c0819:PsiDirectoryNode" />
+              <item name="odyssey" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zhengdou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zhengdou" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="projrct" type="462c0819:PsiDirectoryNode" />
+              <item name="odyssey" type="462c0819:PsiDirectoryNode" />
+              <item name="pc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zhengdou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zhengdou" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -316,6 +443,12 @@
               <item name="zhengdou" type="b2602c69:ProjectViewProjectNode" />
               <item name="zhengdou" type="462c0819:PsiDirectoryNode" />
               <item name="page" type="462c0819:PsiDirectoryNode" />
+              <item name="projrct" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zhengdou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zhengdou" type="462c0819:PsiDirectoryNode" />
+              <item name="page" type="462c0819:PsiDirectoryNode" />
               <item name="survey" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -334,19 +467,19 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\project\zhengdou\images\projrct\odyssey\pc" />
+      <recent name="D:\project\zhengdou\images\projrct\common" />
+      <recent name="D:\project\zhengdou\images\projrct\happyValley\pc" />
+      <recent name="D:\project\zhengdou\images\projrct\crystal\pc" />
+      <recent name="D:\project\zhengdou\images\survey\mb" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\project\zhengdou\images\survey\pc" />
       <recent name="D:\project\zhengdou\images\common" />
       <recent name="D:\project\zhengdou\images\projrct\Monomer\pc" />
       <recent name="D:\project\zhengdou\images\projrct\common" />
       <recent name="D:\project\zhengdou\images\projrct" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\project\zhengdou\images\survey\mb" />
-      <recent name="D:\project\zhengdou\images\survey\pc" />
-      <recent name="D:\project\zhengdou\images\projectflow\mb" />
-      <recent name="D:\project\zhengdou\images\projectflow\pc" />
-      <recent name="D:\project\zhengdou\images\news" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -386,12 +519,13 @@
       <workItem from="1554529860939" duration="29018000" />
       <workItem from="1554610145968" duration="10824000" />
       <workItem from="1554729617996" duration="6037000" />
-      <workItem from="1554816112153" duration="12025000" />
+      <workItem from="1554816112153" duration="12261000" />
+      <workItem from="1554989193202" duration="7787000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="176339000" />
+    <option name="totallyTimeSpent" value="184362000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -428,11 +562,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/images/projrct/happyValley/pc/icon2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/projrct/magicHouse/pc/icon1.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -457,13 +586,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page/projrct/crystal.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="263" column="6" lean-forward="false" selection-start-line="263" selection-start-column="6" selection-end-line="263" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/page/creative/creative.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
@@ -478,59 +600,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page/projrct/magicHouse.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="501">
-          <caret line="242" column="14" lean-forward="true" selection-start-line="242" selection-start-column="14" selection-end-line="242" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page/projrct/magicHousedetail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="258" column="12" lean-forward="false" selection-start-line="258" selection-start-column="12" selection-end-line="258" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/page/projrct/matchingdetail.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="326">
           <caret line="236" column="6" lean-forward="false" selection-start-line="236" selection-start-column="6" selection-end-line="236" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page/projrct/maze.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="237" column="29" lean-forward="true" selection-start-line="237" selection-start-column="29" selection-end-line="237" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page/projrct/monomer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="253" column="6" lean-forward="false" selection-start-line="253" selection-start-column="6" selection-end-line="253" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page/projrct/odyssey.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="260" column="6" lean-forward="false" selection-start-line="260" selection-start-column="6" selection-end-line="260" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page/projrct/odysseydetail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="305" column="6" lean-forward="false" selection-start-line="305" selection-start-column="6" selection-end-line="305" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page/projrct/playground.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="798">
-          <caret line="273" column="6" lean-forward="false" selection-start-line="273" selection-start-column="6" selection-end-line="273" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -541,13 +614,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page/projrct/rain.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="537">
-          <caret line="38" column="34" lean-forward="false" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/page/contact/contact.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -555,31 +621,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page/projrct/matching.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/home/pc-home/loading2.gif" />
-    <entry file="file://$PROJECT_DIR$/page/projrct/happyValley.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="244" column="0" lean-forward="false" selection-start-line="244" selection-start-column="0" selection-end-line="259" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/jiaoben5514/js/easying.js" />
     <entry file="file://$USER_HOME$/Desktop/jiaoben5514/js/jquery.beattext.js" />
     <entry file="file://$USER_HOME$/Desktop/jiaoben5514/index.html" />
-    <entry file="file://$PROJECT_DIR$/page/projrct/waterPark.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="230" column="14" lean-forward="false" selection-start-line="112" selection-start-column="7" selection-end-line="230" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/home/mb-home/mb-poj-1.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -597,14 +642,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="297" column="10" lean-forward="false" selection-start-line="297" selection-start-column="10" selection-end-line="297" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page/projrct/marineMuseum.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5697">
-          <caret line="211" column="56" lean-forward="false" selection-start-line="211" selection-start-column="47" selection-end-line="211" selection-end-column="56" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -632,7 +669,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
           <caret line="70" column="27" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="275" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -640,20 +676,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="366">
           <caret line="228" column="28" lean-forward="false" selection-start-line="228" selection-start-column="28" selection-end-line="228" selection-end-column="28" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/images/home/pc-home/head-slind-bg.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/images/projrct/crystal/pc/bg.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -668,11 +694,7 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/survey/pc/partner.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/images/survey/pc/partner.png" />
     <entry file="file://$PROJECT_DIR$/js/projrct.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="621">
@@ -681,26 +703,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/public.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="811">
-          <caret line="47" column="2" lean-forward="false" selection-start-line="47" selection-start-column="2" selection-end-line="47" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/projrct.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="808">
-          <caret line="1136" column="1" lean-forward="false" selection-start-line="1136" selection-start-column="1" selection-end-line="1136" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/public.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="680" column="0" lean-forward="true" selection-start-line="680" selection-start-column="0" selection-end-line="680" selection-end-column="0" />
+        <state relative-caret-position="15039">
+          <caret line="680" column="0" lean-forward="false" selection-start-line="680" selection-start-column="0" selection-end-line="680" selection-end-column="0" />
           <folding>
             <element signature="e#3039#3138#0" expanded="false" />
             <element signature="e#3150#3215#0" expanded="false" />
@@ -715,31 +721,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="76" column="40" lean-forward="false" selection-start-line="76" selection-start-column="40" selection-end-line="76" selection-end-column="40" />
-          <folding>
-            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#15429#16659#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="584">
-          <caret line="394" column="17" lean-forward="true" selection-start-line="394" selection-start-column="17" selection-end-line="394" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/page/survey/survey.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="599">
+        <state relative-caret-position="6399">
           <caret line="237" column="24" lean-forward="false" selection-start-line="237" selection-start-column="16" selection-end-line="237" selection-end-column="24" />
           <folding />
         </state>
@@ -747,16 +731,168 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/sublevel.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="581" column="5" lean-forward="true" selection-start-line="581" selection-start-column="5" selection-end-line="581" selection-end-column="5" />
+        <state relative-caret-position="15687">
+          <caret line="581" column="5" lean-forward="false" selection-start-line="581" selection-start-column="5" selection-end-line="581" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/public.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/projrct/odyssey/pc/set-4.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/projrct/odysseydetail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="329" column="4" lean-forward="false" selection-start-line="329" selection-start-column="0" selection-end-line="339" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/projrct/magicHousedetail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="262" column="62" lean-forward="false" selection-start-line="262" selection-start-column="62" selection-end-line="262" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/projrct.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/projrct/crystal/pc/bg.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/projrct/happyValley.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="85" column="78" lean-forward="true" selection-start-line="85" selection-start-column="12" selection-end-line="85" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/projrct/crystal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="85" column="77" lean-forward="false" selection-start-line="85" selection-start-column="10" selection-end-line="85" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/projrct/magicHouse.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="85" column="77" lean-forward="false" selection-start-line="85" selection-start-column="77" selection-end-line="85" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/projrct/marineMuseum.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-702">
+          <caret line="160" column="75" lean-forward="false" selection-start-line="160" selection-start-column="75" selection-end-line="160" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/projrct/matching.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="85" column="77" lean-forward="false" selection-start-line="85" selection-start-column="77" selection-end-line="85" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/projrct/monomer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="207" column="77" lean-forward="false" selection-start-line="207" selection-start-column="77" selection-end-line="207" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/projrct/odyssey.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="85" column="77" lean-forward="false" selection-start-line="85" selection-start-column="77" selection-end-line="85" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/projrct/playground.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="85" column="77" lean-forward="false" selection-start-line="85" selection-start-column="77" selection-end-line="85" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/projrct/rain.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="85" column="77" lean-forward="false" selection-start-line="85" selection-start-column="77" selection-end-line="85" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/projrct/waterPark.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="85" column="77" lean-forward="false" selection-start-line="85" selection-start-column="77" selection-end-line="85" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/projrct/maze.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-430">
+          <caret line="80" column="21" lean-forward="false" selection-start-line="80" selection-start-column="21" selection-end-line="80" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="152" column="35" lean-forward="false" selection-start-line="152" selection-start-column="30" selection-end-line="152" selection-end-column="35" />
+          <folding>
+            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#15675#16905#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="238" column="19" lean-forward="false" selection-start-line="238" selection-start-column="19" selection-end-line="238" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="729">
-          <caret line="27" column="11" lean-forward="false" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
+        <state relative-caret-position="378">
+          <caret line="19" column="9" lean-forward="false" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
           <folding />
         </state>
       </provider>

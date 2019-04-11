@@ -201,6 +201,23 @@
     top: 0;
     left: 0;
     background-size: 100%;
+    position: absolute;
+}
+.law-img a{
+    background-image: url('../images/home/pc-home/left-bg.png');
+    width: 167px;
+    height: 53px;
+    display: block;
+    left: 40px;
+    top: 40px;
+}
+.law-img a em{
+    color: #fff;
+    font-size: 26px;
+    font-weight: bold;
+    margin-left: 32px;
+    position: relative;
+    top: 10px;
 }
 .contact-img{
     width: 90px;
@@ -209,6 +226,32 @@
     bottom: 10%;
     left: 0;
     background-size: 100%;
+    position: absolute;
+}
+.contact-img a{
+    background-image: url('../images/home/pc-home/left-bg.png');
+    width: 167px;
+    height: 53px;
+    display: block;
+    left: 40px;
+    top: 40%;
+}
+.contact-img .img-a em{
+    color: #fff;
+    font-size: 26px;
+    font-weight: bold;
+    margin-left: 32px;
+    position: relative;
+    top: 10px;
+}
+.ani-bg > div  > .img-a{
+    left: -100px;
+    opacity: 0;
+}
+.ani-bg > div:hover .img-a{
+    left: 40px;
+    opacity: 1;
+    transition: all 0.2s;
 }
 .sun-img{
     width: 300px;

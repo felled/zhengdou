@@ -17,7 +17,7 @@ window.onload=function(){
     setTimeout(function(){
         $(".ani-bg").addClass("ani-ani");
         $(".star-img").addClass("star-ani");
-    }, 1700);
+    }, 1600);
     setTimeout(function(){
         $(".star-img").addClass("ani-paused");
         $(".roller-hover").addClass("roller-scale");
@@ -27,13 +27,13 @@ window.onload=function(){
         $(".pond-hover").addClass("pond-scale");
     }, 3000);
     /*中间星球鼠标hover动画*/
-    $(".star-off a").hover(function(){
+   /* $(".star-off a").hover(function(){
         $(this).parents(".star-position").addClass("ani-paused");
         $(this).next("div").addClass("star-ani").removeClass("ani-paused");
     },function () {
         $(this).next("div").addClass("ani-paused");
         $(this).parents(".star-position").removeClass("ani-paused");
-    });
+    });*/
 
     /*动画例子*/
     $(".position > a").hover(function () {
@@ -52,11 +52,27 @@ window.onload=function(){
         if($(this).next().hasClass("pond-img")){
             $(this).next().addClass("pond-ani");
         }
-        $(this).parents(".position").addClass("ani-paused");
-        $(this).next().removeClass("ani-paused");
+        /*停止动画帧*/
+       /* $(this).parents(".position").addClass("ani-paused");
+        $(this).next().removeClass("ani-paused");*/
     },function () {
-        $(this).parents(".position").removeClass("ani-paused");
-        $(this).next().addClass("ani-paused");
+        if($(this).next().hasClass("roller-img")){
+            $(this).next().removeClass("roller-ani");
+        }
+        if($(this).next().hasClass("rivers-img")){
+            $(this).next().removeClass("rivers-ani");
+        }
+        if($(this).next().hasClass("horn-img")){
+            $(this).next().removeClass("horn-ani");
+        }
+        if($(this).next().hasClass("ufo-img")){
+            $(this).next().removeClass("ufo-ani");
+        }
+        if($(this).next().hasClass("pond-img")){
+            $(this).next().removeClass("pond-ani");
+        }
+      /*  $(this).parents(".position").removeClass("ani-paused");
+        $(this).next().addClass("ani-paused");*/
     });
 
     /*小火箭动画*/

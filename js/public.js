@@ -1,4 +1,8 @@
 $(function () {
+    /*禁止右键*/
+    $(document).bind("contextmenu",function(e){
+        return false;
+    });
     /*head*/
     $(".navigation li").hover(function () {
         $(".navigation li").removeClass("active")

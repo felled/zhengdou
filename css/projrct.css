@@ -2,6 +2,12 @@
     display: block;
     height: 100%;
 }
+.logo-img{
+    position: fixed;
+    width: 800px;
+    bottom: -100px;
+    left: 30%;
+}
 .pc-poj-b{
     display: block;
 }
@@ -964,6 +970,21 @@
 .purple.poj-tab .tab-item .line:after,.purple.poj-tab .tab-item .line:before,.purple.poj-tab .tab-item .line{
     background-color: #461187;
 }
+/*.fuor-char{
+    overflow: hidden;
+}
+.ste-left{
+    width: 70%;
+    float: left;
+}
+.ste-left img{
+    width: 100%;
+}
+.ste-right{
+    width: 18%;
+    margin-left: 2%;
+    float: left;
+}*/
 /*穿越欧罗巴*/
 .europa-content{
     width: 1600px;
