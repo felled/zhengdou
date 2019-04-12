@@ -970,7 +970,7 @@
 .purple.poj-tab .tab-item .line:after,.purple.poj-tab .tab-item .line:before,.purple.poj-tab .tab-item .line{
     background-color: #461187;
 }
-/*.fuor-char{
+.fuor-char{
     overflow: hidden;
 }
 .ste-left{
@@ -981,10 +981,10 @@
     width: 100%;
 }
 .ste-right{
-    width: 18%;
+    width: 28%;
     margin-left: 2%;
     float: left;
-}*/
+}
 /*穿越欧罗巴*/
 .europa-content{
     width: 1600px;
