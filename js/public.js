@@ -8,9 +8,11 @@ $(function () {
         $(".navigation li").removeClass("active")
         var e = $(this).find(".nav-slind");
         e.slideDown();
+        $(".hover-blur").addClass("blur");
     },function () {
         var e = $(this).find(".nav-slind");
         e.slideUp();
+        $(".hover-blur").removeClass("blur");
     });
     /*mb-head*/
 
@@ -34,6 +36,12 @@ $(function () {
         $(".fir").addClass("show-page");
     });
 
+    /*左侧留言*/
+    $(".me-right").click(function () {
+         $(this).toggleClass("big");
+         $(".me-conten").toggleClass("height");
+         $(".leavMessage").toggleClass("bottom");
+    })
     /*pojrct*/
     $(".poj-info").click(function (event) {
         event.stopPropagation();

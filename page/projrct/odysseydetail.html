@@ -204,7 +204,7 @@
             </div>
         </div>
     </div>
-    <div class="conten-b mb">
+    <div class="conten-b mb hover-blur">
         <div class="poj-top-bg">
             <img class="mb-img" src="../../images/projrct/odyssey/mb/bg-detail.png">
             <img class="pc-img" src="../../images/projrct/odyssey/pc/bg-detail.png">
@@ -328,14 +328,50 @@
 <script src="../../js/projrct.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/video.js/7.3.0/video.min.js"></script>
 <script type="text/javascript">
-    var player = videojs('example_video_1',{
-        muted: true,
-        controls : true/false,
-        height:684,
-        width:390,
-        loop : true,
+    var offsetWid = document.documentElement.clientWidth;
 
-    });
+    if(offsetWid > 1370){
+        var player = videojs('example_video_1',{
+            muted: true,
+            controls : true/false,
+            height:684,
+            width:390,
+            loop : true,
+
+        });
+    }
+    if(offsetWid < 1370){
+        var player = videojs('example_video_1',{
+            muted: true,
+            controls : true/false,
+            height:586,
+            width:390,
+            loop : true,
+
+        });
+    }
+    if(offsetWid < 1030){
+        var player = videojs('example_video_1',{
+            muted: true,
+            controls : true/false,
+            height:400,
+            width:390,
+            loop : true,
+
+        });
+    }
+    if(offsetWid < 500){
+        var player = videojs('example_video_1',{
+            muted: true,
+            controls : true/false,
+            height:200,
+            width:390,
+            loop : true,
+
+        });
+    }
+
+
 
 </script>
 </html>

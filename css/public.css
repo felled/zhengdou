@@ -44,6 +44,12 @@ a{
     width: 100%;
     background-size: cover;
 }
+.blur{
+    -webkit-filter: blur(5px); /* Chrome, Opera */
+    -moz-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+}
 .home-content{
     height: 100%;
     background-image: url('../images/home/pc-home/ani-bg.png');
@@ -650,6 +656,103 @@ a{
     margin: 20px 0;
     text-align: justify;
     line-height: 26px;
+}
+/*留言*/
+.leavMessage{
+    width: 270px;
+    height: 40px;
+    position: fixed;
+    left: 0;
+    bottom: 40px;
+}
+.leavMessage.bottom{
+    bottom: 97px;
+    height: 300px;
+}
+.me-title{
+    background-color: #00aef3;
+    color: #fff;
+    padding: 10px 20px;
+}
+.me-title span{
+    font-size: 18px;
+}
+.me-title .me-right{
+    float: right;
+    cursor: pointer;
+    width: 20px;
+    height: 3px;
+    background-color: #fff;
+    display: block;
+    margin-top: 8px;
+}
+.me-title .big{
+    width: 20px;
+    height: 10px;
+    background: transparent;
+    border: 2px solid #fff;
+    margin-top: 3px;
+}
+.me-conten{
+    padding: 20px;
+    background-color: #ededed;
+    transition: all 0.1s;
+    display: none;
+    height: 0;
+}
+.height{
+    height: auto;
+    display: block;
+}
+.me-conten textarea{
+    width: 98%;
+    height: 60px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    padding-left: 4px;
+}
+.me-conten ul li{
+    margin-top: 10px;
+}
+.me-conten ul li{
+    background-color: #fff;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #ddd;
+}
+.me-conten ul li .me-icon{
+    width: 20px;
+    height: 20px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: inline-block;
+    position: relative;
+    top: 7px;
+    margin-left: 4px;
+}
+.me-conten ul li input{
+    border: none;
+}
+.me-but{
+    border: none;
+    background: #00aef3;
+    padding: 10px 30px;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.icon1{
+    background-image: url("../images/common/message/contacts.png");
+}
+.icon2{
+    background-image: url("../images/common/message/tell.png");
+}
+.icon3{
+    background-image: url("../images/common/message/e-mail.png");
+}
+.icon4{
+    background-image: url("../images/common/message/place.png");
 }
 /*
 @media screen and (max-width: 1520px) {

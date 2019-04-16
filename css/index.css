@@ -101,14 +101,15 @@
     display: block;
     background-size: 100%;
     position: absolute;
+    opacity: 0;
+    width: 100px;
+    height: 59px;
 }
 .meteor-a{
     top: 0;
     left: 600px;
-    width: 146px;
-    height: 87px;
     background-image: url('../images/home/pc-home/meteor1.png');
-    animation: meteor-a 1.2s infinite linear;
+    animation: meteor-a 2s 2s linear;
 }
 @keyframes meteor-a
 {
@@ -120,18 +121,16 @@
     }
     100% {
         opacity: 0;
-        transform: scale(1.2) translate3d(-300px, 100px, 0);
-        -webkit-transform: scale(1.2) translate3d(-300px, 100px, 0);
-        -moz-transform: scale(1.2) translate3d(-300px, 100px, 0);
+        transform: scale(0.8) translate3d(-1000px, 600px, 0);
+        -webkit-transform: scale(0.8) translate3d(-1000px, 600px, 0);
+        -moz-transform: scale(0.8) translate3d(-1000px, 600px, 0);
     }
 }
 .meteor-b{
     left: 600px;
     top: 100px;
-    width: 120px;
-    height: 71px;
     background-image: url('../images/home/pc-home/meteor1.png');
-    animation: meteor-b 1.5s infinite linear;
+    animation: meteor-b 2s 1.5s linear;
 }
 @keyframes meteor-b
 {
@@ -143,18 +142,16 @@
     }
     100% {
         opacity: 0;
-        transform: scale(1.2) translate3d(-300px, 100px, 0);
-        -webkit-transform: scale(1.2) translate3d(-300px, 100px, 0);
-        -moz-transform: scale(1.2) translate3d(-300px, 100px, 0);
+        transform: scale(0.7) translate3d(-1200px, 700px, 0);
+        -webkit-transform: scale(0.7) translate3d(-1200px, 700px, 0);
+        -moz-transform: scale(0.7) translate3d(-1200px, 700px, 0);
     }
 }
 .meteor-c{
-    left: 800px;
-    top: -40px;
-    width: 100px;
-    height: 59px;
+    left: 600px;
+    top: 0px;
     background-image: url('../images/home/pc-home/meteor1.png');
-    animation: meteor-c 1.8s infinite linear;
+    animation: meteor-c 2s 1s linear;
 }
 @keyframes meteor-c
 {
@@ -166,9 +163,9 @@
     }
     100% {
         opacity: 0;
-        transform: scale(1.2) translate3d(-400px, 200px, 0);
-        -webkit-transform: scale(1.2) translate3d(-400px, 200px, 0);
-        -moz-transform: scale(1.2) translate3d(-400px, 200px, 0);
+        transform: scale(0.6) translate3d(-2000px, 800px, 0);
+        -webkit-transform: scale(0.6) translate3d(-2000px, 800px, 0);
+        -moz-transform: scale(0.6) translate3d(-2000px, 800px, 0);
     }
 }
 .ani-bg{
@@ -417,7 +414,7 @@
     100% {background-position: -6000px 0;}
 }
 .roller-img{
-    width: 300px;
+    width: 310px;
     height: 240px;
     margin-left: -85px;
     margin-top: -30px;
