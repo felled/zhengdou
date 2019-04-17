@@ -71,7 +71,7 @@
     content: "";
     width: 20px;
     height: 16px;
-    background-image: url('../images/projrct/common/more.png');
+    background-image: url('../images/project/common/more.png');
     display: block;
     position: absolute;
     right: 0;
@@ -115,7 +115,7 @@
     position: absolute;
     width: 340px;
     top: 20%;
-    background-image: url('../images/projrct/happyValley/pc/cline.png');
+    background-image: url('../images/project/happyValley/pc/cline.png');
     padding-left: 140px;
     padding-top: 40px;
     padding-bottom: 30px;
@@ -296,16 +296,16 @@
     background-repeat: no-repeat;
 }
 .icon-char.icon1{
-    background-image: url('../images/projrct/happyValley/pc/icon1.png');
+    background-image: url('../images/project/happyValley/pc/icon1.png');
 }
 .icon-char.icon2{
-    background-image: url('../images/projrct/happyValley/pc/icon2.png');
+    background-image: url('../images/project/happyValley/pc/icon2.png');
 }
 .icon-char.icon3{
-    background-image: url('../images/projrct/happyValley/pc/icon3.png');
+    background-image: url('../images/project/happyValley/pc/icon3.png');
 }
 .icon-char.icon4{
-    background-image: url('../images/projrct/happyValley/pc/icon4.png');
+    background-image: url('../images/project/happyValley/pc/icon4.png');
 }
 .title-char{
     font-size: 40px;
@@ -571,7 +571,7 @@
         top: 2px;
         width: 18px;
         height: 14px;
-        background-image: url('../images/projrct/mb-common/more.png');
+        background-image: url('../images/project/mb-common/more.png');
         display: inline-block;
         background-size: 100%;
     }
@@ -847,16 +847,16 @@
     background-color: #008fb9;
 }
 .magic .icon1{
-    background-image: url('../images/projrct/magicHouse/pc/icon1.png');
+    background-image: url('../images/project/magicHouse/pc/icon1.png');
 }
 .magic .icon2{
-    background-image: url('../images/projrct/magicHouse/pc/icon2.png');
+    background-image: url('../images/project/magicHouse/pc/icon2.png');
 }
 .magic .icon3{
-    background-image: url('../images/projrct/magicHouse/pc/icon3.png');
+    background-image: url('../images/project/magicHouse/pc/icon3.png');
 }
 .magic .icon4{
-    background-image: url('../images/projrct/magicHouse/pc/icon4.png');
+    background-image: url('../images/project/magicHouse/pc/icon4.png');
 }
 @media screen and (max-width: 1023px) {
     .poj-tab.two .tab-list span {
@@ -908,16 +908,16 @@
     background-color: #f36aff;
 }
 .play .icon1{
-    background-image: url('../images/projrct/playground/pc/icon1.png');
+    background-image: url('../images/project/playground/pc/icon1.png');
 }
 .play .icon2{
-    background-image: url('../images/projrct/playground/pc/icon2.png');
+    background-image: url('../images/project/playground/pc/icon2.png');
 }
 .play .icon3{
-    background-image: url('../images/projrct/playground/pc/icon3.png');
+    background-image: url('../images/project/playground/pc/icon3.png');
 }
 .play .icon4{
-    background-image: url('../images/projrct/playground/pc/icon4.png');
+    background-image: url('../images/project/playground/pc/icon4.png');
 }
 /*水晶万花筒*/
 .title-code{
@@ -944,16 +944,16 @@
 }
 /*奥德赛之旅*/
 .ody .icon1{
-    background-image: url('../images/projrct/odyssey/pc/icon1.png');
+    background-image: url('../images/project/odyssey/pc/icon1.png');
 }
 .ody .icon2{
-    background-image: url('../images/projrct/odyssey/pc/icon2.png');
+    background-image: url('../images/project/odyssey/pc/icon2.png');
 }
 .ody .icon3{
-    background-image: url('../images/projrct/odyssey/pc/icon3.png');
+    background-image: url('../images/project/odyssey/pc/icon3.png');
 }
 .ody .icon4{
-    background-image: url('../images/projrct/odyssey/pc/icon4.png');
+    background-image: url('../images/project/odyssey/pc/icon4.png');
 }
 .purple.poj-sen-title:after{
     background-color: #461187;

@@ -319,7 +319,7 @@ a{
     .mb-head{
         position: fixed;
         top: 0;
-        background-image: url('../images/projrct/mb-common/head-bg.png');
+        background-image: url('../images/project/mb-common/head-bg.png');
         height: 40px;
         width: 100%;
         z-index: 99;
