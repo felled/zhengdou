@@ -8,45 +8,84 @@
     <list default="true" id="87f70ea5-6a14-41a8-94a7-660dad2c7885" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/css/index.css" afterPath="$PROJECT_DIR$/css/index.css" />
-      <change beforePath="$PROJECT_DIR$/css/projrct.css" afterPath="$PROJECT_DIR$/css/projrct.css" />
-      <change beforePath="$PROJECT_DIR$/css/public.css" afterPath="$PROJECT_DIR$/css/public.css" />
-      <change beforePath="$PROJECT_DIR$/css/sublevel.css" afterPath="$PROJECT_DIR$/css/sublevel.css" />
-      <change beforePath="$PROJECT_DIR$/images/projectflow/pc/flow.png" afterPath="$PROJECT_DIR$/images/projectflow/pc/flow.png" />
-      <change beforePath="$PROJECT_DIR$/images/projrct/happyValley/pc/bg.png" afterPath="$PROJECT_DIR$/images/projrct/happyValley/pc/bg.png" />
-      <change beforePath="$PROJECT_DIR$/images/projrct/magicHouse/pc/bg.png" afterPath="$PROJECT_DIR$/images/projrct/magicHouse/pc/bg.png" />
-      <change beforePath="$PROJECT_DIR$/images/projrct/matching/pc/bg.png" afterPath="$PROJECT_DIR$/images/projrct/matching/pc/bg.png" />
-      <change beforePath="$PROJECT_DIR$/images/projrct/maze/pc/bg.png" afterPath="$PROJECT_DIR$/images/projrct/maze/pc/bg.png" />
-      <change beforePath="$PROJECT_DIR$/images/projrct/monomer/pc/bg-b.png" afterPath="$PROJECT_DIR$/images/projrct/monomer/pc/bg-b.png" />
-      <change beforePath="$PROJECT_DIR$/images/projrct/odyssey/pc/bg.png" afterPath="$PROJECT_DIR$/images/projrct/odyssey/pc/bg.png" />
-      <change beforePath="$PROJECT_DIR$/images/projrct/playground/pc/bg.png" afterPath="$PROJECT_DIR$/images/projrct/playground/pc/bg.png" />
-      <change beforePath="$PROJECT_DIR$/images/projrct/rain/pc/bg.png" afterPath="$PROJECT_DIR$/images/projrct/rain/pc/bg.png" />
-      <change beforePath="$PROJECT_DIR$/images/projrct/waterPark/pc/bg.png" afterPath="$PROJECT_DIR$/images/projrct/waterPark/pc/bg.png" />
-      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change beforePath="$PROJECT_DIR$/js/public.js" afterPath="$PROJECT_DIR$/js/public.js" />
-      <change beforePath="$PROJECT_DIR$/page/contact/contact.html" afterPath="$PROJECT_DIR$/page/contact/contact.html" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/common/code-hover.png" afterPath="$PROJECT_DIR$/images/project/common/code-hover.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/common/code.png" afterPath="$PROJECT_DIR$/images/project/common/code.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/common/logo.png" afterPath="$PROJECT_DIR$/images/project/common/logo.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/common/more.png" afterPath="$PROJECT_DIR$/images/project/common/more.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/crystal/pc/bg.png" afterPath="$PROJECT_DIR$/images/project/crystal/pc/bg.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/europa/mb/img.png" afterPath="$PROJECT_DIR$/images/project/europa/mb/img.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/europa/pc/img-1.png" afterPath="$PROJECT_DIR$/images/project/europa/pc/img-1.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/europa/pc/img-2.png" afterPath="$PROJECT_DIR$/images/project/europa/pc/img-2.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/happyValley/mb/bg-b.png" afterPath="$PROJECT_DIR$/images/project/happyValley/mb/bg-b.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/happyValley/mb/bg.png" afterPath="$PROJECT_DIR$/images/project/happyValley/mb/bg.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/happyValley/pc/bg-02.png" afterPath="$PROJECT_DIR$/images/project/happyValley/pc/bg-02.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/happyValley/pc/bg.png" afterPath="$PROJECT_DIR$/images/project/happyValley/pc/bg.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/happyValley/pc/cline.png" afterPath="$PROJECT_DIR$/images/project/happyValley/pc/cline.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/happyValley/pc/icon1.png" afterPath="$PROJECT_DIR$/images/project/happyValley/pc/icon1.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/happyValley/pc/icon2.png" afterPath="$PROJECT_DIR$/images/project/happyValley/pc/icon2.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/happyValley/pc/icon3.png" afterPath="$PROJECT_DIR$/images/project/happyValley/pc/icon3.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/happyValley/pc/icon4.png" afterPath="$PROJECT_DIR$/images/project/happyValley/pc/icon4.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/happyValley/pc/set-2.png" afterPath="$PROJECT_DIR$/images/project/happyValley/pc/set-2.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/happyValley/pc/set-3-a.png" afterPath="$PROJECT_DIR$/images/project/happyValley/pc/set-3-a.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/happyValley/pc/set-3-b.png" afterPath="$PROJECT_DIR$/images/project/happyValley/pc/set-3-b.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/happyValley/pc/set-3-c.png" afterPath="$PROJECT_DIR$/images/project/happyValley/pc/set-3-c.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/happyValley/pc/set-3-d.png" afterPath="$PROJECT_DIR$/images/project/happyValley/pc/set-3-d.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/happyValley/pc/set-4-a.png" afterPath="$PROJECT_DIR$/images/project/happyValley/pc/set-4-a.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/happyValley/pc/set-4-b.png" afterPath="$PROJECT_DIR$/images/project/happyValley/pc/set-4-b.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/happyValley/pc/set-4-c.png" afterPath="$PROJECT_DIR$/images/project/happyValley/pc/set-4-c.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/happyValley/pc/set-4-d.png" afterPath="$PROJECT_DIR$/images/project/happyValley/pc/set-4-d.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/magicHouse/mb/bg-detali.png" afterPath="$PROJECT_DIR$/images/project/magicHouse/mb/bg-detali.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/magicHouse/mb/bg.png" afterPath="$PROJECT_DIR$/images/project/magicHouse/mb/bg.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/magicHouse/pc/bg-detali.png" afterPath="$PROJECT_DIR$/images/project/magicHouse/pc/bg-detali.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/magicHouse/pc/bg.png" afterPath="$PROJECT_DIR$/images/project/magicHouse/pc/bg.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/magicHouse/pc/icon1.png" afterPath="$PROJECT_DIR$/images/project/magicHouse/pc/icon1.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/magicHouse/pc/icon2.png" afterPath="$PROJECT_DIR$/images/project/magicHouse/pc/icon2.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/magicHouse/pc/icon3.png" afterPath="$PROJECT_DIR$/images/project/magicHouse/pc/icon3.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/magicHouse/pc/icon4.png" afterPath="$PROJECT_DIR$/images/project/magicHouse/pc/icon4.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/magicHouse/pc/set-2.png" afterPath="$PROJECT_DIR$/images/project/magicHouse/pc/set-2.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/marineMuseum/mb/img.png" afterPath="$PROJECT_DIR$/images/project/marineMuseum/mb/img.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/marineMuseum/pc/img.png" afterPath="$PROJECT_DIR$/images/project/marineMuseum/pc/img.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/matching/mb/bg-detail.png" afterPath="$PROJECT_DIR$/images/project/matching/mb/bg-detail.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/matching/mb/bg.png" afterPath="$PROJECT_DIR$/images/project/matching/mb/bg.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/matching/pc/bg-detail.png" afterPath="$PROJECT_DIR$/images/project/matching/pc/bg-detail.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/matching/pc/bg.png" afterPath="$PROJECT_DIR$/images/project/matching/pc/bg.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/matching/pc/ste-1.png" afterPath="$PROJECT_DIR$/images/project/matching/pc/ste-1.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/maze/mb/bg.png" afterPath="$PROJECT_DIR$/images/project/maze/mb/bg.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/maze/pc/bg.png" afterPath="$PROJECT_DIR$/images/project/maze/pc/bg.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/mb-common/head-bg.png" afterPath="$PROJECT_DIR$/images/project/mb-common/head-bg.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/mb-common/more.png" afterPath="$PROJECT_DIR$/images/project/mb-common/more.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/monomer/mb/img.png" afterPath="$PROJECT_DIR$/images/project/monomer/mb/img.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/monomer/pc/bg-b.png" afterPath="$PROJECT_DIR$/images/project/monomer/pc/bg-b.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/odyssey/mb/bg-detail.png" afterPath="$PROJECT_DIR$/images/project/odyssey/mb/bg-detail.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/odyssey/mb/bg.png" afterPath="$PROJECT_DIR$/images/project/odyssey/mb/bg.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/odyssey/pc/bg-detail.png" afterPath="$PROJECT_DIR$/images/project/odyssey/pc/bg-detail.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/odyssey/pc/bg.png" afterPath="$PROJECT_DIR$/images/project/odyssey/pc/bg.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/odyssey/pc/icon1.png" afterPath="$PROJECT_DIR$/images/project/odyssey/pc/icon1.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/odyssey/pc/icon2.png" afterPath="$PROJECT_DIR$/images/project/odyssey/pc/icon2.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/odyssey/pc/icon3.png" afterPath="$PROJECT_DIR$/images/project/odyssey/pc/icon3.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/odyssey/pc/icon4.png" afterPath="$PROJECT_DIR$/images/project/odyssey/pc/icon4.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/odyssey/pc/ody.mp4" afterPath="$PROJECT_DIR$/images/project/odyssey/pc/ody.mp4" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/odyssey/pc/set-2.png" afterPath="$PROJECT_DIR$/images/project/odyssey/pc/set-2.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/odyssey/pc/set-3.png" afterPath="$PROJECT_DIR$/images/project/odyssey/pc/set-3.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/odyssey/pc/set-4-b.png" afterPath="$PROJECT_DIR$/images/project/odyssey/pc/set-4-b.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/odyssey/pc/set-4.png" afterPath="$PROJECT_DIR$/images/project/odyssey/pc/set-4.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/odyssey/pc/video.png" afterPath="$PROJECT_DIR$/images/project/odyssey/pc/video.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/playground/mb/bg-detail.png" afterPath="$PROJECT_DIR$/images/project/playground/mb/bg-detail.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/playground/mb/bg.png" afterPath="$PROJECT_DIR$/images/project/playground/mb/bg.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/playground/pc/bg-detail.png" afterPath="$PROJECT_DIR$/images/project/playground/pc/bg-detail.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/playground/pc/bg.png" afterPath="$PROJECT_DIR$/images/project/playground/pc/bg.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/playground/pc/icon1.png" afterPath="$PROJECT_DIR$/images/project/playground/pc/icon1.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/playground/pc/icon2.png" afterPath="$PROJECT_DIR$/images/project/playground/pc/icon2.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/playground/pc/icon3.png" afterPath="$PROJECT_DIR$/images/project/playground/pc/icon3.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/playground/pc/icon4.png" afterPath="$PROJECT_DIR$/images/project/playground/pc/icon4.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/playground/pc/set-2.png" afterPath="$PROJECT_DIR$/images/project/playground/pc/set-2.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/rain/mb/bg.png" afterPath="$PROJECT_DIR$/images/project/rain/mb/bg.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/rain/pc/bg.png" afterPath="$PROJECT_DIR$/images/project/rain/pc/bg.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/waterPark/mb/bg.png" afterPath="$PROJECT_DIR$/images/project/waterPark/mb/bg.png" />
+      <change beforePath="$PROJECT_DIR$/images/projrct/waterPark/pc/bg.png" afterPath="$PROJECT_DIR$/images/project/waterPark/pc/bg.png" />
       <change beforePath="$PROJECT_DIR$/page/creative/creative.html" afterPath="$PROJECT_DIR$/page/creative/creative.html" />
       <change beforePath="$PROJECT_DIR$/page/join/join.html" afterPath="$PROJECT_DIR$/page/join/join.html" />
-      <change beforePath="$PROJECT_DIR$/page/law/law.html" afterPath="$PROJECT_DIR$/page/law/law.html" />
-      <change beforePath="$PROJECT_DIR$/page/news/news.html" afterPath="$PROJECT_DIR$/page/news/news.html" />
-      <change beforePath="$PROJECT_DIR$/page/projectflow/projectflow.html" afterPath="$PROJECT_DIR$/page/projectflow/projectflow.html" />
-      <change beforePath="$PROJECT_DIR$/page/projrct/crystal.html" afterPath="$PROJECT_DIR$/page/projrct/crystal.html" />
-      <change beforePath="$PROJECT_DIR$/page/projrct/europa.html" afterPath="$PROJECT_DIR$/page/projrct/europa.html" />
-      <change beforePath="$PROJECT_DIR$/page/projrct/happyValley.html" afterPath="$PROJECT_DIR$/page/projrct/happyValley.html" />
-      <change beforePath="$PROJECT_DIR$/page/projrct/happyValleydetail.html" afterPath="$PROJECT_DIR$/page/projrct/happyValleydetail.html" />
-      <change beforePath="$PROJECT_DIR$/page/projrct/magicHouse.html" afterPath="$PROJECT_DIR$/page/projrct/magicHouse.html" />
-      <change beforePath="$PROJECT_DIR$/page/projrct/magicHousedetail.html" afterPath="$PROJECT_DIR$/page/projrct/magicHousedetail.html" />
-      <change beforePath="$PROJECT_DIR$/page/projrct/marineMuseum.html" afterPath="$PROJECT_DIR$/page/projrct/marineMuseum.html" />
-      <change beforePath="$PROJECT_DIR$/page/projrct/matching.html" afterPath="$PROJECT_DIR$/page/projrct/matching.html" />
-      <change beforePath="$PROJECT_DIR$/page/projrct/matchingdetail.html" afterPath="$PROJECT_DIR$/page/projrct/matchingdetail.html" />
-      <change beforePath="$PROJECT_DIR$/page/projrct/maze.html" afterPath="$PROJECT_DIR$/page/projrct/maze.html" />
-      <change beforePath="$PROJECT_DIR$/page/projrct/monomer.html" afterPath="$PROJECT_DIR$/page/projrct/monomer.html" />
-      <change beforePath="$PROJECT_DIR$/page/projrct/odyssey.html" afterPath="$PROJECT_DIR$/page/projrct/odyssey.html" />
       <change beforePath="$PROJECT_DIR$/page/projrct/odysseydetail.html" afterPath="$PROJECT_DIR$/page/projrct/odysseydetail.html" />
-      <change beforePath="$PROJECT_DIR$/page/projrct/playground.html" afterPath="$PROJECT_DIR$/page/projrct/playground.html" />
-      <change beforePath="$PROJECT_DIR$/page/projrct/playgrounddetail.html" afterPath="$PROJECT_DIR$/page/projrct/playgrounddetail.html" />
-      <change beforePath="$PROJECT_DIR$/page/projrct/rain.html" afterPath="$PROJECT_DIR$/page/projrct/rain.html" />
-      <change beforePath="$PROJECT_DIR$/page/projrct/waterPark.html" afterPath="$PROJECT_DIR$/page/projrct/waterPark.html" />
-      <change beforePath="$PROJECT_DIR$/page/survey/survey.html" afterPath="$PROJECT_DIR$/page/survey/survey.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -63,8 +102,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="338" column="35" lean-forward="true" selection-start-line="338" selection-start-column="35" selection-end-line="338" selection-end-column="35" />
+            <state relative-caret-position="162">
+              <caret line="381" column="57" lean-forward="false" selection-start-line="381" selection-start-column="57" selection-end-line="381" selection-end-column="57" />
               <folding>
                 <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -76,11 +115,47 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="creative.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/page/creative/creative.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="363">
+              <caret line="204" column="28" lean-forward="true" selection-start-line="204" selection-start-column="2" selection-end-line="204" selection-end-column="28" />
+              <folding>
+                <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="join.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/page/join/join.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="467">
+              <caret line="205" column="27" lean-forward="false" selection-start-line="205" selection-start-column="27" selection-end-line="205" selection-end-column="27" />
+              <folding>
+                <element signature="n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/index.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="557">
+              <caret line="239" column="23" lean-forward="true" selection-start-line="239" selection-start-column="23" selection-end-line="239" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="projrct.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/projrct.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="54">
-              <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -89,8 +164,8 @@
       <file leaf-file-name="contact.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/page/contact/contact.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="308" column="10" lean-forward="true" selection-start-line="308" selection-start-column="10" selection-end-line="308" selection-end-column="10" />
+            <state relative-caret-position="513">
+              <caret line="308" column="10" lean-forward="false" selection-start-line="308" selection-start-column="10" selection-end-line="308" selection-end-column="10" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -103,10 +178,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="public.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="public.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/public.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="758">
+            <state relative-caret-position="27">
               <caret line="711" column="21" lean-forward="false" selection-start-line="711" selection-start-column="21" selection-end-line="711" selection-end-column="21" />
               <folding />
             </state>
@@ -138,7 +213,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.horn-hover</find>
       <find>.ani-conten .sne-ani .position div.pond-img</find>
       <find>.meteor</find>
       <find>calani-conten</find>
@@ -168,6 +242,7 @@
       <find>content</find>
       <find>.survey-conten</find>
       <find>.poj-text &gt; a</find>
+      <find>.contact-img</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -197,9 +272,6 @@
         <option value="$PROJECT_DIR$/page/law/law-pc.html" />
         <option value="$PROJECT_DIR$/js/projrct.js" />
         <option value="$PROJECT_DIR$/js/index.js" />
-        <option value="$PROJECT_DIR$/css/index.css" />
-        <option value="$PROJECT_DIR$/page/creative/creative.html" />
-        <option value="$PROJECT_DIR$/page/join/join.html" />
         <option value="$PROJECT_DIR$/css/sublevel.css" />
         <option value="$PROJECT_DIR$/page/law/law.html" />
         <option value="$PROJECT_DIR$/page/news/news.html" />
@@ -227,6 +299,9 @@
         <option value="$PROJECT_DIR$/page/contact/contact.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/public.css" />
+        <option value="$PROJECT_DIR$/page/creative/creative.html" />
+        <option value="$PROJECT_DIR$/page/join/join.html" />
+        <option value="$PROJECT_DIR$/css/index.css" />
       </list>
     </option>
   </component>
@@ -260,7 +335,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -288,40 +362,27 @@
               <item name="zhengdou" type="b2602c69:ProjectViewProjectNode" />
               <item name="zhengdou" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="projectflow" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="zhengdou" type="b2602c69:ProjectViewProjectNode" />
               <item name="zhengdou" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="projectflow" type="462c0819:PsiDirectoryNode" />
-              <item name="pc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zhengdou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zhengdou" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="projrct" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="zhengdou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zhengdou" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="projrct" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="zhengdou" type="b2602c69:ProjectViewProjectNode" />
               <item name="zhengdou" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="projrct" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="crystal" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="zhengdou" type="b2602c69:ProjectViewProjectNode" />
               <item name="zhengdou" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="projrct" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="crystal" type="462c0819:PsiDirectoryNode" />
               <item name="pc" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -329,14 +390,14 @@
               <item name="zhengdou" type="b2602c69:ProjectViewProjectNode" />
               <item name="zhengdou" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="projrct" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="europa" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="zhengdou" type="b2602c69:ProjectViewProjectNode" />
               <item name="zhengdou" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="projrct" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="europa" type="462c0819:PsiDirectoryNode" />
               <item name="pc" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -344,14 +405,14 @@
               <item name="zhengdou" type="b2602c69:ProjectViewProjectNode" />
               <item name="zhengdou" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="projrct" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="magicHouse" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="zhengdou" type="b2602c69:ProjectViewProjectNode" />
               <item name="zhengdou" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="projrct" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="magicHouse" type="462c0819:PsiDirectoryNode" />
               <item name="pc" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -359,14 +420,14 @@
               <item name="zhengdou" type="b2602c69:ProjectViewProjectNode" />
               <item name="zhengdou" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="projrct" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="marineMuseum" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="zhengdou" type="b2602c69:ProjectViewProjectNode" />
               <item name="zhengdou" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="projrct" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="marineMuseum" type="462c0819:PsiDirectoryNode" />
               <item name="pc" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -374,14 +435,14 @@
               <item name="zhengdou" type="b2602c69:ProjectViewProjectNode" />
               <item name="zhengdou" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="projrct" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="matching" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="zhengdou" type="b2602c69:ProjectViewProjectNode" />
               <item name="zhengdou" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="projrct" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="matching" type="462c0819:PsiDirectoryNode" />
               <item name="pc" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -389,14 +450,14 @@
               <item name="zhengdou" type="b2602c69:ProjectViewProjectNode" />
               <item name="zhengdou" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="projrct" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="maze" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="zhengdou" type="b2602c69:ProjectViewProjectNode" />
               <item name="zhengdou" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="projrct" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="maze" type="462c0819:PsiDirectoryNode" />
               <item name="pc" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -404,14 +465,14 @@
               <item name="zhengdou" type="b2602c69:ProjectViewProjectNode" />
               <item name="zhengdou" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="projrct" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="monomer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="zhengdou" type="b2602c69:ProjectViewProjectNode" />
               <item name="zhengdou" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="projrct" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="monomer" type="462c0819:PsiDirectoryNode" />
               <item name="pc" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -419,14 +480,14 @@
               <item name="zhengdou" type="b2602c69:ProjectViewProjectNode" />
               <item name="zhengdou" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="projrct" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="odyssey" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="zhengdou" type="b2602c69:ProjectViewProjectNode" />
               <item name="zhengdou" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="projrct" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="odyssey" type="462c0819:PsiDirectoryNode" />
               <item name="pc" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -434,14 +495,14 @@
               <item name="zhengdou" type="b2602c69:ProjectViewProjectNode" />
               <item name="zhengdou" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="projrct" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="playground" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="zhengdou" type="b2602c69:ProjectViewProjectNode" />
               <item name="zhengdou" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="projrct" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="playground" type="462c0819:PsiDirectoryNode" />
               <item name="pc" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -449,14 +510,14 @@
               <item name="zhengdou" type="b2602c69:ProjectViewProjectNode" />
               <item name="zhengdou" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="projrct" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="rain" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="zhengdou" type="b2602c69:ProjectViewProjectNode" />
               <item name="zhengdou" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="projrct" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="rain" type="462c0819:PsiDirectoryNode" />
               <item name="pc" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -464,15 +525,28 @@
               <item name="zhengdou" type="b2602c69:ProjectViewProjectNode" />
               <item name="zhengdou" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="projrct" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="waterPark" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="zhengdou" type="b2602c69:ProjectViewProjectNode" />
               <item name="zhengdou" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="projrct" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
               <item name="waterPark" type="462c0819:PsiDirectoryNode" />
+              <item name="pc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zhengdou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zhengdou" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="projectflow" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zhengdou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zhengdou" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="projectflow" type="462c0819:PsiDirectoryNode" />
               <item name="pc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -537,6 +611,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -605,11 +680,12 @@
       <workItem from="1554989193202" duration="7787000" />
       <workItem from="1555073381190" duration="4564000" />
       <workItem from="1555414577314" duration="8680000" />
+      <workItem from="1555508042118" duration="1164000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="197606000" />
+    <option name="totallyTimeSpent" value="198770000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -619,6 +695,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19300106" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -631,7 +708,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19300106" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -687,7 +763,7 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/projrct/europa/mb/img.png">
+    <entry file="file://$PROJECT_DIR$/images/project/europa/mb/img.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -698,43 +774,17 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/images/survey/pc/partner.png" />
-    <entry file="file://$PROJECT_DIR$/images/projrct/odyssey/pc/set-4.png">
+    <entry file="file://$PROJECT_DIR$/images/project/odyssey/pc/set-4.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/vide7.4.1/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="569">
-          <caret line="125" column="15" lean-forward="true" selection-start-line="121" selection-start-column="12" selection-end-line="125" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="112" column="1" lean-forward="true" selection-start-line="112" selection-start-column="1" selection-end-line="112" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Desktop/vide7.4.1/index.html" />
     <entry file="file://$PROJECT_DIR$/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
           <caret line="19" column="9" lean-forward="false" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page/creative/creative.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="204" column="38" lean-forward="false" selection-start-line="204" selection-start-column="28" selection-end-line="204" selection-end-column="38" />
-          <folding>
-            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -746,19 +796,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page/join/join.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="204" column="38" lean-forward="false" selection-start-line="204" selection-start-column="28" selection-end-line="204" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/page/law/law.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
           <caret line="204" column="38" lean-forward="false" selection-start-line="204" selection-start-column="38" selection-end-line="204" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -766,7 +807,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="244">
           <caret line="204" column="38" lean-forward="false" selection-start-line="204" selection-start-column="38" selection-end-line="204" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -774,7 +814,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="199" column="25" lean-forward="true" selection-start-line="199" selection-start-column="25" selection-end-line="199" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -782,10 +821,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="554">
           <caret line="204" column="26" lean-forward="false" selection-start-line="204" selection-start-column="16" selection-end-line="204" selection-end-column="26" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -793,9 +828,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="455">
           <caret line="83" column="44" lean-forward="false" selection-start-line="83" selection-start-column="44" selection-end-line="83" selection-end-column="44" />
-          <folding>
-            <element signature="n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -803,9 +835,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="347">
           <caret line="83" column="45" lean-forward="false" selection-start-line="83" selection-start-column="45" selection-end-line="83" selection-end-column="45" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -813,10 +842,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
           <caret line="204" column="38" lean-forward="false" selection-start-line="204" selection-start-column="38" selection-end-line="204" selection-end-column="38" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -824,7 +849,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
           <caret line="204" column="38" lean-forward="false" selection-start-line="204" selection-start-column="38" selection-end-line="204" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -832,7 +856,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="650">
           <caret line="204" column="58" lean-forward="false" selection-start-line="204" selection-start-column="58" selection-end-line="204" selection-end-column="58" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -840,7 +863,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="201">
           <caret line="204" column="38" lean-forward="false" selection-start-line="204" selection-start-column="38" selection-end-line="204" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -856,11 +878,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="444">
           <caret line="204" column="38" lean-forward="false" selection-start-line="204" selection-start-column="38" selection-end-line="204" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/projrct/crystal/pc/bg.png">
+    <entry file="file://$PROJECT_DIR$/images/project/crystal/pc/bg.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -869,7 +890,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="218">
           <caret line="84" column="77" lean-forward="false" selection-start-line="84" selection-start-column="77" selection-end-line="84" selection-end-column="77" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -877,16 +897,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
           <caret line="84" column="85" lean-forward="false" selection-start-line="84" selection-start-column="85" selection-end-line="84" selection-end-column="85" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/projrct/marineMuseum/pc/img.png">
+    <entry file="file://$PROJECT_DIR$/images/project/marineMuseum/pc/img.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/projrct/maze/pc/bg.png">
+    <entry file="file://$PROJECT_DIR$/images/project/maze/pc/bg.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -895,7 +914,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="542">
           <caret line="206" column="79" lean-forward="false" selection-start-line="206" selection-start-column="79" selection-end-line="206" selection-end-column="79" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -903,7 +921,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="434">
           <caret line="84" column="80" lean-forward="false" selection-start-line="84" selection-start-column="80" selection-end-line="84" selection-end-column="80" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -911,7 +928,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="393">
           <caret line="84" column="83" lean-forward="false" selection-start-line="84" selection-start-column="83" selection-end-line="84" selection-end-column="83" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -919,7 +935,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="650">
           <caret line="84" column="77" lean-forward="false" selection-start-line="84" selection-start-column="77" selection-end-line="84" selection-end-column="77" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -927,7 +942,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="407">
           <caret line="84" column="82" lean-forward="false" selection-start-line="84" selection-start-column="82" selection-end-line="84" selection-end-column="82" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -935,7 +949,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="773">
           <caret line="77" column="12" lean-forward="false" selection-start-line="77" selection-start-column="12" selection-end-line="77" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -943,7 +956,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1595">
           <caret line="84" column="81" lean-forward="false" selection-start-line="84" selection-start-column="81" selection-end-line="84" selection-end-column="81" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -951,14 +963,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
           <caret line="84" column="83" lean-forward="false" selection-start-line="84" selection-start-column="83" selection-end-line="84" selection-end-column="83" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/page/contact/contact.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="308" column="10" lean-forward="true" selection-start-line="308" selection-start-column="10" selection-end-line="308" selection-end-column="10" />
+        <state relative-caret-position="513">
+          <caret line="308" column="10" lean-forward="false" selection-start-line="308" selection-start-column="10" selection-end-line="308" selection-end-column="10" />
           <folding>
             <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -981,15 +992,23 @@
     <entry file="file://$PROJECT_DIR$/js/projrct.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/public.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="711" column="21" lean-forward="false" selection-start-line="711" selection-start-column="21" selection-end-line="711" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="338" column="35" lean-forward="true" selection-start-line="338" selection-start-column="35" selection-end-line="338" selection-end-column="35" />
+        <state relative-caret-position="162">
+          <caret line="381" column="57" lean-forward="false" selection-start-line="381" selection-start-column="57" selection-end-line="381" selection-end-column="57" />
           <folding>
             <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -1000,10 +1019,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/public.css">
+    <entry file="file://$PROJECT_DIR$/page/creative/creative.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="758">
-          <caret line="711" column="21" lean-forward="false" selection-start-line="711" selection-start-column="21" selection-end-line="711" selection-end-column="21" />
+        <state relative-caret-position="363">
+          <caret line="204" column="28" lean-forward="true" selection-start-line="204" selection-start-column="2" selection-end-line="204" selection-end-column="28" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/join/join.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="205" column="27" lean-forward="false" selection-start-line="205" selection-start-column="27" selection-end-line="205" selection-end-column="27" />
+          <folding>
+            <element signature="n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="557">
+          <caret line="239" column="23" lean-forward="true" selection-start-line="239" selection-start-column="23" selection-end-line="239" selection-end-column="23" />
           <folding />
         </state>
       </provider>
