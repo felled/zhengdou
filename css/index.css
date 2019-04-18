@@ -861,6 +861,11 @@
         right: 77px;
         transform: scale(0.9);
     }
-
+   .index-mb{
+       background-image: url("../images/home/mb-home/mb-bg.png");
+       width: 100%;
+       background-size: cover;
+       background-repeat: no-repeat;
+   }
 }
 
