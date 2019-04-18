@@ -19,7 +19,7 @@ window.onload=function(){
         $(".star-img").addClass("star-ani");
     }, 1600);
     setTimeout(function(){
-        $(".star-img").addClass("ani-paused");
+        $(".star-img").addClass("ani-paused").removeClass("star-ani");
         $(".roller-hover").addClass("roller-scale");
         $(".rivers-hover").addClass("rivers-scale");
         $(".horn-hover").addClass("horn-scale");
