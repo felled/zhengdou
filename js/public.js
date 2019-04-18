@@ -9,10 +9,12 @@ $(function () {
         var e = $(this).find(".nav-slind");
         e.slideDown();
         $(".hover-blur").addClass("blur");
+        $(".blur-img").addClass("blur");
     },function () {
         var e = $(this).find(".nav-slind");
         e.slideUp();
         $(".hover-blur").removeClass("blur");
+        $(".blur-img").removeClass("blur");
     });
     /*mb-head*/
 
