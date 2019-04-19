@@ -409,6 +409,7 @@
 }
 .star-position .project-bg a{
     position: static;
+    height: auto;
 }
 .star-ani{
     -webkit-animation:star 1.5s steps(12) infinite;
