@@ -204,7 +204,7 @@
 @media screen and (max-width: 1023px) {
     .pojflow-conten{
         width: 90%;
-        padding-top: 80px;
+        padding-top:60px;
     }
     .pojflow-title h2{
         font-size: 20px;
@@ -217,6 +217,8 @@
     }
     .poj-mb-img{
         display: block;
+        width: 80%!important;
+        margin: auto;
     }
     .pojflow-img{
         margin: 20px 0;

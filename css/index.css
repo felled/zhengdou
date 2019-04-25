@@ -187,6 +187,24 @@
     top: 0;
     left: 0;
 }
+.ani-muen{
+    position: absolute;
+    left: 0px;
+    top: 40px;
+    opacity: 0;
+    transition: all .2s;
+}
+.hover-scale + .ani-muen{
+    left: 130px;
+    opacity: 1;
+}
+.horn-hover .ani-muen{
+    top: 60px;
+}
+.horn-hover .hover-scale + .ani-muen{
+    left: 150px;
+    top: 60px;
+}
 .ani-bg a{
     position: absolute;
     display: block;
@@ -229,15 +247,17 @@
     position: absolute;
 }
 .contact-img a{
-    background-image: url('../images/home/pc-home/left-bg.png');
-    background-repeat: no-repeat;
-    width: 167px;
-    height: 53px;
-    display: block;
     left: 40px;
     top: 40%;
 }
-.contact-img .img-a em{
+.img-a{
+    background-image: url('../images/home/pc-home/left-bg.png');
+    background-repeat: no-repeat;
+    width: 167px!important;
+    height: 53px!important;
+    display: block;
+}
+.img-a em{
     color: #fff;
     font-size: 26px;
     font-weight: bold;
@@ -370,6 +390,9 @@
     transform: scale(1)!important;
 }
 .ani-conten .horn-scale .position > a:hover + div{
+    transform: scale(0.8)!important;
+}
+.horn-img.animg.hover-scale{
     transform: scale(0.8)!important;
 }
 .star-off{
@@ -506,7 +529,7 @@
     z-index: 20;
 }
 .horn-scale.sne-ani .position div.horn-img{
-    transform: scale(0.6);
+    transform: scale(0.7);
 }
 .horn-ani{
     -webkit-animation:horn 3s steps(28) infinite;
