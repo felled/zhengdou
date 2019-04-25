@@ -174,10 +174,13 @@
 .pojflow-img{
     width: 100%;
     text-align: center;
-    margin: 100px 0 300px;
+    margin: 100px 0 0;
 }
 .pojflow-img img{
     width: 100%;
+}
+.height-pro{
+    height: 100%;
 }
 .poj-pc-img{
     display: block;
@@ -200,11 +203,15 @@
     .pojflow-title p{
         font-size: 16px;
     }
+
 }
 @media screen and (max-width: 1023px) {
     .pojflow-conten{
         width: 90%;
         padding-top:60px;
+    }
+    .height-pro{
+        height: auto;
     }
     .pojflow-title h2{
         font-size: 20px;
@@ -221,7 +228,8 @@
         margin: auto;
     }
     .pojflow-img{
-        margin: 20px 0;
+        margin-top: 20px;
+        padding-bottom: 60px;
     }
 }
 /*加入我们*/
