@@ -5,9 +5,7 @@
     <bookmark url="file://$PROJECT_DIR$/css/sublevel.css" description=" &gt; div{&#10;" line="60" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87f70ea5-6a14-41a8-94a7-660dad2c7885" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="87f70ea5-6a14-41a8-94a7-660dad2c7885" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -106,7 +104,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>.project-bg</find>
-      <find>.poj-title-fox p</find>
+      <find />
       <find>.poj-body</find>
       <find>head-slind-bg</find>
       <find>.eye-img</find>
@@ -123,16 +121,16 @@
       <find>关于正豆</find>
       <find>content</find>
       <find>.survey-conten</find>
-      <find>.poj-text &gt; a</find>
+      <find />
       <find>.contact-img</find>
       <find>projrct</find>
       <find>.contac-right</find>
       <find>1024</find>
       <find>ani-paused</find>
-      <find>.star-position .project-bg a</find>
+      <find />
       <find>声音</find>
       <find>img-a</find>
-      <find>.pojflow-img img</find>
+      <find />
       <find>.pojflow-img</find>
       <find>ani-muen</find>
     </findStrings>
@@ -229,6 +227,16 @@
               <item name="zhengdou" type="b2602c69:ProjectViewProjectNode" />
               <item name="zhengdou" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="zhengdou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zhengdou" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zhengdou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zhengdou" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -246,11 +254,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\poj-html\正豆\zhengdou\www" />
       <recent name="D:\poj-html\正豆\zhengdou" />
       <recent name="D:\poj-html\正豆\zhengdou\images\projectflow\mb" />
       <recent name="D:\project\zhengdou\images\projrct\odyssey\pc" />
       <recent name="D:\project\zhengdou\images\projrct\common" />
-      <recent name="D:\project\zhengdou\images\projrct\happyValley\pc" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\project\zhengdou\images\survey\pc" />
@@ -299,12 +307,12 @@
       <workItem from="1555073381190" duration="4564000" />
       <workItem from="1555414577314" duration="8680000" />
       <workItem from="1555508042118" duration="2029000" />
-      <workItem from="1555554413254" duration="31172000" />
+      <workItem from="1555554413254" duration="31541000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="230807000" />
+    <option name="totallyTimeSpent" value="231176000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -313,7 +321,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.24042553" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.3287234" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -336,7 +344,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test.html" />
     <entry file="file://$PROJECT_DIR$/images/home/pc-home/load-bg.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -754,6 +761,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/wordpress/wp-admin/js/xfn.js">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/add_vhost.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="49" lean-forward="true" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
