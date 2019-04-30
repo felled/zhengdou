@@ -234,7 +234,7 @@
         $.ajax({
             type:"post",
             datatype: "json",
-            url:"http://localhost/wordpress/wp-content/themes/twentynineteen/page/count.php",
+            url:"http://www.szcubean.com/wp-content/themes/twentynineteen/page/count.php",
             data:$('#cout').serialize(),
             success:function () {
                 alert("提交成功！");

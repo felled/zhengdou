@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="87f70ea5-6a14-41a8-94a7-660dad2c7885" name="Default" comment="" />
+    <list default="true" id="87f70ea5-6a14-41a8-94a7-660dad2c7885" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/www/wp-content/themes/twentynineteen/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/wp-content/themes/twentynineteen/header.php" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -14,11 +16,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/wp-content/themes/twentynineteen/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="4180">
               <caret line="220" column="42" selection-start-line="220" selection-start-column="42" selection-end-line="220" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/www/wp-content/themes/twentynineteen/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="563">
+              <caret line="236" column="88" selection-start-line="236" selection-start-column="17" selection-end-line="236" selection-end-column="88" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="count.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/wp-content/themes/twentynineteen/page/count.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="21" column="8" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -99,7 +119,6 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/page/projectflow/projectflow.html" />
         <option value="$PROJECT_DIR$/css/sublevel.css" />
-        <option value="$PROJECT_DIR$/www/wp-content/themes/twentynineteen/header.php" />
         <option value="$PROJECT_DIR$/www/wp-content/themes/twentynineteen/footer.php" />
         <option value="$PROJECT_DIR$/www/wp-content/themes/twentynineteen/page/contact.php" />
         <option value="$PROJECT_DIR$/www/wp-content/themes/twentynineteen/page/creative.php" />
@@ -127,6 +146,7 @@
         <option value="$PROJECT_DIR$/www/wp-content/themes/twentynineteen/page/survey.php" />
         <option value="$PROJECT_DIR$/www/wp-content/themes/twentynineteen/page/waterPark.php" />
         <option value="$PROJECT_DIR$/www/wp-content/themes/twentynineteen/index.php" />
+        <option value="$PROJECT_DIR$/www/wp-content/themes/twentynineteen/header.php" />
       </list>
     </option>
   </component>
@@ -277,12 +297,12 @@
       <workItem from="1555414577314" duration="8680000" />
       <workItem from="1555508042118" duration="2029000" />
       <workItem from="1555554413254" duration="32497000" />
-      <workItem from="1556249148395" duration="5445000" />
+      <workItem from="1556249148395" duration="6976000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="237577000" />
+    <option name="totallyTimeSpent" value="239108000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -352,13 +372,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/wp-content/themes/twentynineteen/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-292">
-          <caret line="191" column="34" selection-start-line="191" selection-start-column="34" selection-end-line="191" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/page/comment/comment.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
@@ -370,9 +383,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/wp-content/themes/twentynineteen/page/comment.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/wp-content/themes/twentynineteen/page/count.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/www/wp-content/themes/twentynineteen/page/contact.php">
@@ -554,6 +564,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4180">
           <caret line="220" column="42" selection-start-line="220" selection-start-column="42" selection-end-line="220" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/wp-content/themes/twentynineteen/page/count.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="8" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/wp-content/themes/twentynineteen/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="563">
+          <caret line="236" column="88" selection-start-line="236" selection-start-column="17" selection-end-line="236" selection-end-column="88" />
         </state>
       </provider>
     </entry>
