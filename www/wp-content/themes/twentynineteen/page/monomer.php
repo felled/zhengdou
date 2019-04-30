@@ -2,6 +2,7 @@
 /* template name: 单体主题包装
 description: template for Git theme
 */ get_header();?>
+<title>单体主题包装</title>
 <div class="poj-conten-b content monomer-conten">
     <div class="conten-b pc-monomer hover-blur">
         <div class="poj-top-bg">

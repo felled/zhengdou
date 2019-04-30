@@ -2,6 +2,7 @@
 /* template name: 穿越欧罗巴
 description: template for Git theme
 */ get_header();?>
+<title>穿越欧罗巴</title>
 <div class="pc-poj">
     <div class="content height">
         <div class="europa-content hover-blur">

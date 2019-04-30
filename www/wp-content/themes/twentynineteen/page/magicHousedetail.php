@@ -2,6 +2,7 @@
 /* template name: 惊悚魔幻屋详情
 description: template for Git theme
 */ get_header();?>
+<title>惊悚魔幻屋详情</title>
 <div class="poj-conten-b">
     <div class="conten-b mb hover-blur">
         <div class="poj-top-bg">

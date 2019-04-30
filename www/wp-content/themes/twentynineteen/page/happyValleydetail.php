@@ -2,6 +2,7 @@
 /* template name: 北京欢乐谷详情
 description: template for Git theme
 */ get_header();?>
+<title>北京欢乐谷详情</title>
 <div class="poj-conten-b">
     <div class="conten-b mb hover-blur">
         <div class="poj-top-bg">

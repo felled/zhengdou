@@ -2,6 +2,7 @@
 /* template name: 联系我们
 description: template for Git theme
 */ get_header();?>
+<title>联系我们</title>
 <div class="content height ">
     <div class="contact-conten hover-blur ">
         <div class="contac-left">
@@ -109,9 +110,9 @@ description: template for Git theme
 </script>
 <div class="footer ">
     <div class="footer-info">
-        <a href="contact" target="_blank">联系我们</a>
+        <a href="/contact" target="_blank">联系我们</a>
         <em>/</em>
-        <a href="join" target="_blank">加入我们</a>
+        <a href="/join" target="_blank">加入我们</a>
         <em>/</em>
         <a  class="law">法律声明</a>
     </div>

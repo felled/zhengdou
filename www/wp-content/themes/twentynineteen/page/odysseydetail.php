@@ -2,6 +2,7 @@
 /* template name: 奥德赛之旅详情
 description: template for Git theme
 */ get_header();?>
+<title>奥德赛之旅详情</title>
 <link href="https://cdnjs.cloudflare.com/ajax/libs/video.js/7.3.0/video-js.min.css" rel="stylesheet">
 <div class="poj-conten-b">
     <div class="conten-b mb hover-blur">

@@ -2,6 +2,7 @@
 /* template name: 暴雨山洪
 description: template for Git theme
 */ get_header();?>
+<title>暴雨山洪</title>
 <div class="pc-poj">
     <div class="content height">
         <div class=" happy-valley hover-blur">

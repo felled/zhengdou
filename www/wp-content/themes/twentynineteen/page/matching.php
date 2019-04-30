@@ -2,6 +2,7 @@
 /* template name: 商业配套乐园
 description: template for Git theme
 */ get_header();?>
+<title>商业配套乐园</title>
 <div class="pc-poj">
     <div class="content height">
         <div class=" happy-valley hover-blur">

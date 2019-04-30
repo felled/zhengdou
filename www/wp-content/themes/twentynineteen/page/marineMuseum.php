@@ -2,6 +2,7 @@
 /* template name: 奇幻海洋馆
 description: template for Git theme
 */ get_header();?>
+<title>奇幻海洋馆</title>
 <div class="content height">
     <div class="europa-content muse-content hover-blur">
         <div class="europa-title-fox">

@@ -2,6 +2,7 @@
 /* template name: 正豆概况
 description: template for Git theme
 */ get_header();?>
+<title>正豆概况</title>
 <div class="content ">
     <div class="hover-blur">
          <div class="survey-conten ">
@@ -44,9 +45,9 @@ description: template for Git theme
     </div>
     <div class="footer">
         <div class="footer-info">
-            <a href="contact" target="_blank">联系我们</a>
+            <a href="/contact" target="_blank">联系我们</a>
             <em>/</em>
-            <a href="join" target="_blank">加入我们</a>
+            <a href="/join" target="_blank">加入我们</a>
             <em>/</em>
             <a  class="law">法律声明</a>
         </div>

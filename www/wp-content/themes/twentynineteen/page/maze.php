@@ -2,6 +2,7 @@
 /* template name: 奇幻迷宫
 description: template for Git theme
 */ get_header();?>
+<title>奇幻迷宫</title>
 <div class="pc-poj">
     <div class="content height">
         <div class=" happy-valley hover-blur">

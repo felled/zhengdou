@@ -2,6 +2,7 @@
 /* template name: 商业配套乐园详情
 description: template for Git theme
 */ get_header();?>
+<title>商业配套乐园详情</title>
 <div class="poj-conten-b">
     <div class="conten-b mb hover-blur">
         <div class="poj-top-bg">

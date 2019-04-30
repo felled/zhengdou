@@ -2,6 +2,7 @@
 /* template name: 室内主题儿童乐园详情
 description: template for Git theme
 */ get_header();?>
+<title>室内主题儿童乐园详情</title>
 <div class="poj-conten-b">
     <div class="conten-b mb hover-blur">
         <div class="poj-top-bg">

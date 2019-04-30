@@ -2,6 +2,7 @@
 /* template name: 水晶万花筒
 description: template for Git theme
 */ get_header();?>
+<title>水晶万花筒</title>
 <div class="pc-poj">
     <div class="content poj-content">
         <div class=" happy-valley hover-blur">

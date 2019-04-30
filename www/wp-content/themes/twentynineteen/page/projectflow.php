@@ -2,6 +2,7 @@
 /* template name: 项目流程
 description: template for Git theme
 */ get_header();?>
+<title>项目流程</title>
 <div class="content mb-height">
     <div class="pojflow-conten hover-blur">
         <div class="pojflow-title">
