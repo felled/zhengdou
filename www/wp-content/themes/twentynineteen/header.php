@@ -7,7 +7,7 @@
     <img class="logo" src="<?php bloginfo('template_url'); ?>/images/common/logo.png">
     <ul class="navigation">
         <li >
-            <a href="/wordpress" target="_blank">首页</a>
+            <a href="/" target="_blank">首页</a>
         </li>
         <li>
             <a>经典项目</a>
