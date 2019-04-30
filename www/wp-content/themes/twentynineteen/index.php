@@ -16,10 +16,10 @@
 
 ?>
  <meta charset="UTF-8">
+    <title>正豆官网</title>
     <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/public.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/index.css" type="text/css" media="screen" />
-
 		 <div class="home-content ">
             <div class="contenter pc-contenter">
                 <!--加载动画-->
@@ -71,13 +71,13 @@
                                         <ul class="project-nav">
                                             <p>关于正豆</p>
                                             <li>
-                                                <a href="survey" target="_blank">正豆概况</a>
+                                                <a href="/survey" target="_blank">正豆概况</a>
                                             </li>
                                             <li>
-                                                <a href="projectflow" target="_blank">项目流程</a>
+                                                <a href="/projectflow" target="_blank">项目流程</a>
                                             </li>
                                             <li>
-                                                <a href="projectflow" target="_blank">联系我们</a>
+                                                <a href="/projectflow" target="_blank">联系我们</a>
                                             </li>
 
                                         </ul>
@@ -92,19 +92,19 @@
                                     <ul class="project-nav">
                                         <p>经典项目</p>
                                         <li>
-                                            <a href="happyValley" target="_blank">欢乐世界</a>
+                                            <a href="/happyValley" target="_blank">欢乐世界</a>
                                         </li>
                                         <li>
-                                            <a href="odyssey" target="_blank">奥德赛之旅</a>
+                                            <a href="/odyssey" target="_blank">奥德赛之旅</a>
                                         </li>
                                         <li>
-                                            <a href="europa" target="_blank">穿越欧罗巴</a>
+                                            <a href="/europa" target="_blank">穿越欧罗巴</a>
                                         </li>
                                         <li>
-                                            <a href="playground" target="_blank">室内儿童乐园</a>
+                                            <a href="/playground" target="_blank">室内儿童乐园</a>
                                         </li>
                                         <li>
-                                            <a href="magicHouse" target="_blank">惊悚魔幻屋</a>
+                                            <a href="/magicHouse" target="_blank">惊悚魔幻屋</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -118,25 +118,25 @@
                                     <ul class="project-nav">
                                         <p>主体项目</p>
                                         <li>
-                                            <a href="rain" target="_blank">暴雨山洪</a>
+                                            <a href="/rain" target="_blank">暴雨山洪</a>
                                         </li>
                                         <li>
-                                            <a href="matching" target="_blank">商业配套乐园</a>
+                                            <a href="/matching" target="_blank">商业配套乐园</a>
                                         </li>
                                         <li>
-                                            <a href="waterPark" target="_blank">水上乐园</a>
+                                            <a href="/waterPark" target="_blank">水上乐园</a>
                                         </li>
                                         <li>
-                                            <a href="crystal" target="_blank">水晶万花筒</a>
+                                            <a href="/crystal" target="_blank">水晶万花筒</a>
                                         </li>
                                         <li>
-                                            <a href="maze" target="_blank">奇幻迷宫</a>
+                                            <a href="/maze" target="_blank">奇幻迷宫</a>
                                         </li>
                                         <li>
-                                            <a href="marineMuseum" target="_blank">奇幻海洋世界</a>
+                                            <a href="/marineMuseum" target="_blank">奇幻海洋世界</a>
                                         </li>
                                         <li>
-                                            <a href="monomer" target="_blank">单体主题包装</a>
+                                            <a href="/monomer" target="_blank">单体主题包装</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -147,7 +147,7 @@
                                 <a></a>
                                 <div class="horn-img animg"></div>
                                 <div class="ani-muen">
-                                    <a class="img-a"  href="news" target="_blank">
+                                    <a class="img-a"  href="/news" target="_blank">
                                         <em>新闻动态</em>
                                     </a>
                                 </div>
@@ -158,7 +158,7 @@
                                 <a></a>
                                 <div class="ufo-img animg"></div>
                                 <div class="ani-muen ">
-                                    <a class="img-a"  href="creative" target="_blank">
+                                    <a class="img-a"  href="/creative" target="_blank">
                                         <em>正豆科技</em>
                                     </a>
                                 </div>
@@ -169,7 +169,7 @@
                                 <a></a>
                                 <div class="pond-img animg"></div>
                                 <div class="ani-muen ">
-                                    <a class="img-a"  href="join" target="_blank">
+                                    <a class="img-a"  href="/join" target="_blank">
                                         <em>正豆招聘</em>
                                     </a>
                                 </div>
@@ -180,12 +180,12 @@
                 <div class="ani-bg">
                    <!-- <img class="ani-img" src="images/home/ani-bg-b.png">-->
                     <div class="law-img">
-                        <a class="img-a"  href="law-pc" target="_blank">
+                        <a class="img-a"  href="/law-pc" target="_blank">
                             <em>法律声明</em>
                         </a>
                     </div>
                     <div class="contact-img">
-                        <a class="img-a" href="contact" target="_blank" >
+                        <a class="img-a" href="/contact" target="_blank" >
                             <em>联系我们</em>
                         </a>
                     </div>
@@ -222,10 +222,10 @@
                                     <a>主体项目</a>
                                 </li>
                                 <li>
-                                    <a href="creative" target="_blank">创意科技</a>
+                                    <a href="/creative" target="_blank">创意科技</a>
                                 </li>
                                 <li>
-                                    <a  href="news" target="_blank">新闻动态</a>
+                                    <a  href="/news" target="_blank">新闻动态</a>
                                 </li>
                                 <li class="page-open" name="about">
                                     <a>关于正豆</a>
@@ -234,9 +234,9 @@
                         </div>
                         <div class="mb-footer">
                             <div class="foot-info">
-                                <a href="contact" target="_blank">联系我们</a>
+                                <a href="/contact" target="_blank">联系我们</a>
                                 <em>/</em>
-                                <a href="join" target="_blank">加入我们</a>
+                                <a href="/join" target="_blank">加入我们</a>
                                 <em>/</em>
                                 <a class="law">法律声明</a>
                            </div>
@@ -255,34 +255,34 @@
                         <div  class="mb-page-nav" >
                             <ul >
                                 <li>
-                                    <a href="rain" target="_blank">暴雨山洪</a>
+                                    <a href="/rain" target="_blank">暴雨山洪</a>
                                 </li>
                                 <li>
-                                    <a href="matching" target="_blank">商业配套乐园</a>
+                                    <a href="/matching" target="_blank">商业配套乐园</a>
                                 </li>
                                 <li>
-                                    <a  href="waterPark" target="_blank">水上乐园</a>
+                                    <a  href="/waterPark" target="_blank">水上乐园</a>
                                 </li>
                                 <li>
-                                    <a href="crystal" target="_blank">水晶万花筒</a>
+                                    <a href="/crystal" target="_blank">水晶万花筒</a>
                                 </li>
                                 <li>
-                                    <a href="maze" target="_blank">奇幻迷宫</a>
+                                    <a href="/maze" target="_blank">奇幻迷宫</a>
                                 </li>
                                 <li>
-                                    <a href="marineMuseum" target="_blank">奇幻海洋馆</a>
+                                    <a href="/marineMuseum" target="_blank">奇幻海洋馆</a>
                                 </li>
                                 <li>
-                                    <a href="monomer" target="_blank">单体主题包装</a>
+                                    <a href="/monomer" target="_blank">单体主题包装</a>
                                 </li>
 
                             </ul>
                         </div>
                         <div class="mb-footer">
                             <div class="foot-info">
-                                <a href="contact" target="_blank">联系我们</a>
+                                <a href="/contact" target="_blank">联系我们</a>
                                 <em>/</em>
-                                <a href="join" target="_blank">加入我们</a>
+                                <a href="/join" target="_blank">加入我们</a>
                                 <em>/</em>
                                 <a class="law">法律声明</a>
                             </div>
@@ -301,27 +301,27 @@
                         <div  class="mb-page-nav" >
                             <ul >
                                 <li>
-                                    <a href="happyValley" target="_blank">欢乐世界</a>
+                                    <a href="/happyValley" target="_blank">欢乐世界</a>
                                 </li>
                                 <li>
-                                    <a href="odyssey" target="_blank">奥德赛之旅</a>
+                                    <a href="/odyssey" target="_blank">奥德赛之旅</a>
                                 </li>
                                 <li>
-                                    <a href="europa" target="_blank">穿越欧罗马</a>
+                                    <a href="/europa" target="_blank">穿越欧罗马</a>
                                 </li>
                                 <li>
-                                    <a href="playground" target="_blank">室内儿童乐园</a>
+                                    <a href="/playground" target="_blank">室内儿童乐园</a>
                                 </li>
                                 <li>
-                                    <a href="magicHouse" target="_blank">惊悚魔幻屋</a>
+                                    <a href="/magicHouse" target="_blank">惊悚魔幻屋</a>
                                 </li>
                             </ul>
                         </div>
                         <div class="mb-footer">
                             <div class="foot-info">
-                                <a href="contact" target="_blank">联系我们</a>
+                                <a href="/contact" target="_blank">联系我们</a>
                                 <em>/</em>
-                                <a href="join" target="_blank">加入我们</a>
+                                <a href="/join" target="_blank">加入我们</a>
                                 <em>/</em>
                                 <a class="law">法律声明</a>
                             </div>
@@ -339,18 +339,18 @@
                         <div  class="mb-page-nav" >
                             <ul >
                                 <li >
-                                    <a href="survey" target="_blank">正豆概况</a>
+                                    <a href="/survey" target="_blank">正豆概况</a>
                                 </li>
                                 <li>
-                                    <a href="projectflow" target="_blank">项目流程</a>
+                                    <a href="/projectflow" target="_blank">项目流程</a>
                                 </li>
                             </ul>
                         </div>
                         <div class="mb-footer">
                             <div class="foot-info">
-                                <a href="contact" target="_blank">联系我们</a>
+                                <a href="/contact" target="_blank">联系我们</a>
                                 <em>/</em>
-                                <a href="join" target="_blank">加入我们</a>
+                                <a href="/join" target="_blank">加入我们</a>
                                 <em>/</em>
                                 <a class="law">法律声明</a>
                             </div>
