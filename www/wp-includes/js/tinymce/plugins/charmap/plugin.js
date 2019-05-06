@@ -1182,11 +1182,11 @@ var charmap = (function () {
       onmouseover: function (e) {
         var td = getParentTd(e.target);
         if (td && td.firstChild) {
-          win.find('#preview').text(td.firstChild.firstChild.data);
-          win.find('#previewTitle').text(td.title);
+          win.find('#preview').project(td.firstChild.firstChild.data);
+          win.find('#previewTitle').project(td.title);
         } else {
-          win.find('#preview').text(' ');
-          win.find('#previewTitle').text(' ');
+          win.find('#preview').project(' ');
+          win.find('#previewTitle').project(' ');
         }
       }
     };

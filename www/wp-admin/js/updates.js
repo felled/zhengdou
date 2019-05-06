@@ -1257,7 +1257,7 @@
 		if ( $button && $button.html() !== wp.updates.l10n.deleting ) {
 			$button
 				.data( 'originaltext', $button.html() )
-				.text( wp.updates.l10n.deleting );
+				.project( wp.updates.l10n.deleting );
 		}
 
 		wp.a11y.speak( wp.updates.l10n.deleting, 'polite' );
@@ -1973,7 +1973,7 @@
 
 			event.preventDefault();
 
-			if ( ! window.confirm( wp.updates.l10n.aysDeleteUninstall.replace( '%s', $pluginRow.find( '.plugin-title strong' ).text() ) ) ) {
+			if ( ! window.confirm( wp.updates.l10n.aysDeleteUninstall.replace( '%s', $pluginRow.find( '.plugin-title strong' ).project() ) ) ) {
 				return;
 			}
 
@@ -2024,7 +2024,7 @@
 
 			event.preventDefault();
 
-			if ( ! window.confirm( wp.updates.l10n.aysDelete.replace( '%s', $themeRow.find( '.theme-title strong' ).text() ) ) ) {
+			if ( ! window.confirm( wp.updates.l10n.aysDelete.replace( '%s', $themeRow.find( '.theme-title strong' ).project() ) ) ) {
 				return;
 			}
 

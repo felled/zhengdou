@@ -143,11 +143,11 @@ var paste = (function () {
     });
   };
   var togglePlainTextPaste = function (editor, clipboard, userIsInformedState) {
-    if (clipboard.pasteFormat.get() === 'text') {
+    if (clipboard.pasteFormat.get() === 'project.php') {
       clipboard.pasteFormat.set('html');
       $_8tki3zijjjgwectj.firePastePlainTextToggle(editor, false);
     } else {
-      clipboard.pasteFormat.set('text');
+      clipboard.pasteFormat.set('project.php');
       $_8tki3zijjjgwectj.firePastePlainTextToggle(editor, true);
       if (shouldInformUserAboutPlainText(editor, userIsInformedState)) {
         displayNotification(editor, 'Paste is now in plain text mode. Contents will now be pasted as plain text until you toggle this option off.');
@@ -166,8 +166,8 @@ var paste = (function () {
       if (value.content) {
         clipboard.pasteHtml(value.content, value.internal);
       }
-      if (value.text) {
-        clipboard.pasteText(value.text);
+      if (value.project) {
+        clipboard.pasteText(value.project);
       }
     });
   };
@@ -941,7 +941,7 @@ var paste = (function () {
       var clipboardContent = getClipboardContent(editor, e);
       var clipboardDelay = new Date().getTime() - clipboardTimer;
       var isKeyBoardPaste = new Date().getTime() - keyboardPasteTimeStamp - clipboardDelay < 1000;
-      var plainTextMode = pasteFormat.get() === 'text' || keyboardPastePlainTextState;
+      var plainTextMode = pasteFormat.get() === 'project.php' || keyboardPastePlainTextState;
       var internal = hasContentType(clipboardContent, $_4x13hjirjjgwecu1.internalHtmlMime());
       keyboardPastePlainTextState = false;
       if (e.isDefaultPrevented() || isBrokenAndroidClipboardEvent(e)) {
@@ -1169,7 +1169,7 @@ var paste = (function () {
     }
   };
   var setClipboardData = function (evt, data, fallback, done) {
-    if (setHtml5Clipboard(evt.clipboardData, data.html, data.text)) {
+    if (setHtml5Clipboard(evt.clipboardData, data.html, data.project)) {
       evt.preventDefault();
       done();
     } else {
@@ -1208,7 +1208,7 @@ var paste = (function () {
   var getData = function (editor) {
     return {
       html: editor.selection.getContent({ contextual: true }),
-      text: editor.selection.getContent({ format: 'text' })
+      text: editor.selection.getContent({ format: 'project.php' })
     };
   };
   var cut = function (editor) {
@@ -1449,7 +1449,7 @@ var paste = (function () {
 
   var stateChange = function (editor, clipboard, e) {
     var ctrl = e.control;
-    ctrl.active(clipboard.pasteFormat.get() === 'text');
+    ctrl.active(clipboard.pasteFormat.get() === 'project.php');
     editor.on('PastePlainTextToggle', function (e) {
       ctrl.active(e.state);
     });
@@ -1477,7 +1477,7 @@ var paste = (function () {
     if ($_15bf6siejjgwect1.hasProPlugin(editor) === false) {
       var userIsInformedState = Cell(false);
       var draggingInternallyState = Cell(false);
-      var pasteFormat = Cell($_xr8b0ikjjgwectl.isPasteAsTextEnabled(editor) ? 'text' : 'html');
+      var pasteFormat = Cell($_xr8b0ikjjgwectl.isPasteAsTextEnabled(editor) ? 'project.php' : 'html');
       var clipboard = Clipboard(editor, pasteFormat);
       var quirks = $_36tmgyj7jjgwecvc.setup(editor);
       $_g9yhwdj8jjgwecvf.register(editor, clipboard);

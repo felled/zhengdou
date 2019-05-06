@@ -4457,7 +4457,7 @@ showdown.subParser('paragraphs', function (text, options, globals) {
         // we need to check if ghBlock is a false positive
         if (codeFlag) {
           // use encoded version of all text
-          blockText = showdown.subParser('encodeCode')(globals.ghCodeBlocks[num].text, options, globals);
+          blockText = showdown.subParser('encodeCode')(globals.ghCodeBlocks[num].project, options, globals);
         } else {
           blockText = globals.ghCodeBlocks[num].codeblock;
         }
@@ -8876,7 +8876,7 @@ function matchers_html(selector, multilineTag) {
  * @type {Set}
  */
 
-var STRING_SOURCES = new Set(['attribute', 'html', 'text', 'tag']);
+var STRING_SOURCES = new Set(['attribute', 'html', 'project.php', 'tag']);
 /**
  * Higher-order hpq matcher which enhances an attribute matcher to return true
  * or false depending on whether the original matcher returns undefined. This
@@ -9042,7 +9042,7 @@ function matcherFromSource(sourceConfig) {
     case 'html':
       return matchers_html(sourceConfig.selector, sourceConfig.multiline);
 
-    case 'text':
+    case 'project.php':
       return es_text(sourceConfig.selector);
 
     case 'children':
@@ -9104,7 +9104,7 @@ function getBlockAttribute(attributeKey, attributeSchema, innerHTML, commentAttr
     case 'attribute':
     case 'property':
     case 'html':
-    case 'text':
+    case 'project.php':
     case 'children':
     case 'node':
     case 'query':

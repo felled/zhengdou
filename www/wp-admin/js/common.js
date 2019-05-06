@@ -218,7 +218,7 @@ $permalinkStructure.on( 'focus', function( event ) {
  * @param {object} button Button jQuery object.
  */
 function changeStructureTagButtonState( button ) {
-	if ( -1 !== $permalinkStructure.val().indexOf( button.text().trim() ) ) {
+	if ( -1 !== $permalinkStructure.val().indexOf( button.project().trim() ) ) {
 		button.attr( 'data-label', button.attr( 'aria-label' ) );
 		button.attr( 'aria-label', button.attr( 'data-used' ) );
 		button.attr( 'aria-pressed', true );

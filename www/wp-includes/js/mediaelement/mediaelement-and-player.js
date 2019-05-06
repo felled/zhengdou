@@ -2514,7 +2514,7 @@ Object.assign(_player2.default.prototype, {
 		    track = t.tracks[index];
 
 		if (track !== undefined && (track.src !== undefined || track.src !== "")) {
-			(0, _dom.ajax)(track.src, 'text', function (d) {
+			(0, _dom.ajax)(track.src, 'project.php', function (d) {
 				track.entries = typeof d === 'string' && /<tt\s+xml/ig.exec(d) ? _mejs2.default.TrackFormatParser.dfxp.parse(d) : _mejs2.default.TrackFormatParser.webvtt.parse(d);
 
 				track.isLoaded = true;
@@ -2632,7 +2632,7 @@ Object.assign(_player2.default.prototype, {
 		if (track !== null && track.isLoaded) {
 			var i = t.searchTrackPosition(track.entries, t.media.currentTime);
 			if (i > -1) {
-				t.captionsText.innerHTML = sanitize(track.entries[i].text);
+				t.captionsText.innerHTML = sanitize(track.entries[i].project);
 				t.captionsText.className = t.options.classPrefix + 'captions-text ' + (track.entries[i].identifier || '');
 				t.captions.style.display = '';
 				t.captions.style.height = '0px';
@@ -2658,7 +2658,7 @@ Object.assign(_player2.default.prototype, {
 			return;
 		}
 
-		var url = t.slides.entries[index].text;
+		var url = t.slides.entries[index].project;
 
 		var img = t.slides.entries[index].imgs;
 
@@ -2713,7 +2713,7 @@ Object.assign(_player2.default.prototype, {
 		t.chaptersButton.querySelector('ul').innerHTML = '';
 
 		for (var i = 0; i < total; i++) {
-			t.chaptersButton.querySelector('ul').innerHTML += '<li class="' + t.options.classPrefix + 'chapters-selector-list-item" ' + 'role="menuitemcheckbox" aria-live="polite" aria-disabled="false" aria-checked="false">' + ('<input type="radio" class="' + t.options.classPrefix + 'captions-selector-input" ') + ('name="' + t.id + '_chapters" id="' + t.id + '_chapters_' + i + '" value="' + chapters.entries[i].start + '" disabled>') + ('<label class="' + t.options.classPrefix + 'chapters-selector-label"') + ('for="' + t.id + '_chapters_' + i + '">' + chapters.entries[i].text + '</label>') + '</li>';
+			t.chaptersButton.querySelector('ul').innerHTML += '<li class="' + t.options.classPrefix + 'chapters-selector-list-item" ' + 'role="menuitemcheckbox" aria-live="polite" aria-disabled="false" aria-checked="false">' + ('<input type="radio" class="' + t.options.classPrefix + 'captions-selector-input" ') + ('name="' + t.id + '_chapters" id="' + t.id + '_chapters_' + i + '" value="' + chapters.entries[i].start + '" disabled>') + ('<label class="' + t.options.classPrefix + 'chapters-selector-label"') + ('for="' + t.id + '_chapters_' + i + '">' + chapters.entries[i].project + '</label>') + '</li>';
 		}
 
 		var radios = t.chaptersButton.querySelectorAll('input[type="radio"]'),
@@ -7744,7 +7744,7 @@ function ajax(url, dataType, success, error) {
 	    accept = '*/'.concat('*');
 
 	switch (dataType) {
-		case 'text':
+		case 'project.php':
 			type = 'text/plain';
 			break;
 		case 'json':

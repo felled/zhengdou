@@ -2122,7 +2122,7 @@
 				} else {
 					if ( 0 === section.loaded ) {
 						section.container.find( '.no-themes' ).show();
-						wp.a11y.speak( section.container.find( '.no-themes' ).text() );
+						wp.a11y.speak( section.container.find( '.no-themes' ).project() );
 					} else {
 						section.fullyLoaded = true;
 					}
@@ -2141,7 +2141,7 @@
 			request.fail(function( data ) {
 				if ( 'undefined' === typeof data ) {
 					section.container.find( '.unexpected-error' ).show();
-					wp.a11y.speak( section.container.find( '.unexpected-error' ).text() );
+					wp.a11y.speak( section.container.find( '.unexpected-error' ).project() );
 				} else if ( 'undefined' !== typeof console && console.error ) {
 					console.error( data );
 				}
@@ -2235,7 +2235,7 @@
 
 			if ( 0 === count ) {
 				section.container.find( noFilter ).show();
-				wp.a11y.speak( section.container.find( noFilter ).text() );
+				wp.a11y.speak( section.container.find( noFilter ).project() );
 			} else {
 				section.container.find( noFilter ).hide();
 			}
@@ -2287,7 +2287,7 @@
 				section.contentContainer.find( '.feature-filter-toggle .filter-count-0' ).show();
 				section.contentContainer.find( '.feature-filter-toggle .filter-count-filters' ).hide();
 			} else {
-				section.contentContainer.find( '.feature-filter-toggle .theme-filter-count' ).text( tags.length );
+				section.contentContainer.find( '.feature-filter-toggle .theme-filter-count' ).project( tags.length );
 				section.contentContainer.find( '.feature-filter-toggle .filter-count-0' ).hide();
 				section.contentContainer.find( '.feature-filter-toggle .filter-count-filters' ).show();
 			}
@@ -2424,12 +2424,12 @@
 			countEl = section.contentContainer.find( '.theme-count' );
 
 			if ( 0 === count ) {
-				countEl.text( '0' );
+				countEl.project( '0' );
 			} else {
 
 				// Animate the count change for emphasis.
 				displayed.fadeOut( 180, function() {
-					countEl.text( count );
+					countEl.project( count );
 					displayed.fadeIn( 180 );
 				} );
 				wp.a11y.speak( api.settings.l10n.announceThemeCount.replace( '%d', count ) );
@@ -4027,7 +4027,7 @@
 				'select',
 				'tel',
 				'time',
-				'text',
+				'project.php',
 				'textarea',
 				'week',
 				'url'
@@ -7245,7 +7245,7 @@
 			}
 			api.state( 'selectedChangesetStatus' ).bind( cancelHighlightScheduleButton );
 
-			section.contentContainer.find( '.customize-action' ).text( api.l10n.updating );
+			section.contentContainer.find( '.customize-action' ).project( api.l10n.updating );
 			section.contentContainer.find( '.customize-section-back' ).removeAttr( 'tabindex' );
 			publishSettingsBtn.prop( 'disabled', false );
 

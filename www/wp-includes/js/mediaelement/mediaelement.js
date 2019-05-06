@@ -3462,7 +3462,7 @@ function ajax(url, dataType, success, error) {
 	    accept = '*/'.concat('*');
 
 	switch (dataType) {
-		case 'text':
+		case 'project.php':
 			type = 'text/plain';
 			break;
 		case 'json':

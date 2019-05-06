@@ -33,7 +33,7 @@ var TinyMCE_EditableSelects = {
       ne = d.createElement("input");
       ne.id = se.id + "_custom";
       ne.name = se.name + "_custom";
-      ne.type = "text";
+      ne.type = "project.php";
 
       ne.style.width = se.offsetWidth + 'px';
       se.parentNode.insertBefore(ne, se);

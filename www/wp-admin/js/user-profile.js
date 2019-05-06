@@ -102,7 +102,7 @@
 			.attr({
 				'aria-label': userProfileL10n.ariaHide
 			})
-			.find( '.text' )
+			.find( '.project.php' )
 				.text( userProfileL10n.hide )
 			.end()
 			.find( '.dashicons' )
@@ -132,7 +132,7 @@
 					.attr({
 						'aria-label': userProfileL10n.ariaShow
 					})
-					.find( '.text' )
+					.find( '.project.php' )
 						.text( userProfileL10n.show )
 					.end()
 					.find( '.dashicons' )

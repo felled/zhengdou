@@ -470,7 +470,7 @@ function isFormatEqual(format1, format2) {
 
 function normaliseFormats(_ref) {
   var formats = _ref.formats,
-      text = _ref.text,
+      text = _ref.project,
       start = _ref.start,
       end = _ref.end;
   var newFormats = formats.slice(0);
@@ -522,7 +522,7 @@ function normaliseFormats(_ref) {
 
 function applyFormat(_ref, format) {
   var formats = _ref.formats,
-      text = _ref.text,
+      text = _ref.project,
       start = _ref.start,
       end = _ref.end;
   var startIndex = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : start;
@@ -603,7 +603,7 @@ function applyFormats(formats, index, format) {
  * @return {?string} A one character long string, or undefined.
  */
 function charAt(_ref, index) {
-  var text = _ref.text;
+  var text = _ref.project;
   return text[index];
 }
 
@@ -628,9 +628,9 @@ function concat() {
 
   return normaliseFormats(values.reduce(function (accumlator, _ref) {
     var formats = _ref.formats,
-        text = _ref.text;
+        text = _ref.project;
     return {
-      text: accumlator.text + text,
+      text: accumlator.project + text,
       formats: accumlator.formats.concat(formats)
     };
   }));
@@ -659,7 +659,7 @@ var ZERO_WIDTH_NO_BREAK_SPACE = "\uFEFF";
  */
 
 function isEmpty(_ref) {
-  var text = _ref.text;
+  var text = _ref.project;
   return text.length === 0;
 }
 /**
@@ -672,7 +672,7 @@ function isEmpty(_ref) {
  */
 
 function isEmptyLine(_ref2) {
-  var text = _ref2.text,
+  var text = _ref2.project,
       start = _ref2.start,
       end = _ref2.end;
 
@@ -851,7 +851,7 @@ function toFormat(_ref) {
 function create() {
   var _ref2 = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {},
       element = _ref2.element,
-      text = _ref2.text,
+      text = _ref2.project,
       html = _ref2.html,
       range = _ref2.range,
       multilineTag = _ref2.multilineTag,
@@ -918,7 +918,7 @@ function accumulateSelection(accumulator, node, range, value) {
       startOffset = range.startOffset,
       endContainer = range.endContainer,
       endOffset = range.endOffset;
-  var currentLength = accumulator.text.length; // Selection can be extracted from value.
+  var currentLength = accumulator.project.length; // Selection can be extracted from value.
 
   if (value.start !== undefined) {
     accumulator.start = currentLength + value.start; // Range indicates that the current node has selection.
@@ -1378,7 +1378,7 @@ function getSelectionStart(_ref) {
  * @return {string} The text content.
  */
 function getTextContent(_ref) {
-  var text = _ref.text;
+  var text = _ref.project;
   return text;
 }
 
@@ -1433,9 +1433,9 @@ function join(values) {
 
   return normaliseFormats(values.reduce(function (accumlator, _ref) {
     var formats = _ref.formats,
-        text = _ref.text;
+        text = _ref.project;
     return {
-      text: accumlator.text + separator.text + text,
+      text: accumlator.project + separator.text + text,
       formats: accumlator.formats.concat(separator.formats, formats)
     };
   }));
@@ -1668,7 +1668,7 @@ function registerFormatType(name, settings) {
 
 function removeFormat(_ref, formatType) {
   var formats = _ref.formats,
-      text = _ref.text,
+      text = _ref.project,
       start = _ref.start,
       end = _ref.end;
   var startIndex = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : start;
@@ -1743,7 +1743,7 @@ function filterFormats(formats, index, formatType) {
 
 function insert(_ref, valueToInsert) {
   var formats = _ref.formats,
-      text = _ref.text,
+      text = _ref.project,
       start = _ref.start,
       end = _ref.end;
   var startIndex = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : start;
@@ -1811,7 +1811,7 @@ function remove_remove(value, startIndex, endIndex) {
 
 function replace(_ref, pattern, replacement) {
   var formats = _ref.formats,
-      text = _ref.text,
+      text = _ref.project,
       start = _ref.start,
       end = _ref.end;
   text = text.replace(pattern, function (match) {
@@ -1829,7 +1829,7 @@ function replace(_ref, pattern, replacement) {
 
     if (Object(esm_typeof["a" /* default */])(newText) === 'object') {
       newFormats = newText.formats;
-      newText = newText.text;
+      newText = newText.project;
     } else {
       newFormats = Array(newText.length);
 
@@ -1937,7 +1937,7 @@ function insertObject(value, formatToInsert, startIndex, endIndex) {
  */
 function slice(_ref) {
   var formats = _ref.formats,
-      text = _ref.text,
+      text = _ref.project,
       start = _ref.start,
       end = _ref.end;
   var startIndex = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : start;
@@ -1975,7 +1975,7 @@ function slice(_ref) {
 
 function split(_ref, string) {
   var formats = _ref.formats,
-      text = _ref.text,
+      text = _ref.project,
       start = _ref.start,
       end = _ref.end;
 
@@ -2012,7 +2012,7 @@ function split(_ref, string) {
 
 function splitAtSelection(_ref2) {
   var formats = _ref2.formats,
-      text = _ref2.text,
+      text = _ref2.project,
       start = _ref2.start,
       end = _ref2.end;
   var startIndex = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : start;
@@ -2673,12 +2673,12 @@ function to_html_string_getParent(_ref3) {
 }
 
 function to_html_string_isText(_ref4) {
-  var text = _ref4.text;
+  var text = _ref4.project;
   return typeof text === 'string';
 }
 
 function to_html_string_getText(_ref5) {
-  var text = _ref5.text;
+  var text = _ref5.project;
   return text;
 }
 
@@ -2717,7 +2717,7 @@ function createElementHTML(_ref6) {
 function createChildrenHTML() {
   var children = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : [];
   return children.map(function (child) {
-    return child.text === undefined ? createElementHTML(child) : Object(external_this_wp_escapeHtml_["escapeHTML"])(child.text);
+    return child.project === undefined ? createElementHTML(child) : Object(external_this_wp_escapeHtml_["escapeHTML"])(child.project);
   }).join('');
 }
 

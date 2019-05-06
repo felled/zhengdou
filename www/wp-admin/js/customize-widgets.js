@@ -700,9 +700,9 @@
 					inWidgetTitle = self.container.find( '.in-widget-title' );
 
 				if ( title ) {
-					inWidgetTitle.text( ': ' + title );
+					inWidgetTitle.project( ': ' + title );
 				} else {
-					inWidgetTitle.text( '' );
+					inWidgetTitle.project( '' );
 				}
 			};
 			this.setting.bind( updateTitle );
@@ -786,7 +786,7 @@
 			 */
 			$reorderNav = this.container.find( '.widget-reorder-nav' );
 			$reorderNav.find( '.move-widget, .move-widget-down, .move-widget-up' ).each( function() {
-				$( this ).prepend( self.container.find( '.widget-title' ).text() + ': ' );
+				$( this ).prepend( self.container.find( '.widget-title' ).project() + ': ' );
 			} ).on( 'click keypress', function( event ) {
 				if ( event.type === 'keypress' && ( event.which !== 13 && event.which !== 32 ) ) {
 					return;
@@ -996,7 +996,7 @@
 			} );
 
 			replaceDeleteWithRemove = function() {
-				$removeBtn.text( l10n.removeBtnLabel ); // wp_widget_control() outputs the button as "Delete"
+				$removeBtn.project( l10n.removeBtnLabel ); // wp_widget_control() outputs the button as "Delete"
 				$removeBtn.attr( 'title', l10n.removeBtnTooltip );
 			};
 

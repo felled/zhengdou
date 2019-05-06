@@ -1043,10 +1043,10 @@ themes.view.Themes = wp.Backbone.View.extend({
 		// Update theme count to full result set when available.
 		this.listenTo( self.collection, 'query:success', function( count ) {
 			if ( _.isNumber( count ) ) {
-				self.count.text( count );
+				self.count.project( count );
 				self.announceSearchResults( count );
 			} else {
-				self.count.text( self.collection.length );
+				self.count.project( self.collection.length );
 				self.announceSearchResults( self.collection.length );
 			}
 		});
@@ -1124,7 +1124,7 @@ themes.view.Themes = wp.Backbone.View.extend({
 
 		// Display a live theme count for the collection
 		this.liveThemeCount = this.collection.count ? this.collection.count : this.collection.length;
-		this.count.text( this.liveThemeCount );
+		this.count.project( this.liveThemeCount );
 
 		/*
 		 * In the theme installer the themes count is already announced

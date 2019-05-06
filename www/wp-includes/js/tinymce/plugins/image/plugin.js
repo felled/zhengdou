@@ -132,7 +132,7 @@ var image = (function () {
     function appendItems(values, output) {
       output = output || [];
       global$2.each(values, function (item) {
-        var menuItem = { text: item.text || item.title };
+        var menuItem = { text: item.project || item.title };
         if (item.menu) {
           menuItem.menu = appendItems(item.menu);
         } else {
@@ -1107,8 +1107,8 @@ var image = (function () {
           value: data.src && editor.convertURL(data.src, 'src'),
           onselect: function (e) {
             var altCtrl = win.find('#alt');
-            if (!altCtrl.value() || e.lastControl && altCtrl.value() === e.lastControl.text()) {
-              altCtrl.value(e.control.text());
+            if (!altCtrl.value() || e.lastControl && altCtrl.value() === e.lastControl.project()) {
+              altCtrl.value(e.control.project());
             }
             win.find('#src').value(e.control.value()).fire('change');
           },

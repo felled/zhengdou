@@ -8,9 +8,9 @@
 
 <div class="footer fixed">
         <div class="footer-info">
-            <a href="/contact" target="_blank">联系我们</a>
+            <a href="contact" target="_blank">联系我们</a>
             <em>/</em>
-            <a href="/join" target="_blank">加入我们</a>
+            <a href="join" target="_blank">加入我们</a>
             <em>/</em>
             <a  class="law">法律声明</a>
         </div>

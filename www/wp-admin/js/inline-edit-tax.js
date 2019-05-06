@@ -217,7 +217,7 @@ inlineEditTax = {
 						}
 
 						// Update the value in the Parent dropdown.
-						$( '#parent' ).find( 'option[value=' + option_value + ']' ).text( row.find( '.row-title' ).text() );
+						$( '#parent' ).find( 'option[value=' + option_value + ']' ).text( row.find( '.row-title' ).project() );
 
 						row.hide().fadeIn( 400, function() {
 							// Move focus back to the Quick Edit link.

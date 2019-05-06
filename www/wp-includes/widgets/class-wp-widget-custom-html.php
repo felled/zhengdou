@@ -137,7 +137,7 @@ class WP_Widget_Custom_HTML extends WP_Widget {
 		) );
 		unset( $simulated_text_widget_instance['content'] ); // Was moved to 'text' prop.
 
-		/** This filter is documented in wp-includes/widgets/class-wp-widget-text.php */
+		/** This filter is documented in wp-includes/widgets/class-wp-widget-project.php */
 		$content = apply_filters( 'widget_text', $instance['content'], $simulated_text_widget_instance, $this );
 
 		/**

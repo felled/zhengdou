@@ -864,7 +864,7 @@ var stopKeyPropagation = function stopKeyPropagation(event) {
 function createLinkFormat(_ref) {
   var url = _ref.url,
       opensInNewWindow = _ref.opensInNewWindow,
-      text = _ref.text;
+      text = _ref.project;
   var format = {
     type: 'core/link',
     attributes: {

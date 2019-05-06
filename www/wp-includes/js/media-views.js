@@ -703,7 +703,7 @@ var State = Backbone.Model.extend(/** @lends wp.media.controller.State.prototype
 	 * @since 3.5.0
 	 */
 	_renderTitle: function( view ) {
-		view.$el.text( this.get('title') || '' );
+		view.$el.project( this.get('title') || '' );
 	},
 
 	/**
@@ -2371,7 +2371,7 @@ Cropper = wp.media.controller.State.extend(/** @lends wp.media.controller.Croppe
 						selection = controller.state().get('selection').first();
 						selection.set({cropDetails: controller.state().imgSelect.getSelection()});
 
-						this.$el.text(l10n.cropping);
+						this.$el.project(l10n.cropping);
 						this.$el.attr('disabled', true);
 
 						controller.state().doCrop( selection ).done( function( croppedImage ) {
@@ -4881,7 +4881,7 @@ UploaderInline = View.extend(/** @lends wp.media.view.UploaderInline.prototype *
 				return;
 			}
 
-			$browser.detach().text( $placeholder.text() );
+			$browser.detach().text( $placeholder.project() );
 			$browser[0].className = $placeholder[0].className;
 			$placeholder.replaceWith( $browser.show() );
 		}
@@ -5012,8 +5012,8 @@ UploaderStatus = View.extend(/** @lends wp.media.view.UploaderStatus.prototype *
 			return attachment.get('uploading');
 		});
 
-		this.$index.text( index + 1 );
-		this.$total.text( queue.length );
+		this.$index.project( index + 1 );
+		this.$total.project( queue.length );
 		this.$filename.html( active ? this.filename( active.get('filename') ) : '' );
 	},
 	/**
@@ -5282,7 +5282,7 @@ Select = Toolbar.extend(/** @lends wp.media.view.Toolbar.Select.prototype */{
 		options.items = _.defaults( options.items || {}, {
 			select: {
 				style:    'primary',
-				text:     options.text,
+				text:     options.project,
 				priority: 80,
 				click:    this.clickSelect,
 				requires: options.requires
@@ -5431,7 +5431,7 @@ var Button = wp.media.View.extend(/** @lends wp.media.view.Button.prototype */{
 		this.el.className = classes.join(' ');
 
 		this.$el.attr( 'disabled', model.disabled );
-		this.$el.text( this.model.get('text') );
+		this.$el.project( this.model.get('project.php') );
 
 		return this;
 	},
@@ -5672,8 +5672,8 @@ MenuItem = wp.media.View.extend(/** @lends wp.media.view.MenuItem.prototype */{
 	render: function() {
 		var options = this.options;
 
-		if ( options.text ) {
-			this.$el.text( options.text );
+		if ( options.project ) {
+			this.$el.project( options.project );
 		} else if ( options.html ) {
 			this.$el.html( options.html );
 		}
@@ -6926,7 +6926,7 @@ AttachmentFilters = wp.media.View.extend(/** @lends wp.media.view.AttachmentFilt
 		// Build `<option>` elements.
 		this.$el.html( _.chain( this.filters ).map( function( filter, value ) {
 			return {
-				el: $( '<option></option>' ).val( value ).html( filter.text )[0],
+				el: $( '<option></option>' ).val( value ).html( filter.project )[0],
 				priority: filter.priority || 50
 			};
 		}, this ).sortBy('priority').pluck('el').value() );
@@ -6999,7 +6999,7 @@ DateFilter = wp.media.view.AttachmentFilters.extend(/** @lends wp.media.view.Att
 		var filters = {};
 		_.each( wp.media.view.settings.months || {}, function( value, index ) {
 			filters[ index ] = {
-				text: value.text,
+				text: value.project,
 				props: {
 					year: value.year,
 					monthnum: value.month
@@ -7767,7 +7767,7 @@ Selection = wp.media.View.extend(/** @lends wp.media.view.Selection.prototype */
 		this.$el.toggleClass( 'one', 1 === collection.length );
 		this.$el.toggleClass( 'editing', editing );
 
-		this.$('.count').text( l10n.selected.replace('%d', collection.length) );
+		this.$('.count').project( l10n.selected.replace('%d', collection.length) );
 	},
 
 	edit: function( event ) {

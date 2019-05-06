@@ -1523,7 +1523,7 @@
 					}
 					control.container.find( 'option[value=' + menuId + ']' ).remove();
 				} else {
-					control.container.find( 'option[value=' + menuId + ']' ).text( displayNavMenuName( setting().name ) );
+					control.container.find( 'option[value=' + menuId + ']' ).project( displayNavMenuName( setting().name ) );
 				}
 			});
 		}
@@ -1851,11 +1851,11 @@
 				// Don't update to an empty title.
 				if ( trimmedTitle || item.original_title ) {
 					titleEl
-						.text( titleText )
+						.project( titleText )
 						.removeClass( 'no-title' );
 				} else {
 					titleEl
-						.text( titleText )
+						.project( titleText )
 						.addClass( 'no-title' );
 				}
 			} );
@@ -2394,7 +2394,7 @@
 						if ( ! selectedMenuId || ! menuSetting || ! menuSetting() ) {
 							container.find( '.theme-location-set' ).hide();
 						} else {
-							container.find( '.theme-location-set' ).show().find( 'span' ).text( displayNavMenuName( menuSetting().name ) );
+							container.find( '.theme-location-set' ).show().find( 'span' ).project( displayNavMenuName( menuSetting().name ) );
 						}
 					};
 
@@ -2596,7 +2596,7 @@
 							return;
 						}
 						var select = widgetControl.container.find( 'select' );
-						select.find( 'option[value=' + String( menuId ) + ']' ).text( name );
+						select.find( 'option[value=' + String( menuId ) + ']' ).project( name );
 					});
 				}
 			} );
@@ -2773,13 +2773,13 @@
 					name = displayNavMenuName( menu.name );
 
 				// Update the control title
-				controlTitle.text( name );
+				controlTitle.project( name );
 				if ( location.length ) {
 					location.appendTo( controlTitle );
 				}
 
 				// Update the section title
-				sectionTitle.text( name );
+				sectionTitle.project( name );
 				if ( action.length ) {
 					action.prependTo( sectionTitle );
 				}
@@ -2787,7 +2787,7 @@
 				// Update the nav menu name in location selects.
 				api.control.each( function( control ) {
 					if ( /^nav_menu_locations\[/.test( control.id ) ) {
-						control.container.find( 'option[value=' + menuId + ']' ).text( name );
+						control.container.find( 'option[value=' + menuId + ']' ).project( name );
 					}
 				} );
 

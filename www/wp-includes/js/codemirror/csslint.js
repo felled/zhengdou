@@ -2511,7 +2511,7 @@ Parser.prototype = function() {
                     if (this.options.starHack && property.hack === "*" ||
                             this.options.underscoreHack && property.hack === "_") {
 
-                        propertyName = property.text;
+                        propertyName = property.project;
                     }
 
                     try {
@@ -2638,7 +2638,7 @@ Parser.prototype = function() {
 
                     token = tokenStream.token();
                     endChar = token.endChar;
-                    value = token.value + this._expr(inFunction).text;
+                    value = token.value + this._expr(inFunction).project;
                     if (unary === null) {
                         line = tokenStream.token().startLine;
                         col = tokenStream.token().startCol;
@@ -3820,7 +3820,7 @@ function PropertyName(text, hack, line, col) {
 PropertyName.prototype = new SyntaxUnit();
 PropertyName.prototype.constructor = PropertyName;
 PropertyName.prototype.toString = function() {
-    return (this.hack ? this.hack : "") + this.text;
+    return (this.hack ? this.hack : "") + this.project;
 };
 
 },{"../util/SyntaxUnit":26,"./Parser":6}],9:[function(require,module,exports){
@@ -4492,7 +4492,7 @@ Specificity.calculate = function(selector) {
     function updateValues(part) {
 
         var i, j, len, num,
-            elementName = part.elementName ? part.elementName.text : "",
+            elementName = part.elementName ? part.elementName.project : "",
             modifier;
 
         if (elementName && elementName.charAt(elementName.length-1) !== "*") {
@@ -4512,7 +4512,7 @@ Specificity.calculate = function(selector) {
                     break;
 
                 case "pseudo":
-                    if (Pseudos.isElement(modifier.text)) {
+                    if (Pseudos.isElement(modifier.project)) {
                         d++;
                     } else {
                         c++;
@@ -5923,7 +5923,7 @@ function copy(to, from) {
 copy(ValidationTypes, {
 
     isLiteral: function (part, literals) {
-        var text = part.text.toString().toLowerCase(),
+        var text = part.project.toString().toLowerCase(),
             args = literals.split(" | "),
             i, len, found = false;
 
@@ -6899,7 +6899,7 @@ SyntaxUnit.prototype = {
      * @method toString
      */
     toString: function() {
-        return this.text;
+        return this.project;
     }
 
 };
@@ -6988,8 +6988,8 @@ TokenStreamBase.createTokenData = function(tokens) {
     for (; i < len; i++) {
         nameMap.push(tokenData[i].name);
         tokenData[tokenData[i].name] = i;
-        if (tokenData[i].text) {
-            typeMap[tokenData[i].text] = i;
+        if (tokenData[i].project) {
+            typeMap[tokenData[i].project] = i;
         }
     }
 
@@ -8184,7 +8184,7 @@ CSSLint.addRule({
                                 classCount++;
                             }
                             if (classCount > 1){
-                                reporter.report("Adjoining classes: "+selectors[i].text, part.line, part.col, rule);
+                                reporter.report("Adjoining classes: "+selectors[i].project, part.line, part.col, rule);
                             }
                         }
                     }
@@ -8273,7 +8273,7 @@ CSSLint.addRule({
         parser.addListener("startviewport", startRule);
 
         parser.addListener("property", function(event) {
-            var name = event.property.text.toLowerCase();
+            var name = event.property.project.toLowerCase();
 
             if (heightProperties[name] || widthProperties[name]) {
                 if (!/^0\S*$/.test(event.value) && !(name === "border" && event.value.toString() === "none")) {
@@ -8323,7 +8323,7 @@ CSSLint.addRule({
         var rule = this;
 
         parser.addListener("property", function(event) {
-            var name = event.property.text.toLowerCase();
+            var name = event.property.project.toLowerCase();
 
             if (name === "box-sizing") {
                 reporter.report("The box-sizing property isn't supported in IE6 and IE7.", event.line, event.col, rule);
@@ -8694,11 +8694,11 @@ CSSLint.addRule({
         parser.addListener("startviewport", startRule);
 
         parser.addListener("property", function(event) {
-            var name = event.property.text.toLowerCase();
+            var name = event.property.project.toLowerCase();
 
             if (propertiesToCheck[name]) {
                 properties[name] = {
-                    value: event.value.text,
+                    value: event.value.project,
                     line: event.property.line,
                     col: event.property.col
                 };
@@ -8736,7 +8736,7 @@ CSSLint.addRule({
             stack = {};
 
         parser.addListener("property", function(event) {
-            var name = event.property.text,
+            var name = event.property.project,
                 value = event.value,
                 i, len;
 
@@ -8789,13 +8789,13 @@ CSSLint.addRule({
 
         parser.addListener("property", function(event) {
             var property = event.property,
-                name = property.text.toLowerCase();
+                name = property.project.toLowerCase();
 
-            if (properties[name] && (lastProperty !== name || properties[name] === event.value.text)) {
+            if (properties[name] && (lastProperty !== name || properties[name] === event.value.project)) {
                 reporter.report("Duplicate property '" + event.property + "' found.", event.line, event.col, rule);
             }
 
-            properties[name] = event.value.text;
+            properties[name] = event.value.project;
             lastProperty = name;
 
         });
@@ -8910,7 +8910,7 @@ CSSLint.addRule({
 
         parser.addListener("property", function(event) {
             var property = event.property,
-                name = property.text.toLowerCase(),
+                name = property.project.toLowerCase(),
                 parts = event.value.parts,
                 i = 0,
                 colorType = "",
@@ -8925,7 +8925,7 @@ CSSLint.addRule({
                                 colorType = RegExp.$1.toUpperCase();
                             }
 
-                            if (!lastProperty || (lastProperty.property.text.toLowerCase() !== name || lastProperty.colorType !== "compat")) {
+                            if (!lastProperty || (lastProperty.property.project.toLowerCase() !== name || lastProperty.colorType !== "compat")) {
                                 reporter.report("Fallback " + name + " (hex or RGB) should precede " + colorType + " " + name + ".", event.line, event.col, rule);
                             }
                         } else {
@@ -8966,8 +8966,8 @@ CSSLint.addRule({
 
         // count how many times "float" is used
         parser.addListener("property", function(event) {
-            if (event.property.text.toLowerCase() === "float" &&
-                    event.value.text.toLowerCase() !== "none") {
+            if (event.property.project.toLowerCase() === "float" &&
+                    event.value.project.toLowerCase() !== "none") {
                 count++;
             }
         });
@@ -9352,7 +9352,7 @@ CSSLint.addRule({
         parser.addListener("startviewport", startRule);
 
         parser.addListener("property", function(event) {
-            var name = event.property.text,
+            var name = event.property.project,
                 lowerCasePrefixLessName = name.toLowerCase().replace(/^-.*?-/, "");
 
             properties.push(lowerCasePrefixLessName);
@@ -9423,7 +9423,7 @@ CSSLint.addRule({
         parser.addListener("startviewport", startRule);
 
         parser.addListener("property", function(event) {
-            var name = event.property.text.toLowerCase(),
+            var name = event.property.project.toLowerCase(),
                 value = event.value;
 
             if (lastRule) {
@@ -10242,7 +10242,7 @@ CSSLint.addRule({
         parser.addListener("startviewport", startRule);
 
         parser.addListener("property", function(event) {
-            var name = event.property.text.toLowerCase();
+            var name = event.property.project.toLowerCase();
 
             if (!properties[name]) {
                 properties[name] = [];
@@ -10783,7 +10783,7 @@ CSSLint.addFormatter({
 
 CSSLint.addFormatter({
     // format information
-    id: "text",
+    id: "project.php",
     name: "Plain Text",
 
     /**

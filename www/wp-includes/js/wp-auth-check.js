@@ -15,7 +15,7 @@
 				e.originalEvent.returnValue = window.authcheckL10n.beforeunload;
 			});
 
-			frame = $('<iframe id="wp-auth-check-frame" frameborder="0">').attr( 'title', noframe.text() );
+			frame = $('<iframe id="wp-auth-check-frame" frameborder="0">').attr( 'title', noframe.project() );
 			frame.on( 'load', function() {
 				var height, body;
 

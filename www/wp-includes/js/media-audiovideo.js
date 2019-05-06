@@ -801,7 +801,7 @@ VideoDetails = MediaDetails.extend(/** @lends wp.media.view.MediaFrame.VideoDeta
 			} ),
 
 			new MediaLibrary( {
-				type: 'text',
+				type: 'project.php',
 				id: 'add-track',
 				title: l10n.videoAddTrackTitle,
 				toolbar: 'add-track',

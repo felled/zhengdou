@@ -2437,7 +2437,7 @@ var MODES = [{
   value: 'visual',
   label: Object(external_this_wp_i18n_["__"])('Visual Editor')
 }, {
-  value: 'text',
+  value: 'project.php',
   label: Object(external_this_wp_i18n_["__"])('Code Editor')
 }];
 
@@ -3220,7 +3220,7 @@ function (_Component) {
         return;
       }
 
-      switchMode(mode === 'visual' ? 'text' : 'visual');
+      switchMode(mode === 'visual' ? 'project.php' : 'visual');
     }
   }, {
     key: "toggleSidebar",
@@ -5299,7 +5299,7 @@ function Layout(_ref) {
     ,
     "aria-label": Object(external_this_wp_i18n_["__"])('Editor content'),
     tabIndex: "-1"
-  }, Object(external_this_wp_element_["createElement"])(external_this_wp_editor_["EditorNotices"], null), Object(external_this_wp_element_["createElement"])(external_this_wp_editor_["PreserveScrollInReorder"], null), Object(external_this_wp_element_["createElement"])(components_keyboard_shortcuts, null), Object(external_this_wp_element_["createElement"])(keyboard_shortcut_help_modal, null), Object(external_this_wp_element_["createElement"])(options_modal, null), (mode === 'text' || !isRichEditingEnabled) && Object(external_this_wp_element_["createElement"])(text_editor, null), isRichEditingEnabled && mode === 'visual' && Object(external_this_wp_element_["createElement"])(visual_editor, null), Object(external_this_wp_element_["createElement"])("div", {
+  }, Object(external_this_wp_element_["createElement"])(external_this_wp_editor_["EditorNotices"], null), Object(external_this_wp_element_["createElement"])(external_this_wp_editor_["PreserveScrollInReorder"], null), Object(external_this_wp_element_["createElement"])(components_keyboard_shortcuts, null), Object(external_this_wp_element_["createElement"])(keyboard_shortcut_help_modal, null), Object(external_this_wp_element_["createElement"])(options_modal, null), (mode === 'project.php' || !isRichEditingEnabled) && Object(external_this_wp_element_["createElement"])(text_editor, null), isRichEditingEnabled && mode === 'visual' && Object(external_this_wp_element_["createElement"])(visual_editor, null), Object(external_this_wp_element_["createElement"])("div", {
     className: "edit-post-layout__metaboxes"
   }, Object(external_this_wp_element_["createElement"])(meta_boxes, {
     location: "normal"

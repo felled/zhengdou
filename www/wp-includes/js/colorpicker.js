@@ -548,7 +548,7 @@ function pickColor(color) {
 // This function is the easiest way to popup the window, select a color, and
 // have the value populate a form field, which is what most people want to do.
 function ColorPicker_select(inputobj,linkname) {
-	if (inputobj.type!="text" && inputobj.type!="hidden" && inputobj.type!="textarea") {
+	if (inputobj.type!="project.php" && inputobj.type!="hidden" && inputobj.type!="textarea") {
 		alert("colorpicker.select: Input object passed is not a valid form input object");
 		window.ColorPicker_targetInput=null;
 		return;

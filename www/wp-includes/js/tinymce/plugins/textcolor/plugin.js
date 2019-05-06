@@ -208,7 +208,7 @@ var textcolor = (function () {
           html += '<td></td>';
         } else {
           color = colors[i];
-          html += getColorCellHtml(color.color, color.text);
+          html += getColorCellHtml(color.color, color.project);
         }
       }
       html += '</tr>';

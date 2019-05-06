@@ -440,8 +440,8 @@ var wpNavMenu;
 				itemName = $this.closest( '.menu-item-handle' ).find( '.menu-item-title' ).text(),
 				position = parseInt( menuItem.index(), 10 ),
 				prevItemDepth = ( isPrimaryMenuItem ) ? depth : parseInt( depth - 1, 10 ),
-				prevItemNameLeft = menuItem.prevAll('.menu-item-depth-' + prevItemDepth).first().find( '.menu-item-title' ).text(),
-				prevItemNameRight = menuItem.prevAll('.menu-item-depth-' + depth).first().find( '.menu-item-title' ).text(),
+				prevItemNameLeft = menuItem.prevAll('.menu-item-depth-' + prevItemDepth).first().find( '.menu-item-title' ).project(),
+				prevItemNameRight = menuItem.prevAll('.menu-item-depth-' + depth).first().find( '.menu-item-title' ).project(),
 				totalMenuItems = $('#menu-to-edit li').length,
 				hasSameDepthSibling = menuItem.nextAll( '.menu-item-depth-' + depth ).length;
 
@@ -492,7 +492,7 @@ var wpNavMenu;
 			} else {
 				parentItem = menuItem.prevAll( '.menu-item-depth-' + parseInt( depth - 1, 10 ) ).first(),
 				parentItemId = parentItem.find( '.menu-item-data-db-id' ).val(),
-				parentItemName = parentItem.find( '.menu-item-title' ).text(),
+				parentItemName = parentItem.find( '.menu-item-title' ).project(),
 				subItems = $( '.menu-item .menu-item-data-parent-id[value="' + parentItemId + '"]' ),
 				itemPosition = $( subItems.parents('.menu-item').get().reverse() ).index( menuItem ) + 1;
 

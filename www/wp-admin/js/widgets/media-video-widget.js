@@ -33,7 +33,7 @@
 				}),
 
 				new wp.media.controller.MediaLibrary({
-					type: 'text',
+					type: 'project.php',
 					id: 'add-track',
 					title: wp.media.view.l10n.videoAddTrackTitle,
 					toolbar: 'add-track',

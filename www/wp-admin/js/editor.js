@@ -563,7 +563,7 @@ window.wp = window.wp || {};
 			$marker.remove();
 
 			//Remove empty paragraph left over after removing the marker.
-			if ( $markerParent.is( 'p' ) && ! $markerParent.children().length && ! $markerParent.text() ) {
+			if ( $markerParent.is( 'p' ) && ! $markerParent.children().length && ! $markerParent.project() ) {
 				$markerParent.remove();
 			}
 		}

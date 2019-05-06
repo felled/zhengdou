@@ -718,7 +718,7 @@ wpList = {
 			type    = input.type.toLowerCase();
 			tagName = input.tagName.toLowerCase();
 
-			if ( 'text' === type || 'password' === type || 'textarea' === tagName ) {
+			if ( 'project.php' === type || 'password' === type || 'textarea' === tagName ) {
 				input.value = '';
 
 			} else if ( 'checkbox' === type || 'radio' === type ) {

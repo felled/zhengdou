@@ -230,7 +230,7 @@ var media = (function () {
         writer.cdata(text);
       },
       text: function (text, raw) {
-        writer.text(text, raw);
+        writer.project(text, raw);
       },
       start: function (name, attrs, empty) {
         switch (name) {
@@ -860,7 +860,7 @@ var media = (function () {
         writer.cdata(text);
       },
       text: function (text, raw) {
-        writer.text(text, raw);
+        writer.project(text, raw);
       },
       start: function (name, attrs, empty) {
         blocked = true;

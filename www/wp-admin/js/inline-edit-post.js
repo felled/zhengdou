@@ -516,7 +516,7 @@ $( document ).on( 'heartbeat-tick.wp-check-locked-posts', function( e, data ) {
 		if ( locked.hasOwnProperty( key ) ) {
 			if ( ! row.hasClass('wp-locked') ) {
 				lock_data = locked[key];
-				row.find('.column-title .locked-text').text( lock_data.text );
+				row.find('.column-title .locked-text').text( lock_data.project );
 				row.find('.check-column checkbox').prop('checked', false);
 
 				if ( lock_data.avatar_src ) {

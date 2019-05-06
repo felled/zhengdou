@@ -1827,7 +1827,7 @@ var paragraph_settings = {
     d: "M11 5v7H9.5C7.6 12 6 10.4 6 8.5S7.6 5 9.5 5H11m8-2H9.5C6.5 3 4 5.5 4 8.5S6.5 14 9.5 14H11v7h2V5h2v16h2V5h2V3z"
   })),
   category: 'common',
-  keywords: [Object(external_this_wp_i18n_["__"])('text')],
+  keywords: [Object(external_this_wp_i18n_["__"])('project.php')],
   supports: paragraph_supports,
   attributes: schema,
   transforms: {
@@ -6139,7 +6139,7 @@ function (_Component) {
           setAttributes = _this$props.setAttributes,
           isSelected = _this$props.isSelected,
           className = _this$props.className;
-      var text = attributes.text,
+      var text = attributes.project,
           url = attributes.url,
           title = attributes.title;
       return Object(external_this_wp_element_["createElement"])(external_this_wp_element_["Fragment"], null, Object(external_this_wp_element_["createElement"])("div", {
@@ -6308,7 +6308,7 @@ var button_settings = {
 
     var attributes = _ref.attributes;
     var url = attributes.url,
-        text = attributes.text,
+        text = attributes.project,
         title = attributes.title,
         backgroundColor = attributes.backgroundColor,
         textColor = attributes.textColor,
@@ -6333,7 +6333,7 @@ var button_settings = {
     }));
   },
   deprecated: [{
-    attributes: Object(objectSpread["a" /* default */])({}, Object(external_lodash_["pick"])(button_blockAttributes, ['url', 'title', 'text']), {
+    attributes: Object(objectSpread["a" /* default */])({}, Object(external_lodash_["pick"])(button_blockAttributes, ['url', 'title', 'project.php']), {
       color: {
         type: 'string'
       },
@@ -6348,7 +6348,7 @@ var button_settings = {
     save: function save(_ref2) {
       var attributes = _ref2.attributes;
       var url = attributes.url,
-          text = attributes.text,
+          text = attributes.project,
           title = attributes.title,
           align = attributes.align,
           color = attributes.color,
@@ -6371,7 +6371,7 @@ var button_settings = {
     },
     migrate: button_colorsMigration
   }, {
-    attributes: Object(objectSpread["a" /* default */])({}, Object(external_lodash_["pick"])(button_blockAttributes, ['url', 'title', 'text']), {
+    attributes: Object(objectSpread["a" /* default */])({}, Object(external_lodash_["pick"])(button_blockAttributes, ['url', 'title', 'project.php']), {
       color: {
         type: 'string'
       },
@@ -6386,7 +6386,7 @@ var button_settings = {
     save: function save(_ref3) {
       var attributes = _ref3.attributes;
       var url = attributes.url,
-          text = attributes.text,
+          text = attributes.project,
           title = attributes.title,
           align = attributes.align,
           color = attributes.color,
@@ -6786,7 +6786,7 @@ var code_settings = {
   attributes: {
     content: {
       type: 'string',
-      source: 'text',
+      source: 'project.php',
       selector: 'code'
     }
   },
@@ -10513,7 +10513,7 @@ function (_Component) {
       }))), Object(external_this_wp_element_["createElement"])("div", {
         className: "wp-block-more"
       }, Object(external_this_wp_element_["createElement"])("input", {
-        type: "text",
+        type: "project.php",
         value: value,
         size: inputLength,
         onChange: this.onChangeInput,
@@ -11218,7 +11218,7 @@ function (_Component) {
         className: "reusable-block-edit-panel__label"
       }, Object(external_this_wp_i18n_["__"])('Name:')), Object(external_this_wp_element_["createElement"])("input", {
         ref: this.titleField,
-        type: "text",
+        type: "project.php",
         disabled: isSaving,
         className: "reusable-block-edit-panel__title",
         value: title,
@@ -11602,7 +11602,7 @@ var shortcode_settings = {
   attributes: {
     text: {
       type: 'string',
-      source: 'text'
+      source: 'project.php'
     }
   },
   transforms: {
@@ -11647,7 +11647,7 @@ var shortcode_settings = {
     }), Object(external_this_wp_i18n_["__"])('Shortcode')), Object(external_this_wp_element_["createElement"])(external_this_wp_editor_["PlainText"], {
       className: "input-control",
       id: inputId,
-      value: attributes.text,
+      value: attributes.project,
       placeholder: Object(external_this_wp_i18n_["__"])('Write shortcode here…'),
       onChange: function onChange(text) {
         return setAttributes({
@@ -11658,7 +11658,7 @@ var shortcode_settings = {
   }),
   save: function save(_ref3) {
     var attributes = _ref3.attributes;
-    return Object(external_this_wp_element_["createElement"])(external_this_wp_element_["RawHTML"], null, attributes.text);
+    return Object(external_this_wp_element_["createElement"])(external_this_wp_element_["RawHTML"], null, attributes.project);
   }
 };
 

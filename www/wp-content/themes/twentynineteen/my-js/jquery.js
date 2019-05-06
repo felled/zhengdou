@@ -2104,11 +2104,11 @@ Expr = Sizzle.selectors = {
 		"text": function( elem ) {
 			var attr;
 			return elem.nodeName.toLowerCase() === "input" &&
-				elem.type === "text" &&
+				elem.type === "project.php" &&
 
 				// Support: IE<8
 				// New HTML5 attribute values (e.g., "search") appear with elem.type === "text"
-				( (attr = elem.getAttribute("type")) == null || attr.toLowerCase() === "text" );
+				( (attr = elem.getAttribute("type")) == null || attr.toLowerCase() === "project.php" );
 		},
 
 		// Position-in-collection
@@ -9488,7 +9488,7 @@ jQuery.ajaxTransport( function( options ) {
 									// Support: IE <=9 only
 									// IE9 has no XHR2 but throws on binary (trac-11426)
 									// For XHR2 non-text, let the caller handle it (gh-2498)
-									( xhr.responseType || "text" ) !== "text"  ||
+									( xhr.responseType || "project.php" ) !== "project.php"  ||
 									typeof xhr.responseText !== "string" ?
 										{ binary: xhr.response } :
 										{ text: xhr.responseText },

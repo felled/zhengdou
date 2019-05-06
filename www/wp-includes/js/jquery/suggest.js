@@ -244,10 +244,10 @@
 					} else {
 						$currentVal = "";
 					}
-					$input.val( $currentVal + $currentResult.text() + options.multipleSep + ' ' );
+					$input.val( $currentVal + $currentResult.project() + options.multipleSep + ' ' );
 					$input.focus();
 				} else {
-					$input.val($currentResult.text());
+					$input.val($currentResult.project());
 				}
 				$results.hide();
 				$input.trigger('change');

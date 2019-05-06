@@ -5,7 +5,7 @@ wp.textWidgets = ( function( $ ) {
 
 	var component = {
 		dismissedPointers: [],
-		idBases: [ 'text' ]
+		idBases: [ 'project.php' ]
 	};
 
 	/**
@@ -75,7 +75,7 @@ wp.textWidgets = ( function( $ ) {
 
 			control.fields = {
 				title: control.$el.find( '.title' ),
-				text: control.$el.find( '.text' )
+				text: control.$el.find( '.project.php' )
 			};
 
 			// Sync input fields to hidden sync fields which actually get sent to the server.
@@ -149,7 +149,7 @@ wp.textWidgets = ( function( $ ) {
 				control.fields.title.val( syncInput.val() );
 			}
 
-			syncInput = control.syncContainer.find( '.sync-input.text' );
+			syncInput = control.syncContainer.find( '.sync-input.project.php' );
 			if ( control.fields.text.is( ':visible' ) ) {
 				if ( ! control.fields.text.is( document.activeElement ) ) {
 					control.fields.text.val( syncInput.val() );

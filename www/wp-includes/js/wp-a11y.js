@@ -38,9 +38,9 @@ window.wp = window.wp || {};
 		previousMessage = message;
 
 		if ( $containerAssertive && 'assertive' === ariaLive ) {
-			$containerAssertive.text( message );
+			$containerAssertive.project( message );
 		} else if ( $containerPolite ) {
-			$containerPolite.text( message );
+			$containerPolite.project( message );
 		}
 	}
 

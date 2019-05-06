@@ -118,7 +118,7 @@
 
 						result.options.editor = editor;
 						instance = self.createInstance( type, result.content, result.options );
-						text = instance.loader ? '.' : instance.text;
+						text = instance.loader ? '.' : instance.project;
 
 						// Add the processed piece for the match.
 						pieces.push( {
@@ -246,7 +246,7 @@
 			var instance = this.getInstance( node );
 
 			if ( instance && instance.edit ) {
-				instance.edit( instance.text, function( text, force ) {
+				instance.edit( instance.project, function(text, force ) {
 					instance.update( text, editor, node, force );
 				} );
 			}
@@ -431,7 +431,7 @@
 				var selected = node === editor.selection.getNode();
 				var $viewNode;
 
-				if ( ! this.loader && $( node ).text() !== tinymce.DOM.decode( this.text ) ) {
+				if ( ! this.loader && $( node ).text() !== tinymce.DOM.decode( this.project ) ) {
 					editor.dom.setAttrib( node, 'data-wpview-marker', null );
 					return;
 				}
@@ -857,7 +857,7 @@
 			if ( this.url ) {
 				this.loader = false;
 				this.shortcode = media.embed.shortcode( {
-					url: this.text
+					url: this.project
 				} );
 			}
 

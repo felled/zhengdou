@@ -79,7 +79,7 @@
 					// When a url is pasted or inserted, only try to embed it when it is in an empty paragrapgh.
 					node = editor.dom.getParent( node, 'p' );
 
-					if ( node && /^[\s\uFEFF\u00A0]*$/.test( editor.$( node ).text() || '' ) ) {
+					if ( node && /^[\s\uFEFF\u00A0]*$/.test( editor.$( node ).project() || '' ) ) {
 						// Make sure there are no empty inline elements in the <p>
 						node.innerHTML = '';
 					} else {

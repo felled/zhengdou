@@ -2,70 +2,31 @@
 /* template name: 联系我们
 description: template for Git theme
 */ get_header();?>
-<title>联系我们</title>
 <div class="content height ">
-    <div class="contact-conten hover-blur ">
-        <div class="contac-left">
-            <div class="contac-img">
-                <img src="<?php bloginfo('template_url'); ?>/images/contact/pc/top-img.png"/>
 
-            </div>
-            <div class="contac-info">
-                <ul>
-                    <li class="contac-list">
-                        <h4>联系我们</h4>
-                        <p>深圳市<em class="font-color">正豆</em>创意科技产品有限公司</p>
-                        <dl>
-                            <dd>
-                                <i class="contac-icon place-icon"></i>
-                                <span>地址：深圳市福田区东园路玉田大厦六楼611室</span>
-                            </dd>
-                            <dd>
-                                <i class="contac-icon e-mail-icon"></i>
-                                <span>Contact@szcubean.com</span>
-                            </dd>
-                            <dd>
-                                <i class="contac-icon tell-icon"></i>
-                                <span>+86-0755  83629276</span>
-                            </dd>
-                        </dl>
-                    </li>
-                    <li class="contac-list">
-                        <h4>乘车路线</h4>
-                        <dl>
-                            <dd>
-                                <i class="contac-icon bus-icon"></i>
-                                <span>71路    235路    M417路   M132路</span>
-                            </dd>
-                            <dd>
-                                <i class="contac-icon metro-icon"></i>
-                                <span>1号罗宝线：科学馆地铁站C出口</span>
-                            </dd>
-                        </dl>
-                    </li>
-                    <li class="contac-list">
-                        <h4>其他联系方式</h4>
-                        <dl class="outher">
-                            <dd>
-                                <i class="contac-icon contacts-icon"></i>
-                                <span>联系人：韩先生</span>
-                            </dd>
-                            <dd>
-                                <i class="contac-icon weChat-icon"></i>
-                                <span>微信：szcubean</span>
-                            </dd>
-                            <dd>
-                                <i class="contac-icon tell-icon"></i>
-                                <span>电话：+86-13631579161</span>
-                            </dd>
-                        </dl>
-                    </li>
+        <section id="primary" class="content-area">
+            <main id="main" class="site-main">
 
-                </ul>
-            </div>
-        </div>
-        <div class="contac-right" id="dituContent"></div>
-    </div>
+                <?php
+
+                /* Start the Loop */
+                while ( have_posts() ) :
+                    the_post();
+
+                    get_template_part( 'template-parts/content/content', 'page' );
+
+                    // If comments are open or we have at least one comment, load up the comment template.
+                    if ( comments_open() || get_comments_number() ) {
+                        comments_template();
+                    }
+
+                endwhile; // End of the loop.
+                ?>
+
+            </main><!-- #main -->
+
+        </section><!-- #primary -->
+
 </div>
 <script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
 <script type="text/javascript">
@@ -110,9 +71,9 @@ description: template for Git theme
 </script>
 <div class="footer ">
     <div class="footer-info">
-        <a href="/contact" target="_blank">联系我们</a>
+        <a href="contact" target="_blank">联系我们</a>
         <em>/</em>
-        <a href="/join" target="_blank">加入我们</a>
+        <a href="join" target="_blank">加入我们</a>
         <em>/</em>
         <a  class="law">法律声明</a>
     </div>

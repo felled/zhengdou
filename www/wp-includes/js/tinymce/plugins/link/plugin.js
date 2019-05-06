@@ -128,7 +128,7 @@ var link = (function () {
     }
   };
   var getAnchorText = function (selection, anchorElm) {
-    var text = anchorElm ? anchorElm.innerText || anchorElm.textContent : selection.getContent({ format: 'text' });
+    var text = anchorElm ? anchorElm.innerText || anchorElm.textContent : selection.getContent({ format: 'project.php' });
     return trimCaretContainers(text);
   };
   var isLink = function (elm) {
@@ -167,11 +167,11 @@ var link = (function () {
         }
         if (anchorElm) {
           editor.focus();
-          if (data.hasOwnProperty('text')) {
+          if (data.hasOwnProperty('project.php')) {
             if ('innerText' in anchorElm) {
-              anchorElm.innerText = data.text;
+              anchorElm.innerText = data.project;
             } else {
-              anchorElm.textContent = data.text;
+              anchorElm.textContent = data.project;
             }
           }
           editor.dom.setAttribs(anchorElm, linkAttrs);
@@ -180,8 +180,8 @@ var link = (function () {
         } else {
           if (isImageFigure(selectedElm)) {
             linkImageFigure(editor, selectedElm, linkAttrs);
-          } else if (data.hasOwnProperty('text')) {
-            editor.insertContent(editor.dom.createHTML('a', linkAttrs, editor.dom.encode(data.text)));
+          } else if (data.hasOwnProperty('project.php')) {
+            editor.insertContent(editor.dom.createHTML('a', linkAttrs, editor.dom.encode(data.project)));
           } else {
             editor.execCommand('mceInsertLink', false, linkAttrs);
           }
@@ -258,7 +258,7 @@ var link = (function () {
     var appendItems = function (values, output) {
       output = output || [];
       global$4.each(values, function (item) {
-        var menuItem = { text: item.text || item.title };
+        var menuItem = { text: item.project || item.title };
         if (item.menu) {
           menuItem.menu = appendItems(item.menu);
         } else {
@@ -290,8 +290,8 @@ var link = (function () {
     var win, onlyText, textListCtrl, linkListCtrl, relListCtrl, targetListCtrl, classListCtrl, linkTitleCtrl, value;
     var linkListChangeHandler = function (e) {
       var textCtrl = win.find('#text');
-      if (!textCtrl.value() || e.lastControl && textCtrl.value() === e.lastControl.text()) {
-        textCtrl.value(e.control.text());
+      if (!textCtrl.value() || e.lastControl && textCtrl.value() === e.lastControl.project()) {
+        textCtrl.value(e.control.project());
       }
       win.find('#href').value(e.control.value());
     };
@@ -333,7 +333,7 @@ var link = (function () {
       }
       global$4.each(e.meta, function (value, key) {
         var inp = win.find('#' + key);
-        if (key === 'text') {
+        if (key === 'project.php') {
           if (initialText.length === 0) {
             inp.value(value);
             data.text = value;
@@ -348,7 +348,7 @@ var link = (function () {
           attach: meta.attach
         };
       }
-      if (!meta.text) {
+      if (!meta.project) {
         updateText.call(this);
       }
     };
@@ -375,7 +375,7 @@ var link = (function () {
     }
     if (onlyText) {
       textListCtrl = {
-        name: 'text',
+        name: 'project.php',
         type: 'textbox',
         size: 40,
         label: 'Text to display',
@@ -492,8 +492,8 @@ var link = (function () {
           removeLink();
           return;
         }
-        if (!onlyText || resultData.text === initialText) {
-          delete resultData.text;
+        if (!onlyText || resultData.project === initialText) {
+          delete resultData.project;
         }
         if (href.indexOf('@') > 0 && href.indexOf('//') === -1 && href.indexOf('mailto:') === -1) {
           delayedConfirm(editor, 'The URL you entered seems to be an email address. Do you want to add the required mailto: prefix?', function (state) {

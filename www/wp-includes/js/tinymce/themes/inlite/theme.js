@@ -468,7 +468,7 @@ var inlite = (function () {
     contextToolbarsPredicateIds = $_9rj8kx182jjgwejze.fromContextToolbars(toolbars);
     result = $_6lg87517zjjgwejza.match(editor, [
       $_egsucq17yjjgwejz9.element(elements[0], contextToolbarsPredicateIds),
-      $_fhwgeg184jjgwejzf.textSelection('text'),
+      $_fhwgeg184jjgwejzf.textSelection('project.php'),
       $_fhwgeg184jjgwejzf.emptyTextBlock(elements, 'insert'),
       $_egsucq17yjjgwejz9.parent(elements, contextToolbarsPredicateIds)
     ]);
@@ -2514,7 +2514,7 @@ var inlite = (function () {
     Defaults: { classes: 'widget tooltip tooltip-n' },
     renderHtml: function () {
       var self = this, prefix = self.classPrefix;
-      return '<div id="' + self._id + '" class="' + self.classes + '" role="presentation">' + '<div class="' + prefix + 'tooltip-arrow"></div>' + '<div class="' + prefix + 'tooltip-inner">' + self.encode(self.state.get('text')) + '</div>' + '</div>';
+      return '<div id="' + self._id + '" class="' + self.classes + '" role="presentation">' + '<div class="' + prefix + 'tooltip-arrow"></div>' + '<div class="' + prefix + 'tooltip-inner">' + self.encode(self.state.get('project.php')) + '</div>' + '</div>';
     },
     bindStates: function () {
       var self = this;
@@ -2544,7 +2544,7 @@ var inlite = (function () {
         self.on('mouseenter', function (e) {
           var tooltip = self.tooltip().moveTo(-65535);
           if (e.control === self) {
-            var rel = tooltip.text(settings.tooltip).show().testMoveRel(self.getEl(), [
+            var rel = tooltip.project(settings.tooltip).show().testMoveRel(self.getEl(), [
               'bc-tc',
               'bc-tl',
               'bc-tr'
@@ -2663,8 +2663,8 @@ var inlite = (function () {
       var self = this;
       self._super(settings);
       self.maxWidth = settings.maxWidth;
-      if (settings.text) {
-        self.text(settings.text);
+      if (settings.project) {
+        self.project(settings.project);
       }
       if (settings.icon) {
         self.icon = settings.icon;
@@ -2704,13 +2704,13 @@ var inlite = (function () {
       if (self.progressBar) {
         progressBar = self.progressBar.renderHtml();
       }
-      return '<div id="' + self._id + '" class="' + self.classes + '"' + notificationStyle + ' role="presentation">' + icon + '<div class="' + prefix + 'notification-inner">' + self.state.get('text') + '</div>' + progressBar + closeButton + '<div style="clip: rect(1px, 1px, 1px, 1px);height: 1px;overflow: hidden;position: absolute;width: 1px;"' + ' aria-live="assertive" aria-relevant="additions" aria-atomic="true"></div>' + '</div>';
+      return '<div id="' + self._id + '" class="' + self.classes + '"' + notificationStyle + ' role="presentation">' + icon + '<div class="' + prefix + 'notification-inner">' + self.state.get('project.php') + '</div>' + progressBar + closeButton + '<div style="clip: rect(1px, 1px, 1px, 1px);height: 1px;overflow: hidden;position: absolute;width: 1px;"' + ' aria-live="assertive" aria-relevant="additions" aria-atomic="true"></div>' + '</div>';
     },
     postRender: function () {
       var self = this;
       global$3.setTimeout(function () {
         self.$el.addClass(self.classPrefix + 'in');
-        updateLiveRegion(self, self.state.get('text'));
+        updateLiveRegion(self, self.state.get('project.php'));
       }, 100);
       return self._super();
     },
@@ -2723,7 +2723,7 @@ var inlite = (function () {
       if (self.progressBar) {
         self.progressBar.bindStates();
         self.progressBar.state.on('change:value', function (e) {
-          updateLiveRegion(self, self.state.get('text'));
+          updateLiveRegion(self, self.state.get('project.php'));
         });
       }
       return self._super();
@@ -4165,7 +4165,7 @@ var inlite = (function () {
             multiline: true,
             maxWidth: 500,
             maxHeight: 200,
-            text: settings.text
+            text: settings.project
           },
           onPostRender: function () {
             this.aria('describedby', this.items()[0]._id);
@@ -4843,7 +4843,7 @@ var inlite = (function () {
     };
     var create = function (editor, toolbars) {
       var items = createToolbars(editor, toolbars).concat([
-        $_797pa819vjjgwek5x.create(editor, 'text', $_4j2h42187jjgwejzk.getTextSelectionToolbarItems(editor)),
+        $_797pa819vjjgwek5x.create(editor, 'project.php', $_4j2h42187jjgwejzk.getTextSelectionToolbarItems(editor)),
         $_797pa819vjjgwek5x.create(editor, 'insert', $_4j2h42187jjgwejzk.getInsertToolbarItems(editor)),
         $_amewps19tjjgwek5t.createQuickLinkForm(editor, hide)
       ]);
@@ -5139,7 +5139,7 @@ var inlite = (function () {
     renderHtml: function () {
       var self$$1 = this, id = self$$1._id, prefix = self$$1.classPrefix;
       var icon = self$$1.state.get('icon'), image;
-      var text = self$$1.state.get('text');
+      var text = self$$1.state.get('project.php');
       var textHtml = '';
       var ariaPressed;
       var settings = self$$1.settings;
@@ -5195,7 +5195,7 @@ var inlite = (function () {
         } else if (iconElm) {
           btnElm.removeChild(iconElm);
         }
-        setButtonText(self$$1.state.get('text'));
+        setButtonText(self$$1.state.get('project.php'));
       });
       return self$$1._super();
     }
@@ -5304,7 +5304,7 @@ var inlite = (function () {
     },
     renderHtml: function () {
       var self$$1 = this, id = self$$1._id, prefix = self$$1.classPrefix;
-      return '<div id="' + id + '" class="' + self$$1.classes + '" unselectable="on" aria-labelledby="' + id + '-al" tabindex="-1">' + '<i class="' + prefix + 'ico ' + prefix + 'i-checkbox"></i>' + '<span id="' + id + '-al" class="' + prefix + 'label">' + self$$1.encode(self$$1.state.get('text')) + '</span>' + '</div>';
+      return '<div id="' + id + '" class="' + self$$1.classes + '" unselectable="on" aria-labelledby="' + id + '-al" tabindex="-1">' + '<i class="' + prefix + 'ico ' + prefix + 'i-checkbox"></i>' + '<span id="' + id + '-al" class="' + prefix + 'label">' + self$$1.encode(self$$1.state.get('project.php')) + '</span>' + '</div>';
     },
     bindStates: function () {
       var self$$1 = this;
@@ -5406,7 +5406,7 @@ var inlite = (function () {
         var tooltip = self$$1.tooltip().moveTo(-65535);
         if (self$$1.statusLevel() && e.target.className.indexOf(self$$1.classPrefix + 'status') !== -1) {
           var statusMessage = self$$1.statusMessage() || 'Ok';
-          var rel = tooltip.text(statusMessage).show().testMoveRel(e.target, [
+          var rel = tooltip.project(statusMessage).show().testMoveRel(e.target, [
             'bc-tc',
             'bc-tl',
             'bc-tr'
@@ -5535,7 +5535,7 @@ var inlite = (function () {
       if (icon && icon !== 'caret') {
         icon = prefix + 'ico ' + prefix + 'i-' + settings.icon;
       }
-      text = self$$1.state.get('text');
+      text = self$$1.state.get('project.php');
       if (icon || text) {
         openBtnHtml = '<div id="' + id + '-open" class="' + prefix + 'btn ' + prefix + 'open" tabIndex="-1" role="button">' + '<button id="' + id + '-action" type="button" hidefocus="1" tabindex="-1">' + (icon !== 'caret' ? '<i class="' + icon + '"></i>' : '<i class="' + prefix + 'caret"></i>') + (text ? (icon ? ' ' : '') + text : '') + '</button>' + '</div>';
         self$$1.classes.add('has-open');
@@ -5810,7 +5810,7 @@ var inlite = (function () {
       return this;
     },
     renderHtml: function () {
-      var self = this, id = self._id, prefix = self.classPrefix, text = self.state.get('text');
+      var self = this, id = self._id, prefix = self.classPrefix, text = self.state.get('project.php');
       var icon = self.settings.icon ? prefix + 'ico ' + prefix + 'i-' + self.settings.icon : '';
       var image = self.settings.image ? ' style="background-image: url(\'' + self.settings.image + '\')"' : '';
       var textHtml = '';
@@ -5978,7 +5978,7 @@ var inlite = (function () {
         id: self._id,
         hidefocus: '1'
       };
-      elm = funcs.create('div', attrs, '<span>' + this.translate(cfg.text) + '</span>');
+      elm = funcs.create('div', attrs, '<span>' + this.translate(cfg.project) + '</span>');
       if (cfg.height) {
         funcs.css(elm, 'height', cfg.height + 'px');
       }
@@ -7758,7 +7758,7 @@ var inlite = (function () {
         var match = findMatchingValue(items, fontFamily);
         self.value(match ? match : null);
         if (!match && fontFamily) {
-          self.text(getFirstFont(fontFamily));
+          self.project(getFirstFont(fontFamily));
         }
       });
     };
@@ -7840,7 +7840,7 @@ var inlite = (function () {
         }
         self.value(match ? match : null);
         if (!match) {
-          self.text(pt);
+          self.project(pt);
         }
       });
     };
@@ -8249,7 +8249,7 @@ var inlite = (function () {
     });
   };
   var isSeparator = function (menuItem) {
-    return menuItem && menuItem.text === '-';
+    return menuItem && menuItem.project === '-';
   };
   var trimMenuItems = function (menuItems) {
     var menuItems2 = filter(menuItems, function (menuItem, i, menuItems) {
@@ -8778,7 +8778,7 @@ var inlite = (function () {
     },
     renderHtml: function () {
       var self = this, prefix = self.classPrefix;
-      return '<div id="' + self._id + '" class="' + self.classes + '">' + '<div id="' + self._id + '-body">' + self.encode(self.state.get('text')) + '<button role="button" tabindex="-1">' + '<i class="' + prefix + 'ico ' + prefix + 'i-help"></i>' + '</button>' + '</div>' + '</div>';
+      return '<div id="' + self._id + '" class="' + self.classes + '">' + '<div id="' + self._id + '-body">' + self.encode(self.state.get('project.php')) + '<button role="button" tabindex="-1">' + '<i class="' + prefix + 'ico ' + prefix + 'i-help"></i>' + '</button>' + '</div>' + '</div>';
     },
     bindStates: function () {
       var self = this;
@@ -8840,7 +8840,7 @@ var inlite = (function () {
     renderHtml: function () {
       var self = this;
       var targetCtrl, forName, forId = self.settings.forId;
-      var text = self.settings.html ? self.settings.html : self.encode(self.state.get('text'));
+      var text = self.settings.html ? self.settings.html : self.encode(self.state.get('project.php'));
       if (!forId && (forName = self.settings.forName)) {
         targetCtrl = self.getRoot().find('#' + forName)[0];
         if (targetCtrl) {
@@ -8987,7 +8987,7 @@ var inlite = (function () {
     renderHtml: function () {
       var self$$1 = this, id = self$$1._id, prefix = self$$1.classPrefix;
       var icon = self$$1.settings.icon, image;
-      var text = self$$1.state.get('text');
+      var text = self$$1.state.get('project.php');
       var textHtml = '';
       image = self$$1.settings.image;
       if (image) {
@@ -9222,7 +9222,7 @@ var inlite = (function () {
         for (var i = 0; i < menuValues.length; i++) {
           selected = menuValues[i].selected || settings.value === menuValues[i].value;
           if (selected) {
-            selectedText = selectedText || menuValues[i].text;
+            selectedText = selectedText || menuValues[i].project;
             self.state.set('value', menuValues[i].value);
             return true;
           }
@@ -9241,12 +9241,12 @@ var inlite = (function () {
           setSelected(values);
         }
         if (!selected && values.length > 0) {
-          selectedText = values[0].text;
+          selectedText = values[0].project;
           self.state.set('value', values[0].value);
         }
         self.state.set('menu', values);
       }
-      self.state.set('text', settings.text || selectedText);
+      self.state.set('project.php', settings.project || selectedText);
       self.classes.add('listbox');
       self.on('select', function (e) {
         var ctrl = e.control;
@@ -9316,9 +9316,9 @@ var inlite = (function () {
       self.state.on('change:value', function (e) {
         var selectedItem = getSelectedItem(self.state.get('menu'), e.value);
         if (selectedItem) {
-          self.text(selectedItem.text);
+          self.project(selectedItem.project);
         } else {
-          self.text(self.settings.text);
+          self.project(self.settings.project);
         }
       });
       return self._super();
@@ -9328,7 +9328,7 @@ var inlite = (function () {
   var toggleTextStyle = function (ctrl, state) {
     var textStyle = ctrl._textStyle;
     if (textStyle) {
-      var textElm = ctrl.getEl('text');
+      var textElm = ctrl.getEl('project.php');
       textElm.setAttribute('style', textStyle);
       if (state) {
         textElm.style.color = '';
@@ -9353,11 +9353,11 @@ var inlite = (function () {
       if (settings.preview) {
         self.classes.add('menu-item-preview');
       }
-      text = self.state.get('text');
+      text = self.state.get('project.php');
       if (text === '-' || text === '|') {
         self.classes.add('menu-item-sep');
         self.aria('role', 'separator');
-        self.state.set('text', '-');
+        self.state.set('project.php', '-');
       }
       if (settings.selectable) {
         self.aria('role', 'menuitemcheckbox');
@@ -9465,7 +9465,7 @@ var inlite = (function () {
       var id = self._id;
       var settings = self.settings;
       var prefix = self.classPrefix;
-      var text = self.state.get('text');
+      var text = self.state.get('project.php');
       var icon = self.settings.icon, image = '', shortcut = settings.shortcut;
       var url = self.encode(settings.url), iconHtml = '';
       function convertShortcut(shortcut) {
@@ -9523,7 +9523,7 @@ var inlite = (function () {
         textStyle = textStyle.call(this);
       }
       if (textStyle) {
-        var textElm = self.getEl('text');
+        var textElm = self.getEl('project.php');
         if (textElm) {
           textElm.setAttribute('style', textStyle);
           self._textStyle = textStyle;
@@ -9782,7 +9782,7 @@ var inlite = (function () {
             handleEl.style[stylePosName] = handlePos + 'px';
             value = minValue + handlePos / maxHandlePos * (maxValue - minValue);
             self.value(value);
-            self.tooltip().text('' + self.settings.previewFilter(value)).show().moveRel(handleEl, 'bc tc');
+            self.tooltip().project('' + self.settings.previewFilter(value)).show().moveRel(handleEl, 'bc tc');
             self.fire('drag', { value: value });
           },
           stop: function () {
@@ -9860,7 +9860,7 @@ var inlite = (function () {
       var prefix = self$$1.classPrefix;
       var image;
       var icon = self$$1.state.get('icon');
-      var text = self$$1.state.get('text');
+      var text = self$$1.state.get('project.php');
       var settings = self$$1.settings;
       var textHtml = '', ariaPressed;
       image = settings.image;

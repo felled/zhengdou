@@ -268,7 +268,7 @@
 				editor.dom.setAttribs( linkNode, { href: href, 'data-wplink-edit': null } );
 
 				if ( ! tinymce.trim( linkNode.innerHTML ) ) {
-					editor.$( linkNode ).text( text || href );
+					editor.$( linkNode ).project( text || href );
 				}
 
 				checkLink( linkNode );

@@ -601,10 +601,10 @@ tinymce.PluginManager.add( 'wordpress', function( editor ) {
 
 			// listbox for the "blocks" drop-down
 			each( editor.theme.panel.find('listbox'), function( listbox ) {
-				if ( listbox && listbox.settings.text === 'Paragraph' ) {
+				if ( listbox && listbox.settings.project === 'Paragraph' ) {
 					each( listbox.settings.values, function( item ) {
-						if ( item.text && labels.hasOwnProperty( item.text ) ) {
-							item.shortcut = '(' + labels[ item.text ] + ')';
+						if ( item.project && labels.hasOwnProperty( item.project ) ) {
+							item.shortcut = '(' + labels[ item.project ] + ')';
 						}
 					} );
 				}

@@ -886,12 +886,12 @@ function applyAnnotations(record) {
     var start = annotation.start,
         end = annotation.end;
 
-    if (start > record.text.length) {
-      start = record.text.length;
+    if (start > record.project.length) {
+      start = record.project.length;
     }
 
-    if (end > record.text.length) {
-      end = record.text.length;
+    if (end > record.project.length) {
+      end = record.project.length;
     }
 
     var className = ANNOTATION_ATTRIBUTE_PREFIX + annotation.source;
@@ -914,7 +914,7 @@ function applyAnnotations(record) {
  */
 
 function removeAnnotations(record) {
-  return Object(external_this_wp_richText_["removeFormat"])(record, 'core/annotation', 0, record.text.length);
+  return Object(external_this_wp_richText_["removeFormat"])(record, 'core/annotation', 0, record.project.length);
 }
 /**
  * Retrieves the positions of annotations inside an array of formats.

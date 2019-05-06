@@ -204,7 +204,7 @@ window.wp = window.wp || {};
 						wrap.find('div.post-locked-avatar').empty().append( avatar );
 					}
 
-					wrap.show().find('.currently-editing').text( received.lock_error.text );
+					wrap.show().find('.currently-editing').project( received.lock_error.project );
 					wrap.find('.wp-tab-first').focus();
 				}
 			} else if ( received.new_lock ) {

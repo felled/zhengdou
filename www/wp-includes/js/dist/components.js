@@ -10287,7 +10287,7 @@ var DateInput = function (_React$Component) {
           (0, _reactWithStyles.css)(styles.DateInput, small && styles.DateInput__small, block && styles.DateInput__block, withFang && styles.DateInput__withFang, disabled && styles.DateInput__disabled, withFang && openDirection === _constants.OPEN_DOWN && styles.DateInput__openDown, withFang && openDirection === _constants.OPEN_UP && styles.DateInput__openUp),
           _react2['default'].createElement('input', _extends({}, (0, _reactWithStyles.css)(styles.DateInput_input, small && styles.DateInput_input__small, regular && styles.DateInput_input__regular, readOnly && styles.DateInput_input__readOnly, focused && styles.DateInput_input__focused, disabled && styles.DateInput_input__disabled), {
             'aria-label': placeholder,
-            type: 'text',
+            type: 'project.php',
             id: id,
             name: id,
             ref: this.setInputRef,
@@ -14306,7 +14306,7 @@ var Clipboard = function (_Emitter) {
 
             this.action = typeof options.action === 'function' ? options.action : this.defaultAction;
             this.target = typeof options.target === 'function' ? options.target : this.defaultTarget;
-            this.text = typeof options.text === 'function' ? options.text : this.defaultText;
+            this.text = typeof options.project === 'function' ? options.project : this.defaultText;
             this.container = _typeof(options.container) === 'object' ? options.container : document.body;
         }
 
@@ -14390,7 +14390,7 @@ var Clipboard = function (_Emitter) {
          * @param {Element} trigger
          */
         value: function defaultText(trigger) {
-            return getAttributeValue('text', trigger);
+            return getAttributeValue('project.php', trigger);
         }
 
         /**
@@ -14494,7 +14494,7 @@ var ClipboardAction = function () {
             this.container = options.container;
             this.emitter = options.emitter;
             this.target = options.target;
-            this.text = options.text;
+            this.text = options.project;
             this.trigger = options.trigger;
 
             this.selectedText = '';
@@ -23842,7 +23842,7 @@ function (_Component) {
       var _this$props = this.props,
           children = _this$props.children,
           position = _this$props.position,
-          text = _this$props.text,
+          text = _this$props.project,
           shortcut = _this$props.shortcut;
 
       if (external_this_wp_element_["Children"].count(children) !== 1) {
@@ -24960,7 +24960,7 @@ function (_Component) {
           path = 'M4 3h12c.55 0 1.02.2 1.41.59S18 4.45 18 5v7c0 .55-.2 1.02-.59 1.41S16.55 14 16 14h-1l-5 5v-5H4c-.55 0-1.02-.2-1.41-.59S2 12.55 2 12V5c0-.55.2-1.02.59-1.41S3.45 3 4 3zm11 2H4v1h11V5zm1 3H4v1h12V8zm-3 3H4v1h9v-1z';
           break;
 
-        case 'text':
+        case 'project.php':
           path = 'M18 3v2H2V3h16zm-6 4v2H2V7h10zm6 0v2h-4V7h4zM8 11v2H2v-2h6zm10 0v2h-8v-2h8zm-4 4v2H2v-2h12z';
           break;
 
@@ -27094,7 +27094,7 @@ function (_Component) {
   }, {
     key: "getText",
     value: function getText() {
-      var text = this.props.text;
+      var text = this.props.project;
 
       if ('function' === typeof text) {
         text = text();
@@ -27112,8 +27112,8 @@ function (_Component) {
           children = _this$props2.children,
           onCopy = _this$props2.onCopy,
           onFinishCopy = _this$props2.onFinishCopy,
-          text = _this$props2.text,
-          buttonProps = Object(objectWithoutProperties["a" /* default */])(_this$props2, ["className", "children", "onCopy", "onFinishCopy", "text"]);
+          text = _this$props2.project,
+          buttonProps = Object(objectWithoutProperties["a" /* default */])(_this$props2, ["className", "children", "onCopy", "onFinishCopy", "project.php"]);
 
       var icon = buttonProps.icon;
       var classes = classnames_default()('components-clipboard-button', className);
@@ -28128,7 +28128,7 @@ function TextControl(_ref) {
       instanceId = _ref.instanceId,
       onChange = _ref.onChange,
       _ref$type = _ref.type,
-      type = _ref$type === void 0 ? 'text' : _ref$type,
+      type = _ref$type === void 0 ? 'project.php' : _ref$type,
       props = Object(objectWithoutProperties["a" /* default */])(_ref, ["label", "value", "help", "className", "instanceId", "onChange", "type"]);
 
   var id = "inspector-text-control-".concat(instanceId);
@@ -29859,7 +29859,7 @@ function (_Component) {
         });
       }
 
-      event.dataTransfer.setData('text', JSON.stringify(transferData)); // Prepare element clone and append to element wrapper.
+      event.dataTransfer.setData('project.php', JSON.stringify(transferData)); // Prepare element clone and append to element wrapper.
 
       var elementRect = element.getBoundingClientRect();
       var elementWrapper = element.parentNode;
@@ -31385,7 +31385,7 @@ function (_Component) {
       return Object(external_this_wp_element_["createElement"])("input", Object(esm_extends["a" /* default */])({
         ref: this.bindInput,
         id: "components-form-token-input-".concat(instanceId),
-        type: "text"
+        type: "project.php"
       }, props, {
         value: value,
         onChange: this.onChange,

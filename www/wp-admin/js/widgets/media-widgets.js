@@ -351,7 +351,7 @@ wp.mediaWidgets = ( function( $ ) {
 			view.set( 'insert', {
 				style:    'primary',
 				priority: 80,
-				text:     controller.options.text, // The whole reason for the fork.
+				text:     controller.options.project, // The whole reason for the fork.
 				requires: { selection: true },
 
 				/**
@@ -382,7 +382,7 @@ wp.mediaWidgets = ( function( $ ) {
 		mainEmbedToolbar: function mainEmbedToolbar( toolbar ) {
 			toolbar.view = new wp.media.view.Toolbar.Embed({
 				controller: this,
-				text: this.options.text,
+				text: this.options.project,
 				event: 'insert'
 			});
 		},

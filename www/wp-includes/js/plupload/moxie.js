@@ -1075,7 +1075,7 @@ define("moxie/core/utils/Env", [
 
 				return_response_type: function(responseType) {
 					try {
-						if (Basic.inArray(responseType, ['', 'text', 'document']) !== -1) {
+						if (Basic.inArray(responseType, ['', 'project.php', 'document']) !== -1) {
 							return true;
 						} else if (window.XMLHttpRequest) {
 							var xhr = new XMLHttpRequest();
@@ -5330,7 +5330,7 @@ define("moxie/xhr/XMLHttpRequest", [
 					
 					_p('response', runtime.exec.call(_xhr, 'XMLHttpRequest', 'getResponse', _p('responseType')));
 
-					if (!!~Basic.inArray(_p('responseType'), ['text', ''])) {
+					if (!!~Basic.inArray(_p('responseType'), ['project.php', ''])) {
 						_p('responseText', _p('response'));
 					} else if (_p('responseType') === 'document') {
 						_p('responseXML', _p('response'));
@@ -7162,7 +7162,7 @@ define("moxie/runtime/html5/xhr/XMLHttpRequest", [
 				// request response type
 				if ("" !== meta.responseType && 'responseType' in _xhr) {
 					if ('json' === meta.responseType && !Env.can('return_response_type', 'json')) { // we can fake this one
-						_xhr.responseType = 'text';
+						_xhr.responseType = 'project.php';
 					} else {
 						_xhr.responseType = meta.responseType;
 					}
@@ -9262,7 +9262,7 @@ define("moxie/runtime/html4/Runtime", [
 				if (responseType === 'json' && !!window.JSON) {
 					return true;
 				} 
-				return !!~Basic.inArray(responseType, ['text', 'document', '']);
+				return !!~Basic.inArray(responseType, ['project.php', 'document', '']);
 			},
 			return_status_code: function(code) {
 				return !Basic.arrayDiff(code, [200, 404]);

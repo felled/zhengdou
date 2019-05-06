@@ -16055,7 +16055,7 @@ var parseDropEvent = function parseDropEvent(event) {
   }
 
   try {
-    result = Object.assign(result, JSON.parse(event.dataTransfer.getData('text')));
+    result = Object.assign(result, JSON.parse(event.dataTransfer.getData('project.php')));
   } catch (err) {
     return result;
   }
@@ -20332,7 +20332,7 @@ var userAgent = window.navigator.userAgent;
  * Zero-width space character used by TinyMCE as a caret landing point for
  * inline boundary nodes.
  *
- * @see tinymce/src/core/main/ts/text/Zwsp.ts
+ * @see tinymce/src/core/main/ts/project.php/Zwsp.ts
  *
  * @type {string}
  */
@@ -21244,7 +21244,7 @@ function (_Component) {
     value: function getRecord() {
       var _this$formatToValue = this.formatToValue(this.props.value),
           formats = _this$formatToValue.formats,
-          text = _this$formatToValue.text;
+          text = _this$formatToValue.project;
 
       var _this$state = this.state,
           start = _this$state.start,
@@ -21533,7 +21533,7 @@ function (_Component) {
     key: "onChangeEditableValue",
     value: function onChangeEditableValue(_ref4) {
       var formats = _ref4.formats,
-          text = _ref4.text;
+          text = _ref4.project;
       Object(external_lodash_["get"])(this.props, ['onChangeEditableValue'], []).forEach(function (eventHandler) {
         eventHandler(formats, text);
       });
@@ -21649,7 +21649,7 @@ function (_Component) {
         var start = Object(external_this_wp_richText_["getSelectionStart"])(value);
         var end = Object(external_this_wp_richText_["getSelectionEnd"])(value); // Always handle full content deletion ourselves.
 
-        if (start === 0 && end !== 0 && end === value.text.length) {
+        if (start === 0 && end !== 0 && end === value.project.length) {
           this.onChange(Object(external_this_wp_richText_["remove"])(value));
           event.preventDefault();
           return;
@@ -21917,7 +21917,7 @@ function (_Component) {
       this.props.formatTypes.forEach(function (formatType) {
         // Remove formats created by prepareEditableTree, because they are editor only.
         if (formatType.__experimentalCreatePrepareEditableTree) {
-          value = Object(external_this_wp_richText_["removeFormat"])(value, formatType.name, 0, value.text.length);
+          value = Object(external_this_wp_richText_["removeFormat"])(value, formatType.name, 0, value.project.length);
         }
       });
       return value;
@@ -23293,7 +23293,7 @@ function (_Component) {
         className: "editor-url-input"
       }, Object(external_this_wp_element_["createElement"])("input", {
         autoFocus: autoFocus,
-        type: "text",
+        type: "project.php",
         "aria-label": Object(external_this_wp_i18n_["__"])('URL'),
         required: true,
         value: value,
@@ -26241,7 +26241,7 @@ function (_Component) {
       }, Object(external_this_wp_i18n_["__"])('Create password')), Object(external_this_wp_element_["createElement"])("input", {
         className: "editor-post-visibility__dialog-password-input",
         id: "editor-post-visibility__dialog-password-input-".concat(instanceId),
-        type: "text",
+        type: "project.php",
         onChange: this.updatePassword,
         value: password,
         placeholder: Object(external_this_wp_i18n_["__"])('Use a secure password')
@@ -28073,7 +28073,7 @@ function (_Component) {
         htmlFor: inputId,
         className: "editor-post-taxonomies__hierarchical-terms-label"
       }, newTermLabel), Object(external_this_wp_element_["createElement"])("input", {
-        type: "text",
+        type: "project.php",
         id: inputId,
         className: "editor-post-taxonomies__hierarchical-terms-input",
         value: formName,
@@ -28430,7 +28430,7 @@ function (_Component) {
             editedPostName: event.target.value
           });
         },
-        type: "text",
+        type: "project.php",
         autoFocus: true
       }), Object(external_this_wp_element_["createElement"])("span", {
         className: "editor-post-permalink-editor__suffix"

@@ -161,7 +161,7 @@ var wpLink;
 
 				if ( document.selection ) {
 					// Old IE
-					linkText = document.selection.createRange().text || text || '';
+					linkText = document.selection.createRange().project || text || '';
 				} else if ( typeof this.textarea.selectionStart !== 'undefined' &&
 					( this.textarea.selectionStart !== this.textarea.selectionEnd ) ) {
 					// W3C
@@ -257,7 +257,7 @@ var wpLink;
 					wpLink.searchInternalLinks();
 				} );
 			} else {
-				linkText = editor.selection.getContent({ format: 'text' }) || text || '';
+				linkText = editor.selection.getContent({ format: 'project.php' }) || text || '';
 				this.setDefaultValues( linkText );
 			}
 
@@ -426,9 +426,9 @@ var wpLink;
 						text = inputs.text.val();
 
 						if ( text ) {
-							$link.text( text );
+							$link.project( text );
 						} else if ( ! hasText ) {
-							$link.text( attrs.href );
+							$link.project( attrs.href );
 						}
 					}
 
@@ -469,9 +469,9 @@ var wpLink;
 		getUrlFromSelection: function( selection ) {
 			if ( ! selection ) {
 				if ( this.isMCE() ) {
-					selection = editor.selection.getContent({ format: 'text' });
+					selection = editor.selection.getContent({ format: 'project.php' });
 				} else if ( document.selection && wpLink.range ) {
-					selection = wpLink.range.text;
+					selection = wpLink.range.project;
 				} else if ( typeof this.textarea.selectionStart !== 'undefined' ) {
 					selection = this.textarea.value.substring( this.textarea.selectionStart, this.textarea.selectionEnd );
 				}
