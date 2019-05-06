@@ -208,14 +208,84 @@
                 <h2>新 闻  动 态</h2>
                 <span>NEWS</span>
             </div>
-            <div class="news-info">
+            <div class="news-info page-info">
                 <ul>
                     <li>
                         <div class="news-list-img">
                             <img src="../"/>
                         </div>
                         <div class="news-list">
+                            <h4 class="news-list-title">1深圳市正豆创意科技产品有限公司获得XX届XXX奖</h4>
+                            <p class="news-text">2018年3月21日XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+                            </p>
+                            <p class="news-time">2017.03.21</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="news-list-img">
+                            <img src="../"/>
+                        </div>
+                        <div class="news-list">
                             <h4 class="news-list-title">深圳市正豆创意科技产品有限公司获得XX届XXX奖</h4>
+                            <p class="news-text">2018年3月21日XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+                            </p>
+                            <p class="news-time">2017.03.21</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="news-list-img">
+                            <img src="../"/>
+                        </div>
+                        <div class="news-list">
+                            <h4 class="news-list-title">深圳市正豆创意科技产品有限公司获得XX届XXX奖</h4>
+                            <p class="news-text">2018年3月21日XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+                            </p>
+                            <p class="news-time">2017.03.21</p>
+                        </div>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <div class="news-list-img">
+                            <img src="../"/>
+                        </div>
+                        <div class="news-list">
+                            <h4 class="news-list-title">2深圳市正豆创意科技产品有限公司获得XX届XXX奖</h4>
+                            <p class="news-text">2018年3月21日XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+                            </p>
+                            <p class="news-time">2017.03.21</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="news-list-img">
+                            <img src="../"/>
+                        </div>
+                        <div class="news-list">
+                            <h4 class="news-list-title">深圳市正豆创意科技产品有限公司获得XX届XXX奖</h4>
+                            <p class="news-text">2018年3月21日XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+                            </p>
+                            <p class="news-time">2017.03.21</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="news-list-img">
+                            <img src="../"/>
+                        </div>
+                        <div class="news-list">
+                            <h4 class="news-list-title">深圳市正豆创意科技产品有限公司获得XX届XXX奖</h4>
+                            <p class="news-text">2018年3月21日XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+                            </p>
+                            <p class="news-time">2017.03.21</p>
+                        </div>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <div class="news-list-img">
+                            <img src="../"/>
+                        </div>
+                        <div class="news-list">
+                            <h4 class="news-list-title">3深圳市正豆创意科技产品有限公司获得XX届XXX奖</h4>
                             <p class="news-text">2018年3月21日XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
                             </p>
                             <p class="news-time">2017.03.21</p>
@@ -273,4 +343,40 @@
 </body>
 <script src="../../js/jquery.js"></script>
 <script src="../../js/public.js"></script>
+<script>
+    $(function () {
+        /*分页*/
+
+        $(".page-info ul").hide();
+        $(".page-info ul:first-child").show().addClass("active first");
+        $(".page-info ul:last-child").addClass("last");
+
+        /*点击下一页*/
+        $(".next").click(function () {
+            var e = $(".page-info .active");
+            $(".pages .prev").text("上一页");
+            if(e.hasClass("last")){
+               /* e.prev("ul").hide().removeClass("active");
+                e.show()*/
+            }else {
+                e.hide().removeClass("active");
+                e.next("ul").show().addClass("active");
+            }
+        });
+        
+        /*点击上一页*/
+        $(".prev").click(function () {
+            var e = $(".page-info .active");
+            if(e.prev("ul").hasClass("first")){
+                $(".pages .prev").text("第一页");
+            }
+            if(e.hasClass("first")){
+
+            }else {
+                e.hide().removeClass("active");
+                e.prev("ul").show().addClass("active");
+            }
+        })
+    })
+</script>
 </html>

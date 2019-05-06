@@ -3,29 +3,30 @@
 <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/public.css" type="text/css" media="screen" />
 <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/sublevel.css" type="text/css" media="screen" />
 <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/project.css" type="text/css" media="screen" />
+<title><?php the_title(); ?></title>
 <div class="head">
     <img class="logo" src="<?php bloginfo('template_url'); ?>/images/common/logo.png">
     <ul class="navigation">
         <li >
-            <a href="/wordpress" target="_blank">首页</a>
+            <a href="/" target="_blank">首页</a>
         </li>
         <li>
             <a>经典项目</a>
             <dl class="nav-slind">
                 <dd>
-                    <a href="happyValley" target="_blank">欢乐世界</a>
+                    <a href="/happyValley" target="_blank">欢乐世界</a>
                 </dd>
                 <dd>
-                    <a href="odyssey" target="_blank">奥德赛之旅</a>
+                    <a href="/odyssey" target="_blank">奥德赛之旅</a>
                 </dd>
                 <dd>
-                    <a href="europa" target="_blank">穿越欧罗巴</a>
+                    <a href="/europa" target="_blank">穿越欧罗巴</a>
                 </dd>
                 <dd>
-                    <a href="playground" target="_blank">室内儿童乐园</a>
+                    <a href="/playground" target="_blank">室内儿童乐园</a>
                 </dd>
                 <dd>
-                    <a href="magicHouse" target="_blank">惊悚魔幻屋</a>
+                    <a href="/magicHouse" target="_blank">惊悚魔幻屋</a>
                 </dd>
             </dl>
         </li>
@@ -33,42 +34,42 @@
             <a>主体项目</a>
             <dl class="nav-slind">
                 <dd>
-                    <a href="rain" target="_blank">暴雨山洪</a>
+                    <a href="/rain" target="_blank">暴雨山洪</a>
                 </dd>
                 <dd>
-                    <a href="matching" target="_blank">商业配套乐园</a>
+                    <a href="/matching" target="_blank">商业配套乐园</a>
                 </dd>
                 <dd>
-                    <a href="waterPark" target="_blank">水上乐园</a>
+                    <a href="/waterPark" target="_blank">水上乐园</a>
                 </dd>
                 <dd>
-                    <a href="crystal" target="_blank">水晶万花筒</a>
+                    <a href="/crystal" target="_blank">水晶万花筒</a>
                 </dd>
                 <dd>
-                    <a href="maze" target="_blank">奇幻迷宫</a>
+                    <a href="/maze" target="_blank">奇幻迷宫</a>
                 </dd>
                 <dd>
-                    <a href="marineMuseum" target="_blank">奇幻海洋馆</a>
+                    <a href="/marineMuseum" target="_blank">奇幻海洋馆</a>
                 </dd>
                 <dd >
-                    <a href="monomer" target="_blank">单体主题包装</a>
+                    <a href="/monomer" target="_blank">单体主题包装</a>
                 </dd>
             </dl>
         </li>
         <li>
-            <a href="creative" target="_blank">创意科技</a>
+            <a href="/creative" target="_blank">创意科技</a>
         </li>
         <li>
-            <a  href="news" target="_blank">新闻动态</a>
+            <a  href="/news" target="_blank">新闻动态</a>
         </li>
         <li>
             <a>关于正豆</a>
             <dl class="nav-slind">
                 <dd>
-                    <a href="survey" target="_blank">正豆概况</a>
+                    <a href="/survey" target="_blank">正豆概况</a>
                 </dd>
                 <dd>
-                    <a href="projectflow" target="_blank">项目流程</a>
+                    <a href="/projectflow" target="_blank">项目流程</a>
                 </dd>
             </dl>
         </li>
@@ -96,10 +97,10 @@
                         <a>单体项目</a>
                     </li>
                     <li>
-                        <a href="creative" target="_blank">创意科技</a>
+                        <a href="/creative" target="_blank">创意科技</a>
                     </li>
                     <li>
-                        <a  href="news" target="_blank">新闻动态</a>
+                        <a  href="/news" target="_blank">新闻动态</a>
                     </li>
                     <li class="page-open" name="about">
                         <a>关于正豆</a>
@@ -120,25 +121,25 @@
             <div  class="mb-page-nav" >
                 <ul >
                     <li>
-                        <a href="rain" target="_blank">暴雨山洪</a>
+                        <a href="/rain" target="_blank">暴雨山洪</a>
                     </li>
                     <li>
-                        <a href="matching" target="_blank">商业配套乐园</a>
+                        <a href="/matching" target="_blank">商业配套乐园</a>
                     </li>
                     <li>
-                        <a href="waterPark" target="_blank">水上乐园</a>
+                        <a href="/waterPark" target="_blank">水上乐园</a>
                     </li>
                     <li>
-                        <a href="crystal" target="_blank">水晶万花筒</a>
+                        <a href="/crystal" target="_blank">水晶万花筒</a>
                     </li>
                     <li>
-                        <a href="maze" target="_blank">奇幻迷宫</a>
+                        <a href="/maze" target="_blank">奇幻迷宫</a>
                     </li>
                     <li>
-                        <a href="marineMuseum" target="_blank">奇幻海洋馆</a>
+                        <a href="/marineMuseum" target="_blank">奇幻海洋馆</a>
                     </li>
                     <li>
-                        <a href="monomer" target="_blank">单体主题包装</a>
+                        <a href="/monomer" target="_blank">单体主题包装</a>
                     </li>
 
                 </ul>
@@ -157,19 +158,19 @@
             <div  class="mb-page-nav" >
                 <ul >
                     <li>
-                        <a href="happyValley" target="_blank">欢乐世界</a>
+                        <a href="/happyValley" target="_blank">欢乐世界</a>
                     </li>
                     <li>
-                        <a href="odyssey" target="_blank">奥德赛之旅</a>
+                        <a href="/odyssey" target="_blank">奥德赛之旅</a>
                     </li>
                     <li>
-                        <a href="europa" target="_blank">穿越欧罗巴</a>
+                        <a href="/europa" target="_blank">穿越欧罗巴</a>
                     </li>
                     <li>
-                        <a href="playground" target="_blank">室内儿童乐园</a>
+                        <a href="/playground" target="_blank">室内儿童乐园</a>
                     </li>
                     <li>
-                        <a href="magicHouse" target="_blank">惊悚魔幻屋</a>
+                        <a href="/magicHouse" target="_blank">惊悚魔幻屋</a>
                     </li>
                 </ul>
             </div>
@@ -186,10 +187,10 @@
             <div  class="mb-page-nav" >
                 <ul >
                     <li>
-                        <a href="survey" target="_blank">正豆概况</a>
+                        <a href="/survey" target="_blank">正豆概况</a>
                     </li>
                     <li>
-                        <a href="projectflow" target="_blank">项目流程</a>
+                        <a href="/projectflow" target="_blank">项目流程</a>
                     </li>
                 </ul>
             </div>
@@ -234,7 +235,7 @@
         $.ajax({
             type:"post",
             datatype: "json",
-            url:"http://localhost/wordpress/wp-content/themes/twentynineteen/page/count.php",
+            url:"http://www.szcubean.com/wp-content/themes/twentynineteen/page/count.php",
             data:$('#cout').serialize(),
             success:function () {
                 alert("提交成功！");

@@ -52,11 +52,44 @@ $(function () {
     var offsetWid = document.documentElement.clientWidth;
     $(".law").click(function () {
         if(offsetWid < 1024){
-            window.location.href="../../page/law/law.html" ;
+            window.location.href="http://www.szcubean.com/law/" ;
         }else {
             $(".right-fox").toggleClass("right-fox-right");
             $(".poj-info").toggleClass("right-poj");
             $(".footer").toggleClass("right-ani");
+        }
+    });
+
+    /*分页*/
+
+    $(".page-info ul").hide();
+    $(".page-info ul:first-child").show().addClass("active first");
+    $(".page-info ul:last-child").addClass("last");
+
+    /*点击下一页*/
+    $(".next").click(function () {
+        var e = $(".page-info .active");
+        $(".pages .prev").text("上一页");
+        if(e.hasClass("last")){
+            /* e.prev("ul").hide().removeClass("active");
+             e.show()*/
+        }else {
+            e.hide().removeClass("active");
+            e.next("ul").show().addClass("active");
+        }
+    });
+
+    /*点击上一页*/
+    $(".prev").click(function () {
+        var e = $(".page-info .active");
+        if(e.prev("ul").hasClass("first")){
+            $(".pages .prev").text("第一页");
+        }
+        if(e.hasClass("first")){
+
+        }else {
+            e.hide().removeClass("active");
+            e.prev("ul").show().addClass("active");
         }
     })
 })

@@ -51,6 +51,9 @@
     padding: 0 100px;
     margin-bottom: 40px;
 }
+.news-info ul {
+    min-height: 650px;
+}
 .news-info li{
     overflow: hidden;
     border-bottom: 3px solid #ff8251;
