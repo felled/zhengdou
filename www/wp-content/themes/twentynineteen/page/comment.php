@@ -94,7 +94,7 @@ description: template for Git theme
 
             date_default_timezone_set("PRC");
 
-            $sql = "select * from content";
+            $sql = "select * from content ORDER BY settime DESC";
             $result = mysql_query($sql,$connn);
             $userList = '';
             while($rs = mysql_fetch_array($result)){
