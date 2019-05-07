@@ -29,5 +29,14 @@ Template Name: 项目模板
             </main><!-- #main -->
 
 </section><!-- #primary -->
-
+<div class="mb-code-fox">
+    <span class="black"></span>
+    <div class="code-info">
+        <p>长按二维码关注公众号</p>
+        <p>szzdkj_cubean</p>
+        <img class="mb-code" src="<?php bloginfo('template_url'); ?>/images/project/common/code-hover.png"/>
+        <p>回复关键字：<?php the_title(); ?></p>
+        <p>即可了解项目全部信息</p>
+    </div>
+</div>
 <?php get_footer(); ?>
