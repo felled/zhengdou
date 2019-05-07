@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="87f70ea5-6a14-41a8-94a7-660dad2c7885" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/html/css/sublevel.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/css/sublevel.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/page/news/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/page/news/news.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/wp-content/themes/twentynineteen/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/wp-content/themes/twentynineteen/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/wp-content/themes/twentynineteen/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/wp-content/themes/twentynineteen/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/wp-content/themes/twentynineteen/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/wp-content/themes/twentynineteen/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/wp-content/themes/twentynineteen/page/projectDetail.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/wp-content/themes/twentynineteen/page/projectDetail.php" afterDir="false" />
-    </list>
+    <list default="true" id="87f70ea5-6a14-41a8-94a7-660dad2c7885" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -24,13 +17,22 @@
       <file leaf-file-name="news.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/html/page/news/news.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="741">
-              <caret line="371" column="36" lean-forward="true" selection-start-line="371" selection-start-column="36" selection-end-line="371" selection-end-column="36" />
+            <state relative-caret-position="361">
+              <caret line="210" column="43" selection-start-line="210" selection-start-column="34" selection-end-line="210" selection-end-column="43" />
               <folding>
                 <element signature="n#ul#0;n#div#1;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#ul#1;n#div#1;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#ul#2;n#div#1;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="public.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/wp-content/themes/twentynineteen/my-js/public.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="282">
+              <caret line="62" column="10" lean-forward="true" selection-start-line="62" selection-start-column="10" selection-end-line="62" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -97,7 +99,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/page/project/matchingdetail.html" />
         <option value="$PROJECT_DIR$/page/project/maze.html" />
         <option value="$PROJECT_DIR$/page/project/monomer.html" />
         <option value="$PROJECT_DIR$/page/project/odyssey.html" />
@@ -148,6 +149,7 @@
         <option value="$PROJECT_DIR$/www/wp-content/themes/twentynineteen/index.php" />
         <option value="$PROJECT_DIR$/html/css/sublevel.css" />
         <option value="$PROJECT_DIR$/html/page/news/news.html" />
+        <option value="$PROJECT_DIR$/www/wp-content/themes/twentynineteen/my-js/public.js" />
       </list>
     </option>
   </component>
@@ -221,6 +223,41 @@
               <item name="page" type="462c0819:PsiDirectoryNode" />
               <item name="news" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="zhengdou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zhengdou" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zhengdou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zhengdou" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zhengdou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zhengdou" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zhengdou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zhengdou" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="twentynineteen" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zhengdou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zhengdou" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="twentynineteen" type="462c0819:PsiDirectoryNode" />
+              <item name="my-js" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -291,16 +328,15 @@
       <workItem from="1555414577314" duration="8680000" />
       <workItem from="1555508042118" duration="2029000" />
       <workItem from="1555554413254" duration="32497000" />
-      <workItem from="1556249148395" duration="20195000" />
+      <workItem from="1556249148395" duration="20942000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="252327000" />
+    <option name="totallyTimeSpent" value="253074000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20677084" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -344,11 +380,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/wp-content/themes/twentynineteen/my-js/project.js">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/wp-content/themes/twentynineteen/my-js/public.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-383" />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html/page/comment/comment.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -639,10 +670,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/www/wp-content/themes/twentynineteen/my-js/public.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="62" column="10" lean-forward="true" selection-start-line="62" selection-start-column="10" selection-end-line="62" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/html/page/news/news.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="371" column="36" lean-forward="true" selection-start-line="371" selection-start-column="36" selection-end-line="371" selection-end-column="36" />
+        <state relative-caret-position="361">
+          <caret line="210" column="43" selection-start-line="210" selection-start-column="34" selection-end-line="210" selection-end-column="43" />
           <folding>
             <element signature="n#ul#0;n#div#1;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#ul#1;n#div#1;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />

@@ -19,7 +19,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/public.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/index.css" type="text/css" media="screen" />
-
+    <title>正豆首页</title>
 		 <div class="home-content ">
             <div class="contenter pc-contenter">
                 <!--加载动画-->
