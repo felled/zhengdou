@@ -11,7 +11,7 @@
             <a href="/" target="_blank">首页</a>
         </li>
         <li>
-            <a>经典项目</a>
+            <a>经典案例</a>
             <dl class="nav-slind">
                 <dd>
                     <a href="/happyValley" target="_blank">欢乐世界</a>
@@ -91,7 +91,7 @@
             <div  class="mb-page-nav" >
                 <ul id="nav">
                     <li class="page-open" name="classic">
-                        <a>经典项目</a>
+                        <a>经典案例</a>
                     </li>
                     <li class="page-open" name="monomer">
                         <a>单体项目</a>
@@ -151,7 +151,7 @@
             <span class="black" ></span>
         </div>
         <div class="mb-page-conten">
-            <p class="nav-title">经典项目</p>
+            <p class="nav-title">经典案例</p>
             <div class="page-cpnten">
                 <img src="<?php bloginfo('template_url'); ?>/images/home/mb-home/mb-poj-2.png"/>
             </div>
