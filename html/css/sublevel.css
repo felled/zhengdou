@@ -86,6 +86,33 @@
     font-size: 20px;
     margin-top: 32px;
 }
+.newsdetail-conten{
+    background-image: url(../images/news/bg.jpg);
+    width: 100%;
+    background-size: cover;
+    padding-top: 160px;
+}
+.newdetail-info{
+    background-color: #fff;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    padding: 60px 250px;
+    margin-bottom: 60px;
+}
+.newdetail-info h2{
+    font-size: 30px;
+}
+.newdetail-info p{
+    margin: 10px 0;
+    font-size: 18px;
+    line-height: 34px;
+    color: #333;
+}
+.newdetail-info img{
+    width: 100%;
+    height: auto;
+}
 .sub-mb-img{
     display: none;
 }

@@ -40,9 +40,8 @@ a{
     display: none;
 }
 .content{
-    background-image: url("../images/home/pc-home/background.png");
+    background-image: url("../images/home/pc-home/background.jpg");
     width: 100%;
-    height: 100%;
     background-size: cover;
 }
 .blur{
@@ -666,7 +665,6 @@ a{
     position: fixed;
     left: 0;
     bottom: 40px;
-    z-index: 20;
 }
 .leavMessage.bottom{
     bottom: 97px;
@@ -702,11 +700,6 @@ a{
     transition: all 0.1s;
     display: none;
     height: 0;
-}
-@media screen and (max-width: 1023px) {
-   #cout{
-       display: none;
-   }
 }
 .height{
     height: auto;

@@ -1,11 +1,11 @@
 .news-conten {
     color: #fff;
-    padding: 140px 0 40px;
+    padding-top: 140px;
     position: relative;
 }
 .news-conten-bg{
     width: 1400px;
-    margin:0 auto 0px;
+    margin:0 auto 60px;
     background-color: rgba(0,0,0,.2);
     padding: 30px 0 40px;
 }
@@ -51,6 +51,9 @@
     padding: 0 100px;
     margin-bottom: 40px;
 }
+.news-info ul {
+    min-height: 650px;
+}
 .news-info li{
     overflow: hidden;
     border-bottom: 3px solid #ff8251;
@@ -63,9 +66,6 @@
 }
 .news-list{
     width: 840px;
-    display: block;
-    float: left;
-    color: #fff;
 }
 .news-list-img img{
     width: 100%;
@@ -85,6 +85,33 @@
 .news-time{
     font-size: 20px;
     margin-top: 32px;
+}
+.newsdetail-conten{
+    background-image: url(../images/news/bg.jpg);
+    width: 100%;
+    background-size: cover;
+    padding-top: 160px;
+}
+.newdetail-info{
+    background-color: #fff;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    padding: 60px 250px;
+    margin-bottom: 60px;
+}
+.newdetail-info h2{
+    font-size: 30px;
+}
+.newdetail-info p{
+    margin: 10px 0;
+    font-size: 18px;
+    line-height: 34px;
+    color: #333;
+}
+.newdetail-info img{
+    width: 100%;
+    height: auto;
 }
 .sub-mb-img{
     display: none;
@@ -177,10 +204,13 @@
 .pojflow-img{
     width: 100%;
     text-align: center;
-    margin: 100px 0;
+    margin: 100px 0 0;
 }
 .pojflow-img img{
     width: 100%;
+}
+.height-pro{
+    height: 100%;
 }
 .poj-pc-img{
     display: block;
@@ -203,11 +233,15 @@
     .pojflow-title p{
         font-size: 16px;
     }
+
 }
 @media screen and (max-width: 1023px) {
     .pojflow-conten{
         width: 90%;
-        padding-top: 80px;
+        padding-top:60px;
+    }
+    .height-pro{
+        height: auto;
     }
     .pojflow-title h2{
         font-size: 20px;
@@ -221,14 +255,11 @@
     .poj-mb-img{
         display: block;
         width: 80%!important;
-        margin:20px auto;
+        margin: auto;
     }
     .pojflow-img{
-        margin: 0;
-        padding-bottom: 40px;
-    }
-    .mb-height{
-        height: auto;
+        margin-top: 20px;
+        padding-bottom: 60px;
     }
 }
 /*加入我们*/
@@ -458,7 +489,7 @@
     }
     .contac-right{
         width: 560px;
-        height: 737px;
+        height: 722px;
     }
 }
 @media screen and (max-width: 1024px) {
@@ -483,7 +514,7 @@
     .contac-right{
         width: 470px;
         margin-left: 10px;
-        height: 650px;
+        height: 639px;
     }
 }
 @media screen and (max-width: 1023px) {
@@ -519,7 +550,6 @@
         height: 400px;
         margin: auto;
     }
-
 }
 /*正豆概况*/
 .survey-conten{

@@ -7,14 +7,14 @@ $(function () {
     $(".navigation li").hover(function () {
         $(".navigation li").removeClass("active")
         var e = $(this).find(".nav-slind");
-        e.slideDown();
-        $(".hover-blur").addClass("blur");
-        $(".blur-img").addClass("blur");
+        e.stop(true,true).slideDown(400);
+      /*  $(".hover-blur").addClass("blur");
+        $(".blur-img").addClass("blur");*/
     },function () {
         var e = $(this).find(".nav-slind");
-        e.slideUp();
-        $(".hover-blur").removeClass("blur");
-        $(".blur-img").removeClass("blur");
+        e.stop(true,true).slideUp(400);
+      /*  $(".hover-blur").removeClass("blur");
+        $(".blur-img").removeClass("blur");*/
     });
     /*mb-head*/
 
