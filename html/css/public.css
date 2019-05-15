@@ -665,6 +665,7 @@ a{
     position: fixed;
     left: 0;
     bottom: 40px;
+    z-index: 99;
 }
 .leavMessage.bottom{
     bottom: 97px;

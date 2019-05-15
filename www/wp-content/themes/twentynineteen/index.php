@@ -180,7 +180,7 @@
                 <div class="ani-bg">
                    <!-- <img class="ani-img" src="images/home/ani-bg-b.png">-->
                     <div class="law-img">
-                        <a class="img-a"  href="/law-pc" target="_blank">
+                        <a class="img-a"  href="/lawpc" target="_blank">
                             <em>法律声明</em>
                         </a>
                     </div>

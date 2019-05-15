@@ -2,128 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87f70ea5-6a14-41a8-94a7-660dad2c7885" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/html/images/home/pc-home/background.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/images/project/crystal/mb/bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/images/project/crystal/pc/bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/images/project/europa/pc/img-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/images/project/europa/pc/img-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/images/project/happyValley/mb/bg-b.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/images/project/happyValley/mb/bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/images/project/happyValley/pc/bg-02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/images/project/happyValley/pc/bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/images/project/happyValley/pc/set-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/images/project/happyValley/pc/set-3-a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/images/project/happyValley/pc/set-3-b.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/images/project/happyValley/pc/set-3-c.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/images/project/happyValley/pc/set-3-d.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/images/project/happyValley/pc/set-4-a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/images/project/happyValley/pc/set-4-b.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/images/project/happyValley/pc/set-4-c.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/images/project/happyValley/pc/set-4-d.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/images/project/magicHouse/mb/bg-detali.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/images/project/magicHouse/mb/bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/images/project/magicHouse/pc/bg-detali.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/images/project/magicHouse/pc/bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/images/project/magicHouse/pc/set-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/images/project/matching/mb/bg-detail.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/images/project/matching/mb/bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/images/project/matching/pc/bg-detail.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/images/project/matching/pc/bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/images/project/matching/pc/ste-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/images/project/maze/mb/bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/images/project/maze/pc/bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/images/project/monomer/mb/img.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/images/project/monomer/pc/bg-b.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/images/project/odyssey/mb/bg-detail.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/images/project/odyssey/mb/bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/images/project/odyssey/pc/bg-detail.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/images/project/odyssey/pc/bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/images/project/odyssey/pc/set-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/images/project/odyssey/pc/set-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/images/project/odyssey/pc/set-4-b.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/images/project/odyssey/pc/set-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/images/project/odyssey/pc/video.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/images/project/playground/mb/bg-detail.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/images/project/playground/mb/bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/images/project/playground/pc/bg-detail.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/images/project/playground/pc/bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/images/project/playground/pc/set-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/images/project/rain/mb/bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/images/project/rain/pc/bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/images/project/waterPark/mb/bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/images/project/waterPark/pc/bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/images/survey/pc/pana-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/page/news/newsdetail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/css/public.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/css/public.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/css/sublevel.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/css/sublevel.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/images/home/pc-home/background.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/images/project/crystal/mb/bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/images/project/crystal/pc/bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/images/project/europa/pc/img-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/images/project/europa/pc/img-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/images/project/happyValley/mb/bg-b.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/images/project/happyValley/mb/bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/images/project/happyValley/pc/bg-02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/images/project/happyValley/pc/bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/images/project/happyValley/pc/set-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/images/project/happyValley/pc/set-3-a.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/images/project/happyValley/pc/set-3-b.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/images/project/happyValley/pc/set-3-c.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/images/project/happyValley/pc/set-3-d.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/images/project/happyValley/pc/set-4-a.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/images/project/happyValley/pc/set-4-b.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/images/project/happyValley/pc/set-4-c.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/images/project/happyValley/pc/set-4-d.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/images/project/magicHouse/mb/bg-detali.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/images/project/magicHouse/mb/bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/images/project/magicHouse/pc/bg-detali.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/images/project/magicHouse/pc/bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/images/project/magicHouse/pc/set-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/images/project/matching/mb/bg-detail.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/images/project/matching/mb/bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/images/project/matching/pc/bg-detail.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/images/project/matching/pc/bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/images/project/matching/pc/ste-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/images/project/maze/mb/bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/images/project/maze/pc/bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/images/project/monomer/mb/img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/images/project/monomer/pc/bg-b.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/images/project/odyssey/mb/bg-detail.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/images/project/odyssey/mb/bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/images/project/odyssey/pc/bg-detail.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/images/project/odyssey/pc/bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/images/project/odyssey/pc/set-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/images/project/odyssey/pc/set-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/images/project/odyssey/pc/set-4-b.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/images/project/odyssey/pc/set-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/images/project/odyssey/pc/video.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/images/project/playground/mb/bg-detail.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/images/project/playground/mb/bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/images/project/playground/pc/bg-detail.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/images/project/playground/pc/bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/images/project/playground/pc/set-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/images/project/rain/mb/bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/images/project/rain/pc/bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/images/project/waterPark/mb/bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/images/project/waterPark/pc/bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/images/survey/pc/pana-bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/js/public.js" beforeDir="false" afterPath="$PROJECT_DIR$/html/js/public.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/page/project/happyValley.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/page/project/happyValley.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/page/project/happyValleydetail.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/page/project/happyValleydetail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/page/project/magicHouse.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/page/project/magicHouse.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/page/project/magicHousedetail.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/page/project/magicHousedetail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/page/project/matching.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/page/project/matching.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/page/project/matchingdetail.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/page/project/matchingdetail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/page/project/maze.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/page/project/maze.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/page/project/monomer.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/page/project/monomer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/page/project/odyssey.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/page/project/odyssey.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/page/project/odysseydetail.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/page/project/odysseydetail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/page/project/playground.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/page/project/playground.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/page/project/playgrounddetail.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/page/project/playgrounddetail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/page/project/rain.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/page/project/rain.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/page/project/waterPark.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/page/project/waterPark.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/page/survey/survey.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/page/survey/survey.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/wp-content/themes/twentynineteen/css/public.css" beforeDir="false" afterPath="$PROJECT_DIR$/www/wp-content/themes/twentynineteen/css/public.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/wp-content/themes/twentynineteen/css/sublevel.css" beforeDir="false" afterPath="$PROJECT_DIR$/www/wp-content/themes/twentynineteen/css/sublevel.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/wp-content/themes/twentynineteen/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/www/wp-content/themes/twentynineteen/index.php" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -137,25 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="news.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/page/news/news.html">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/wp-content/themes/twentynineteen/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="172" column="29" lean-forward="true" selection-end-line="381" selection-end-column="7" />
-              <folding>
-                <element signature="n#ul#0;n#div#1;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#ul#1;n#div#1;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#ul#2;n#div#1;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="waterPark.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/html/page/project/waterPark.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="230" column="14" selection-start-line="230" selection-start-column="14" selection-end-line="230" selection-end-column="14" />
+            <state relative-caret-position="114">
+              <caret line="185" column="26" lean-forward="true" selection-start-line="185" selection-start-column="26" selection-end-line="185" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -163,17 +32,71 @@
       <file leaf-file-name="newsdetail.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/page/news/newsdetail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="192" column="25" lean-forward="true" selection-start-line="192" selection-start-column="25" selection-end-line="192" selection-end-column="25" />
+            <state relative-caret-position="627">
+              <caret line="213" column="10" lean-forward="true" selection-start-line="204" selection-start-column="3" selection-end-line="213" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sublevel.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/css/sublevel.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="sublevel.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/html/css/sublevel.css">
+        <entry file="file://$PROJECT_DIR$/www/wp-content/themes/twentynineteen/css/sublevel.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="667">
-              <caret line="108" column="16" lean-forward="true" selection-start-line="108" selection-start-column="16" selection-end-line="108" selection-end-column="16" />
+            <state relative-caret-position="382">
+              <caret line="95" column="23" selection-start-line="95" selection-start-column="23" selection-end-line="95" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="other.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/wp-content/themes/twentynineteen/page/other.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="30" column="18" lean-forward="true" selection-end-line="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="odysseydetail.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/page/project/odysseydetail.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="377">
+              <caret line="49" column="92" selection-start-line="49" selection-start-column="92" selection-end-line="49" selection-end-column="92" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="public.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/wp-content/themes/twentynineteen/css/public.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="762">
+              <caret line="687" column="27" lean-forward="true" selection-start-line="687" selection-start-column="27" selection-end-line="687" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="happyValleydetail.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/page/project/happyValleydetail.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="705">
+              <caret line="298" column="18" lean-forward="true" selection-start-line="298" selection-start-column="18" selection-end-line="298" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="public.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/css/public.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="287">
+              <caret line="41" column="8" selection-start-line="41" selection-end-line="41" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -193,11 +116,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>head-slind-bg</find>
-      <find>.eye-img</find>
-      <find>star-ani</find>
-      <find>特</find>
-      <find>.sne-ani.horn-scale</find>
       <find>.sne-ani.roller-scale</find>
       <find>法律</find>
       <find>law-img</find>
@@ -223,6 +141,11 @@
       <find>news-info</find>
       <find>经典项目</find>
       <find>.content</find>
+      <find>leavMessage</find>
+      <find>.news-list</find>
+      <find>news-list</find>
+      <find>.news-conten</find>
+      <find>law-pc</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -231,8 +154,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/www/wp-content/themes/twentynineteen/page/crystal.php" />
-        <option value="$PROJECT_DIR$/www/wp-content/themes/twentynineteen/page/europa.php" />
         <option value="$PROJECT_DIR$/www/wp-content/themes/twentynineteen/page/happyValley.php" />
         <option value="$PROJECT_DIR$/www/wp-content/themes/twentynineteen/page/happyValleydetail.php" />
         <option value="$PROJECT_DIR$/www/wp-content/themes/twentynineteen/page/join.php" />
@@ -258,12 +179,10 @@
         <option value="$PROJECT_DIR$/www/wp-content/themes/twentynineteen/footer.php" />
         <option value="$PROJECT_DIR$/html/page/news/news.html" />
         <option value="$PROJECT_DIR$/www/wp-content/themes/twentynineteen/my-js/public.js" />
-        <option value="$PROJECT_DIR$/www/wp-content/themes/twentynineteen/index.php" />
         <option value="$PROJECT_DIR$/www/wp-content/themes/twentynineteen/page/project.php" />
         <option value="$PROJECT_DIR$/www/wp-content/themes/twentynineteen/page/comment.php" />
         <option value="$PROJECT_DIR$/www/wp-content/themes/twentynineteen/header.php" />
         <option value="$PROJECT_DIR$/html/js/public.js" />
-        <option value="$PROJECT_DIR$/html/css/public.css" />
         <option value="$PROJECT_DIR$/html/page/project/europa.html" />
         <option value="$PROJECT_DIR$/html/page/project/happyValley.html" />
         <option value="$PROJECT_DIR$/html/page/project/happyValleydetail.html" />
@@ -281,7 +200,11 @@
         <option value="$PROJECT_DIR$/html/page/project/waterPark.html" />
         <option value="$PROJECT_DIR$/html/page/survey/survey.html" />
         <option value="$PROJECT_DIR$/html/page/news/newsdetail.html" />
+        <option value="$PROJECT_DIR$/html/css/public.css" />
+        <option value="$PROJECT_DIR$/www/wp-content/themes/twentynineteen/css/public.css" />
+        <option value="$PROJECT_DIR$/www/wp-content/themes/twentynineteen/index.php" />
         <option value="$PROJECT_DIR$/html/css/sublevel.css" />
+        <option value="$PROJECT_DIR$/www/wp-content/themes/twentynineteen/css/sublevel.css" />
       </list>
     </option>
   </component>
@@ -366,7 +289,70 @@
               <item name="zhengdou" type="462c0819:PsiDirectoryNode" />
               <item name="html" type="462c0819:PsiDirectoryNode" />
               <item name="page" type="462c0819:PsiDirectoryNode" />
-              <item name="survey" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zhengdou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zhengdou" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zhengdou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zhengdou" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zhengdou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zhengdou" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zhengdou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zhengdou" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="twentynineteen" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zhengdou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zhengdou" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="twentynineteen" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zhengdou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zhengdou" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="twentynineteen" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zhengdou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zhengdou" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="twentynineteen" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="news" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zhengdou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zhengdou" type="462c0819:PsiDirectoryNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="twentynineteen" type="462c0819:PsiDirectoryNode" />
+              <item name="page" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -384,11 +370,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\poj-html\正豆\zhengdou\www\wp-content\themes\twentynineteen\my-js" />
+      <recent name="D:\poj-html\正豆\zhengdou\www\wp-content\themes\twentynineteen\css" />
       <recent name="D:\poj-html\正豆\zhengdou\html\images\news" />
       <recent name="D:\poj-html\正豆\zhengdou\html\images\survey\pc" />
       <recent name="D:\poj-html\正豆\zhengdou\html\images\project\waterPark\mb" />
-      <recent name="D:\poj-html\正豆\zhengdou\html\images\project\waterPark\pc" />
-      <recent name="D:\poj-html\正豆\zhengdou\html\images\project\rain\mb" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\project\zhengdou\images\survey\pc" />
@@ -441,18 +427,18 @@
       <workItem from="1556249148395" duration="20942000" />
       <workItem from="1557193215323" duration="1386000" />
       <workItem from="1557201823676" duration="1202000" />
-      <workItem from="1557456121175" duration="9216000" />
+      <workItem from="1557456121175" duration="14971000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="264878000" />
+    <option name="totallyTimeSpent" value="270633000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14895834" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20416667" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -479,55 +465,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/www/wp-content/themes/twentynineteen/page/monomer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/wp-content/themes/twentynineteen/my-js/public.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1178">
-          <caret line="62" column="10" selection-start-line="62" selection-start-column="10" selection-end-line="62" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/wp-content/themes/twentynineteen/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/wp-content/themes/twentynineteen/page/projectDetail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="33" selection-start-line="33" selection-end-line="42" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/wp-content/themes/twentynineteen/page/project.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/wp-content/themes/twentynineteen/page/comment.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="96" column="65" selection-start-line="96" selection-start-column="65" selection-end-line="96" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/wp-content/themes/twentynineteen/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1387">
-          <caret line="127" column="3" selection-start-line="127" selection-start-column="3" selection-end-line="127" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-288" />
@@ -554,13 +491,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="218">
           <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/css/public.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -613,13 +543,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/html/images/project/magicHouse/pc/set-2.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/page/project/happyValleydetail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3664">
-          <caret line="307" column="87" selection-start-line="307" selection-start-column="87" selection-end-line="307" selection-end-column="87" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html/page/project/magicHouse.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -679,13 +602,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/page/project/odysseydetail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="49" column="92" selection-start-line="49" selection-start-column="92" selection-end-line="49" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html/page/project/playground.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -736,7 +652,7 @@
     <entry file="file://$PROJECT_DIR$/html/page/news/news.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
-          <caret line="172" column="29" lean-forward="true" selection-end-line="381" selection-end-column="7" />
+          <caret line="172" column="29" selection-end-line="381" selection-end-column="7" />
           <folding>
             <element signature="n#ul#0;n#div#1;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#ul#1;n#div#1;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -745,17 +661,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/page/news/newsdetail.html">
+    <entry file="file://$PROJECT_DIR$/www/wp-content/themes/twentynineteen/my-js/public.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="192" column="25" lean-forward="true" selection-start-line="192" selection-start-column="25" selection-end-line="192" selection-end-column="25" />
+        <state relative-caret-position="342">
+          <caret line="18" column="15" lean-forward="true" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/page/project/happyValleydetail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="298" column="18" lean-forward="true" selection-start-line="298" selection-start-column="18" selection-end-line="298" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/css/public.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="41" column="8" selection-start-line="41" selection-end-line="41" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/wp-content/themes/twentynineteen/css/public.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="762">
+          <caret line="687" column="27" lean-forward="true" selection-start-line="687" selection-start-column="27" selection-end-line="687" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/wp-content/themes/twentynineteen/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="185" column="26" lean-forward="true" selection-start-line="185" selection-start-column="26" selection-end-line="185" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/page/project/odysseydetail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="49" column="92" selection-start-line="49" selection-start-column="92" selection-end-line="49" selection-end-column="92" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html/css/sublevel.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="108" column="16" lean-forward="true" selection-start-line="108" selection-start-column="16" selection-end-line="108" selection-end-column="16" />
+        <state relative-caret-position="114">
+          <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/wp-content/themes/twentynineteen/page/other.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="30" column="18" lean-forward="true" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/images/news/bg.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/wp-content/themes/twentynineteen/images/news/bg.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/page/news/newsdetail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="213" column="10" lean-forward="true" selection-start-line="204" selection-start-column="3" selection-end-line="213" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/wp-content/themes/twentynineteen/css/sublevel.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="95" column="23" selection-start-line="95" selection-start-column="23" selection-end-line="95" selection-end-column="23" />
         </state>
       </provider>
     </entry>
